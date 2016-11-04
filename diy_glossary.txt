@@ -1,0 +1,143 @@
+[SUBMENU_START:weapon]
+
+.Stone-axe. [effort:2] [phys:arms,hands] *COMMON* 	/3h/
+{Stone}	[remove]
+{Slender trunk} [remove]
+{Rope} [remove]
+{Knife}
+
+.Stone knife. [effort:2]    [phys:hands]  /90/   %-35%   *COMMON* 
+{Rock} '+for blade' [remove]
+{Rock} '+for knapping'
+
+.Club. [effort:2] [phys:arms,one-armed]		*COMMON*		/30/
+{Slender trunk} [remove] [noquality]
+{Cutting weapon} <Axe> 			
+
+.Javelin. [effort:1] [phys:hands,one-armed]	*COMMON*		/30/				[patch]
+{Staff} [remove] [patchwise]
+{Cutting weapon} <Axe> 
+{Fire} '+(for hardening the head)'
+
+.Primitive bow. "Juniper bow" [effort:2] [phys:stance,arms]	%25%	*COMMON*		/80/ |0|
+{Slender tree trunk} [remove] 
+{Knife}
+{Tying equipment} [remove]
+
+.Shortbow. [effort:2] [phys:stance,arms] *CARPENTRY*		/320/ |2|
+{Board} [remove] 
+{Axe} <Carving axe>
+{Knife}
+{Tying equipment} [remove]
+
+.Arrow. [effort:1] [phys:hands,one-armed]  	*CARPENTRY*        /30/    [patch:5]
+{Branch}   [remove] [patchwise] [noquality]
+{Knife}
+{Feather} (3) [remove] [patchwise] [noquality]
+{Tying equipment} [remove] [patchwise] 
+{Rock} [remove] [patchwise] [noquality]
+
+.Blunt arrow. [effort:1] [phys:hands,one-armed]  *CARPENTRY*       /45/    [patch:5]
+{Branch}   [remove] [patchwise] [noquality]
+{Feather} (3) [remove] [patchwise] [noquality]
+{Tying equipment} [remove] [patchwise] 
+{Knife}
+
+[SUBMENU_END:weapon]
+
+
+
+.Paw-board fox trap. [effort:2] [phys:arms,one-armed] *TRAPPING*	/60/	%25%	|-1|
+{Board}	[remove]
+{Axe}	<Carving axe>
+{Knife}	
+
+.Loop snare. [effort:0] [phys:hands,one-armed] *TRAPPING*	/10/	%15%	|-2|				
+{Tying equipment}	[remove]
+
+
+[SUBMENU_START:utility article]
+
+.Grainflail. [effort:2] [phys:arms,one-armed] *CARPENTRY*   		/120/ 			%30%  	|-1|	
+{Slender trunk} [remove]
+{Leather} #0.5# [remove]
+{Axe} <Carving axe>		
+{Knife}
+
+.Wooden cup.  [effort:2] [phys:arms,one-armed]  *CARPENTRY*   		/60/ 			%20%  	|-1|	
+.Wooden bowl. [effort:2] [phys:arms,one-armed]  *CARPENTRY*   		/120/ 			%20%  			
+{Block of wood} [remove]
+{Axe} 		<Carving axe>	
+{Knife}		
+
+.Cord.	[effort:1] [phys:hands,one-armed] *COMMON*	[patch:5]  /30/ %50% |-2|
+{Cloth} #0.5# [remove] [patchwise]
+{Knife}
+
+.Bandage. [effort:1] [phys:hands,one-armed] *COMMON*   [noquality]   [patch:10]
+{Cloth} #1# [remove]          [patchwise]
+{Cutting weapon or by hand}
+
+.Leather rope. [effort:1] [phys:arms,one-armed]	*COMMON*		/60/	%50% |-1| [patch:5]
+{Leather} #1# [remove] [patchwise]
+{Knife}
+{Water} #1# [remove] [patchwise]		
+
+.Torch.	[effort:0] [phys:hands,one-armed] [noquality]	*COMMON*	/30/  %50% |0|  [patch:5] 
+{Branch} (10) 		[remove] [patchwise]
+
+.Wooden shovel.	[effort:2] [phys:arms,stance] *CARPENTRY*   		/240/ 			%10%  
+{Block of wood} [remove] 
+{Axe} <Handaxe> 'An axe for rough cutting'
+{Axe} <Carving axe> 'An axe for finishing the shape'
+{Knife}
+
+.Skin.	[effort:1] [phys:hands]  *COMMON* 	/120/	%40%	
+{Leather} #4# [remove]
+{Knife}
+{Tying equipment} [remove]
+
+[SUBMENU_END:utility article]
+
+
+[SUBMENU_START:lumber]
+
+.Wooden stake. 	[effort:1] [phys:arms,one-armed]  *TIMBERCRAFT* 	(8) 	/30/			%40%	|-2|	[patch]
+.Staff.		[effort:1] [phys:arms,one-armed]  *TIMBERCRAFT*		/15/			%60%	|-2|	[patch]
+{Cutting weapon}<Axe>	
+{Slender trunk}	[remove]							[patchwise]
+
+[SUBMENU_END:lumber]
+
+
+
+[SUBMENU_START:transport]
+
+.Paddle. [effort:2] [phys:arms,one-armed] *CARPENTRY*		/90/			%30%	
+{Board} [remove]
+{Axe}
+
+.Skis.	[effort:2] [phys:arms,stance]	*CARPENTRY*		/320/			|2| 
+{Board} (2) [remove]
+{Axe} <Carving axe>
+{Knife} 
+{Animal hide} #4# [remove]
+{Tying equipment} (2) [remove]
+
+.Ski stick. [effort:1] [phys:hands,one-armed] *CARPENTRY*		/60/	
+{Slender trunk} [remove]
+{Axe} 
+{Leather}  #1# [remove]
+
+.Raft.  [effort:3] [phys:stance,arms]	*COMMON*	/80/
+{Tree trunk}	(3) 	[remove]	
+{Rope}		(3)	[remove]
+{Cutting weapon} <Axe> 			
+
+.Sesta.	[effort:2] [phys:hands,one-armed]	*COMMON*	/25/			%50%	|-2|	
+{Cutting weapon}<Axe>	
+{Slender trunk}	[remove]
+
+[SUBMENU_END:transport]
+
+
