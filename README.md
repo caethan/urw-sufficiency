@@ -9,6 +9,21 @@ Last updated with UnReal World 3.40 b1.
 
 ## Updates to Existing
 
+I made some changes to existing items:
+
+* Slender trunks replaced with staffs for several recipes.  This allows staff quality to affect the final item quality, enabling you to build high quality items with some effort.
+	- Grainflail
+	- Ski stick
+	- Sesta
+* [noquality] added for some ingredients of fixed quality to avoid negatively impacting finished quality:
+	- Wooden cup & bowl: block of wood
+		- skill adjustment changed from +20% to -20% to compensate
+	- Wooden shovel: block of wood
+		- skill adjustment changed from +10% to -30% to compensate
+	- Wooden stake & staff: Slender trunk
+		- skill adjustment reduced by 40% each to compensate
+	
+
 **TBD**
 
 ## Misc. New

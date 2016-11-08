@@ -1,7 +1,7 @@
 [SUBMENU_START:weapon]
 
 .Stone-axe. [effort:2] [phys:arms,hands] *COMMON* 	/3h/
-{Stone}	[remove]
+{aStone}	[remove]
 {Slender trunk} [remove]
 {Rope} [remove]
 {Knife}
@@ -59,14 +59,14 @@
 [SUBMENU_START:utility article]
 
 .Grainflail. [effort:2] [phys:arms,one-armed] *CARPENTRY*   		/120/ 			%30%  	|-1|	
-{Slender trunk} [remove]
+{Staff} [remove]
 {Leather} #0.5# [remove]
 {Axe} <Carving axe>		
 {Knife}
 
-.Wooden cup.  [effort:2] [phys:arms,one-armed]  *CARPENTRY*   		/60/ 			%20%  	|-1|	
-.Wooden bowl. [effort:2] [phys:arms,one-armed]  *CARPENTRY*   		/120/ 			%20%  			
-{Block of wood} [remove]
+.Wooden cup.  [effort:2] [phys:arms,one-armed]  *CARPENTRY*   		/60/ 			%-20%  	|-1|	
+.Wooden bowl. [effort:2] [phys:arms,one-armed]  *CARPENTRY*   		/120/ 			%-20%  			
+{Block of wood} [remove] [noquality]
 {Axe} 		<Carving axe>	
 {Knife}		
 
@@ -86,8 +86,8 @@
 .Torch.	[effort:0] [phys:hands,one-armed] [noquality]	*COMMON*	/30/  %50% |0|  [patch:5] 
 {Branch} (10) 		[remove] [patchwise]
 
-.Wooden shovel.	[effort:2] [phys:arms,stance] *CARPENTRY*   		/240/ 			%10%  
-{Block of wood} [remove] 
+.Wooden shovel.	[effort:2] [phys:arms,stance] *CARPENTRY*   		/240/ 			%-30%  
+{Block of wood} [remove] [noquality]
 {Axe} <Handaxe> 'An axe for rough cutting'
 {Axe} <Carving axe> 'An axe for finishing the shape'
 {Knife}
@@ -102,10 +102,10 @@
 
 [SUBMENU_START:lumber]
 
-.Wooden stake. 	[effort:1] [phys:arms,one-armed]  *TIMBERCRAFT* 	(8) 	/30/			%40%	|-2|	[patch]
-.Staff.		[effort:1] [phys:arms,one-armed]  *TIMBERCRAFT*		/15/			%60%	|-2|	[patch]
+.Wooden stake. 	[effort:1] [phys:arms,one-armed]  *TIMBERCRAFT* 	(8) 	/30/			%00%	|-2|	[patch]
+.Staff.		[effort:1] [phys:arms,one-armed]  *TIMBERCRAFT*		/15/			%20%	|-2|	[patch]
 {Cutting weapon}<Axe>	
-{Slender trunk}	[remove]							[patchwise]
+{Slender trunk}	[remove] [patchwise] [noquality]
 
 [SUBMENU_END:lumber]
 
@@ -125,7 +125,7 @@
 {Tying equipment} (2) [remove]
 
 .Ski stick. [effort:1] [phys:hands,one-armed] *CARPENTRY*		/60/	
-{Slender trunk} [remove]
+{Staff} [remove]
 {Axe} 
 {Leather}  #1# [remove]
 
@@ -136,7 +136,7 @@
 
 .Sesta.	[effort:2] [phys:hands,one-armed]	*COMMON*	/25/			%50%	|-2|	
 {Cutting weapon}<Axe>	
-{Slender trunk}	[remove]
+{Staff}	[remove]
 
 [SUBMENU_END:transport]
 
