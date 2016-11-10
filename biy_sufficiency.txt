@@ -1,0 +1,19 @@
+[SUBMENU_START:building]
+
+.Water. "Well"   *BUILDING* -L- [effort:3] [phys:arms,stance,one-armed] /5h/
+{Shovel} <Shovel> 
+{Stone} (50) [remove] [ground] '+for walls'
+{Rock} (30) [remove] [ground] '+for gravel packing'
+{Wooden Bowl} [remove] '+for bailing water'
+{Rope} [remove] 
+// TODO: Well graphic
+
+.Road. *BUILDING* -R- [effort:3] [phys:arms,stance] /5h/
+{Shovel} <Shovel>
+{Stone} (5) [remove] [ground] '+for road surface'
+{Rock} (5) [remove] [ground] '+for gravel foundation'
+[TILEGFX:ter-road]
+
+[SUBMENU_END:building]
+
+-end
