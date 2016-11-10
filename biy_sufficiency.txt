@@ -10,9 +10,11 @@
 
 .Road. *BUILDING* -R- [effort:3] [phys:arms,stance] /5h/
 {Shovel} <Shovel>
-{Stone} (5) [remove] [ground] '+for road surface'
-{Rock} (5) [remove] [ground] '+for gravel foundation'
+{Stone} (25) [remove] [ground] '+for road surface'
+{Rock} (20) [remove] [ground] '+for gravel foundation'
 [TILEGFX:ter-road]
+
+// TODO: Forge (inherits from furnace) and anvil
 
 [SUBMENU_END:building]
 
