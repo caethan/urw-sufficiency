@@ -1,7 +1,7 @@
 [SUBMENU_START:weapon]
 
 .Stone-axe. [effort:2] [phys:arms,hands] *COMMON* 	/3h/
-{aStone}	[remove]
+{Stone}	[remove]
 {Slender trunk} [remove]
 {Rope} [remove]
 {Knife}
