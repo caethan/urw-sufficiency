@@ -38,6 +38,8 @@ Last updated with UnReal World 3.40 b1.
     - Shoes
     - Box
     - Basket
+    - Birch-bark canoe!
+* Make low quality cords from soaked branches
 
 ## Spinning & Weaving
 

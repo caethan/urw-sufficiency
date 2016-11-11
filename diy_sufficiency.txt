@@ -1,3 +1,45 @@
+[SUBMENU_START:utility article]
+
+.Soak branches. "Branch"  *COMMON* [effort:1] [phys:hands,one-armed] /5/ \1d\ [patch:5]
+{Branch} (10) [remove] [patchwise] [noquality]
+{[NEARBY_TILE:water]} 'Must be near water'
+[NAME:Soaked branches]
+[TYPE:timber]
+[MATERIAL:wood]
+[WEIGHT:6.0]
+[SPOILAGE_DAYS:1] // Doesn't seem to work, sadly
+
+.Primitive cord.   "Cord"  *TIMBERCRAFT* [effort:1] [phys:hands] /30/ %-80%  [patch:5] |-2|
+{Knife} <Small knife>
+{Soaked branches} [remove] [patchwise]
+[NAME:Cord]
+
+.Sauna scoop. *CARPENTRY* [effort:1] [phys:arms,hands] /60/ %10% |-1|
+{Block of wood} [remove]
+{Board} [remove]
+{Axe} <Carving axe>
+{Knife} <Small knife>
+
+[SUBMENU_END:utility article]
+
+
+[SUBMENU_START:transport]
+
+// We could make this more complicated by making you peel off a big piece instead of in small
+// 1/2 lb increments, but I like the extra work this takes.
+.Birch bark canoe. "Punt" *CARPENTRY* [effort:3] [phys:arms,stance] /8h/ %-10% |2|
+{Birch bark} #20# [remove] [ground]
+{Tying equipment} (16) [remove] [ground]
+{Board} [remove] [ground]
+{NEARBY_TILE:water} 'Must be near water'
+{Fire} [ground]
+{Axe} <Carving axe>
+{Knife} <Small knife}
+[MATERIAL:birch-bark]
+
+[SUBMENU_END:transport]
+
+
 [SUBMENU_START:Birch bark crafting]
 
 // Note that because this inherits from "Bark" it can be used for tanning (and shares the same graphic)
