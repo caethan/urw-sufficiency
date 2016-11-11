@@ -21,4 +21,4 @@
 //
 // [SUBMENU_END:submenuname]
 //
-.Birch bark crafting.  -K-  *MAKE*
+.Birch-bark crafting.  -K-  *MAKE*

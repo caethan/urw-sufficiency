@@ -4,6 +4,8 @@ This is a set of modifications for the freeware roguelike game [UnReal World](ht
 
 Last updated with UnReal World 3.40 b1.
 
+This updates some current items, adds new buildings and crafts, including birch bark crafting, ironworking, and weaving, and also updates the in-game encyclopedia with information and pictures about the new items.
+
 
 # Changes from vanilla
 
@@ -40,6 +42,7 @@ Last updated with UnReal World 3.40 b1.
     - Basket
     - Birch-bark canoe!
 * Make low quality cords from soaked branches
+* Make your own sauna scoop
 
 ## Spinning & Weaving
 
@@ -50,7 +53,7 @@ Last updated with UnReal World 3.40 b1.
 **TBD**
 
 
-## Sources, Credit, and Inspiration
+# Sources, Credit, and Inspiration
 
 **TODO: Confirm ability to include this work in the mod from each prior author/artist before including their work!**
 

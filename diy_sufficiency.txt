@@ -27,8 +27,8 @@
 
 // We could make this more complicated by making you peel off a big piece instead of in small
 // 1/2 lb increments, but I like the extra work this takes.
-.Birch bark canoe. "Punt" *CARPENTRY* [effort:3] [phys:arms,stance] /8h/ %-10% |2|
-{Birch bark} #20# [remove] [ground]
+.Birch-bark canoe. "Punt" *CARPENTRY* [effort:3] [phys:arms,stance] /8h/ %-10% |2|
+{Birch-bark} #20# [remove] [ground]
 {Tying equipment} (16) [remove] [ground]
 {Board} [remove] [ground]
 {NEARBY_TILE:water} 'Must be near water'
@@ -40,14 +40,14 @@
 [SUBMENU_END:transport]
 
 
-[SUBMENU_START:Birch bark crafting]
+[SUBMENU_START:Birch-bark crafting]
 
 // Note that because this inherits from "Bark" it can be used for tanning (and shares the same graphic)
-.Peel birch bark. "Bark" [effort:1] *TIMBERCRAFT* [phys:hands,one-armed] /15/ %-20%
+.Peel birch-bark. "Bark" [effort:1] *TIMBERCRAFT* [phys:hands,one-armed] /15/ %-20%
 {Knife} <Small knife>
 {[NEARBY_TILE:Birch]} 'Mature birch tree' [remove]
 [WEIGHT:0.5]
-[NAME:Birch bark]
+[NAME:Birch-bark]
 [TYPE:timber]
 [MATERIAL:birch-bark]
 
@@ -56,24 +56,24 @@
 // If necessary to prevent overpowered trade goods, we can change the item name and adjust properties later.
 .Birch-bark necklace. *TIMBERCRAFT* [effort:1] [phys:hands,one-armed] /15/ |-2|
 {Knife} <Small knife>
-{Birch bark} #0.8# [remove]
+{Birch-bark} #0.8# [remove]
 {Tying equipment} (1) [remove] 'Cord'
 
 .Birch-bark shoes. *TIMBERCRAFT* [effort:1] [phys:hands,one-armed] /90/ |-2|
 {Knife} <Small knife>
-{Birch bark} #1.6# [remove]
+{Birch-bark} #1.6# [remove]
 
 .Birch-bark cap. *TIMBERCRAFT* [effort:1] [phys:hands,one-armed] /90/ |-2|
 {Knife} <Small knife>
-{Birch bark} #1.8# [remove]
+{Birch-bark} #1.8# [remove]
 
 // And pre-existing birch-bark containers.
 .Birch-bark box. *TIMBERCRAFT* [effort:1] [phys:hands,one-armed] /30/ [-2]
 {Knife} <Small knife>
-{Birch bark} #0.5# [remove]
+{Birch-bark} #0.5# [remove]
 
 .Birch-bark basket. "Birch-bark basket" *TIMBERCRAFT* [effort:1] [phys:hands,one-armed] /3h/ |-2|
 {Knife} <Small knife>
-{Birch bark} #6# [remove]
+{Birch-bark} #6# [remove]
 
-[SUBMENU_END:Birch bark crafting]
+[SUBMENU_END:Birch-bark crafting]
