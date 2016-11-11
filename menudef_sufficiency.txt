@@ -1,0 +1,24 @@
+//
+// Using menudef_<anyname>.txt files it's possible to add sub-menus to
+// MAKE items and COOKERY menus.
+//
+// Just make a list of submenu headers like this:
+//
+// .my weapons.       -Y- *MAKE*
+// .extended recipes. -E- *COOKERY*
+//
+// use lower case name for your submenu
+// -K- is the menu key, it must be specified and be any upper case key
+//     that doesn't exist in the target menu yet.
+//
+// *<parent menu>* defines the parent menu.
+//                 Possible options are: *MAKE* and *COOKERY*
+//
+// then just place the craftable items in your diy_ or cookery_ files between
+// submenu start and end tags for the according submenuname
+//
+// [SUBMENU_START:submenuname]
+//
+// [SUBMENU_END:submenuname]
+//
+.Birch bark crafting.  -K-  *MAKE*

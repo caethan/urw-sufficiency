@@ -29,9 +29,15 @@ Last updated with UnReal World 3.40 b1.
     - Organize your settlement with roads
 
 
-## Misc. New
+## New Crafts
 
-**TBD**
+* Craft items from birch bark
+    - Peel birch bark from nearby birch trees
+    - Necklace
+    - Cap
+    - Shoes
+    - Box
+    - Basket
 
 ## Spinning & Weaving
 
