@@ -22,3 +22,7 @@
 // [SUBMENU_END:submenuname]
 //
 .Birch-bark crafting.  -K-  *MAKE*
+.Mining. -M- *MAKE*
+.Smithing. -S- *MAKE*
+.Smith tools. -H- *MAKE*
+.Smith finished goods. -G- *MAKE*

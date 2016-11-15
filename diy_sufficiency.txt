@@ -1,7 +1,7 @@
 [SUBMENU_START:utility article]
 
-.Soak branches. "Branch"  *COMMON* [effort:1] [phys:hands,one-armed] /5/ \1d\ [patch:5]
-{Branch} (10) [remove] [patchwise] [noquality]
+.Soak branches. "Branch"  *COMMON* [effort:1] [phys:hands,one-armed] /5/ \1d\ %-80% [patch:5]
+{Branch} (10) [remove] [patchwise]
 {[NEARBY_TILE:water]} 'Must be near water'
 [NAME:Soaked branches]
 [TYPE:timber]
@@ -18,6 +18,13 @@
 {Block of wood} [remove]
 {Board} [remove]
 {Axe} <Carving axe>
+{Knife} <Small knife>
+
+.Net. *HIDEWORKING* [effort:1] [phys:arms,hands] /4h/
+{Tying equipment} (40) [ground] [remove]
+{Staff} (2) [ground] '+to help the weaving'
+{Birch-bark} (5) [remove] '+for floats'
+{Rock} (10) [remove] [noquality] '+for weights'
 {Knife} <Small knife>
 
 [SUBMENU_END:utility article]

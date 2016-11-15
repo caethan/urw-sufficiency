@@ -59,7 +59,7 @@ This updates some current items, adds new buildings and crafts, including birch 
 
 Many thanks to:
 * The original developers Sami Maaranen and Erkka Lehmus for creating URW and its modding system in the first place.
-* Many mod authors whose original work contributed to this mod:
+* Many mod authors whose original work inspired this mod's development:
 	* Rain for his Ironworking and Cloth mods which were used as the original base for the weaving and smithing sections
 		* Ironworking - http://z3.invisionfree.com/UrW_forum/index.php?showtopic=2147
 		* Cloth - http://z3.invisionfree.com/UrW_forum/index.php?showtopic=1839&st=0
@@ -74,6 +74,8 @@ Many thanks to:
 * The artists who drew the sprites
 	* Kaaven
 		* http://z3.invisionfree.com/UrW_forum/index.php?showtopic=7331&st=0
-		
+* The photographers who provided the pictures for the encyclopedia
+    * Birch-bark cap - Fanny Schertzer, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=10890204
+	*
 		
 ## Changelist

@@ -14,8 +14,6 @@
 {Rock} (5) [remove] [ground] '+for gravel foundation'
 [TILEGFX:ter-road]
 
-// TODO: Forge (inherits from furnace) and anvil
-
 [SUBMENU_END:building]
 
 -end
