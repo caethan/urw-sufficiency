@@ -6,7 +6,7 @@
 {[TILE:Hole in the Ground]} 'Dig a hole for the burn'
 {Shovel} <Shovel> '+to bury the wood'
 {Fire}
-[WEIGHT:1] // Lose some weight relative to firewood (1.5 lb)
+[WEIGHT:1]
 [TILEGFX:bc-coal]
 
 [SUBMENU_END:lumber]
