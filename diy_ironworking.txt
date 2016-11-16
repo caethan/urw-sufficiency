@@ -1,7 +1,7 @@
 [SUBMENU_START:lumber]
 
 .Charcoal. (25) "Firewood" [effort:3] [phys:arms,hands,stance] *TIMBERCRAFT* /2h/ \5d\ |-1| [patch:10]
-{Staff} (3) [remove] '+for a chimney'
+{Staff} (3) '+for a chimney'
 {Firewood} (50) [remove] [ground] [patchwise] 
 {[TILE:Hole in the Ground]} 'Dig a hole for the burn'
 {Shovel} <Shovel> '+to bury the wood'
