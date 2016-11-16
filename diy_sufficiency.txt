@@ -2,7 +2,7 @@
 
 .Soak branches. "Branch"  *COMMON* [effort:1] [phys:hands,one-armed] /5/ \1d\ %-80% [patch:5]
 {Branch} (10) [remove] [patchwise]
-{[NEARBY_TILE:water]} 'Must be near water'
+{Water} #1# [remove] [patchwise]
 [NAME:Soaked branches]
 [TYPE:timber]
 [MATERIAL:wood]
