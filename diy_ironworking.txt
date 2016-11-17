@@ -75,7 +75,7 @@
 [WEIGHT:4]
 
 .Temper soft blade. "Hunting Horn" [effort:3] [phys:arms,hands,stance] *CARPENTRY* /30/ \1h\
-{Soft *} [remove] 'A soft blade' [name:Soft %s] [naming:last word]
+{Soft *} [remove] 'A soft blade' [name:Dull %s] [naming:last word]
 {Charcoal} #3#  [remove] [ground]
 {Tongs}
 {Forge} [ground]
@@ -93,9 +93,7 @@
 [PRICE:0]
 [WEIGHT:4]
 
-// Iron bits of various things:  spear, axe, knife, shovel, sword, sickle
-
-.Spear head.
+.Spear head. "Hunting Horn" [effort:4] [phys:arms,hands,stance] *CARPENTRY* /1h/ |+1|
 {Wrought iron} #1# [remove]
 {Charcoal} #4# [remove] [ground]
 {Hammer}
@@ -109,7 +107,7 @@
 [PRICE:24]
 [WEIGHT:1]
 
-.Small axe head.
+.Small axe head. "Hunting Horn" [effort:4] [phys:arms,hands,stance] *CARPENTRY* /1h/ |+1|
 {Wrought iron} #1# [remove]
 {Charcoal} #4# [remove] [ground]
 {Hammer}
@@ -117,13 +115,13 @@
 {Anvil} [ground]
 {Forge} [ground]
 {Fire}
-[NAME:Rough small axe-head]
+[NAME:Rough small-axehead]
 [TYPE:tool]
 [MATERIAL:iron]
 [PRICE:24]
 [WEIGHT:1]
 
-.Large axe head.
+.Large axe head. "Hunting Horn" [effort:4] [phys:arms,hands,stance] *CARPENTRY* /1h/ |+1|
 {Wrought iron} #3# [remove]
 {Charcoal} #12# [remove] [ground]
 {Hammer}
@@ -131,13 +129,13 @@
 {Anvil} [ground]
 {Forge} [ground]
 {Fire}
-[NAME:Rough large axe-head]
+[NAME:Rough large-axehead]
 [TYPE:tool]
 [MATERIAL:iron]
 [PRICE:75]
 [WEIGHT:3]
 
-.Small knife blade.
+.Small knife blade. "Hunting Horn" [effort:4] [phys:arms,hands,stance] *CARPENTRY* /1h/ |+1|
 {Wrought iron} #0.5# [remove]
 {Charcoal} #2# [remove] [ground]
 {Hammer}
@@ -145,13 +143,13 @@
 {Anvil} [ground]
 {Forge} [ground]
 {Fire}
-[NAME:Rough small knife blade]
+[NAME:Rough small-knifeblade]
 [TYPE:tool]
 [MATERIAL:iron]
 [PRICE:12]
 [WEIGHT:0.5]
 
-.Large knife blade.
+.Large knife blade. "Hunting Horn" [effort:4] [phys:arms,hands,stance] *CARPENTRY* /1h/ |+1|
 {Wrought iron} #1# [remove]
 {Charcoal} #4# [remove] [ground]
 {Hammer}
@@ -159,13 +157,13 @@
 {Anvil} [ground]
 {Forge} [ground]
 {Fire}
-[NAME:Rough large knife blade]
+[NAME:Rough large-knifeblade]
 [TYPE:tool]
 [MATERIAL:iron]
 [PRICE:24]
 [WEIGHT:1]
 
-.Sickle blade.
+.Sickle blade. "Hunting Horn" [effort:4] [phys:arms,hands,stance] *CARPENTRY* /1h/ |+1|
 {Wrought iron} #3# [remove]
 {Charcoal} #12# [remove] [ground]
 {Hammer}
@@ -173,13 +171,13 @@
 {Anvil} [ground]
 {Forge} [ground]
 {Fire}
-[NAME:Rough sickle blade]
+[NAME:Rough sickleblade]
 [TYPE:tool]
 [MATERIAL:iron]
 [PRICE:75]
 [WEIGHT:3]
 
-.Shovel head.
+.Shovel head. "Hunting Horn" [effort:4] [phys:arms,hands,stance] *CARPENTRY* /1h/ |+1|
 {Wrought iron} #2# [remove]
 {Charcoal} #8# [remove] [ground]
 {Hammer}
@@ -187,7 +185,7 @@
 {Anvil} [ground]
 {Forge} [ground]
 {Fire}
-[NAME:Rough shovel head]
+[NAME:Rough shovelhead]
 [TYPE:tool]
 [MATERIAL:iron]
 [PRICE:48]
@@ -241,7 +239,7 @@
 
 .Hammer. "Club" *CARPENTRY* -H- [effort:4] [phys:arms,hands,stance] /2h/
 {Iron bloom} #2# [remove] 'Rough iron for the head'
-{Charcoal} #6#
+{Charcoal} #6# [remove]
 {Wooden Stake} [remove] '+for a handle'
 {Forge} [ground]
 {Anvil} [ground]
@@ -257,7 +255,7 @@
 
 .Tongs. "Hunting Horn" *CARPENTRY* -T- [effort:4] [phys:arms,hands,stance] /4h/
 {Wrought iron} #2# [remove]
-{Charcoal} #6#
+{Charcoal} #6# [remove]
 {Wooden Stake} (2) [remove] '+for handles'
 {Hammer}
 {Forge} [ground]
@@ -274,13 +272,13 @@
 [SUBMENU_START:Smith finished goods]
 
 .Small knife. [effort:1] [phys:arms,hands] *CARPENTRY*  /15/
-{Sharp small knife blade}  [remove]
+{Sharp small-knifeblade}  [remove]
 {Tying equipment}  [remove]
 {Leather} #0.25# [remove] [optional] '+for the hilt'
 {Knife} <Small knife>
 
 .Broad knife. [effort:1] [phys:arms,hands] *CARPENTRY*  /15/
-{Sharp large knife blade}  [remove]
+{Sharp large-knifeblade}  [remove]
 {Tying equipment}  [remove]
 {Leather} #0.5# [remove] [optional] '+for the hilt'
 {Knife} <Small knife>
@@ -292,43 +290,43 @@
 {Knife} <Small knife>
 
 .Handaxe. [effort:1] [phys:arms,hands] *CARPENTRY* /35/
-{Sharp small axe-head}  [remove]
+{Sharp small-axehead}  [remove]
 {Wooden stake}   [remove] '+for a handle'
 {Tying equipment}  [remove]
 {Knife} <Small knife>
 
 .Woodsman's axe. [effort:2] [phys:arms,hands] *CARPENTRY* /50/
-{Sharp large axe-head}  [remove]
+{Sharp large-axehead}  [remove]
 {Staff}   [remove]
 {Tying equipment} (2) [remove]
 {Knife} <Small knife>
 
 .Carving axe. [effort:1] [phys:arms,hands] *CARPENTRY* %-10% /55/
-{Sharp small axe-head}  [remove]
+{Sharp small-axehead}  [remove]
 {Wooden stake}   [remove] '+for a handle'
 {Tying equipment}  [remove]
 {Knife} <Small knife>
 
 .Splitting axe.  [effort:2] [phys:arms,hands] *CARPENTRY*  /50/
-{Sharp large axe-head}  [remove]
+{Sharp large-axehead}  [remove]
 {Staff}   [remove]
 {Tying equipment} (2) [remove]
 {Knife} <Small knife>
 
 .Broad axe. [effort:2] [phys:arms,hands] *CARPENTRY* /50/
-{Sharp large axe-head}  [remove]
+{Sharp large-axehead}  [remove]
 {Staff}   [remove]
 {Tying equipment} (2) [remove]
 {Knife} <Small knife>
 
 .Sickle. [effort:1] [phys:arms,hands] *CARPENTRY* /30/
-{Sharp sickle blade}  [remove]
+{Sharp sickleblade}  [remove]
 {Wooden stake}   [remove] '+for a handle'
 {Tying equipment}  [remove]
 {Knife} <Small knife>
 
 .Shovel. [effort:1] [phys:arms,hands] *CARPENTRY* /45/
-{Sharp Shovelblade}  [remove]
+{Sharp shovelblade}  [remove]
 {Staff}   [remove]
 {Tying equipment}  [remove]
 {Knife} <Small knife>
