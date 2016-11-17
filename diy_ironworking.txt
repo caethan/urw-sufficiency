@@ -86,7 +86,7 @@
 [WEIGHT:4]
 
 .Sharpen dull blade. "Hunting Horn" [effort:2] [phys:hands,one-armed] *CARPENTRY* /45/
-{Dull *} [remove] 'A dull blade' [name: Sharp %s] [naming:last word]
+{Dull *} [remove] 'A dull blade' [name:Sharp %s] [naming:last word]
 {Whetstone}
 [TYPE:tool]
 [MATERIAL:iron]
