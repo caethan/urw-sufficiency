@@ -1,8 +1,8 @@
 [SUBMENU_START:lumber]
 
-.Charcoal. (25) "Firewood" [effort:3] [phys:arms,hands,stance] *TIMBERCRAFT* /2h/ \5d\ |-1| [patch:10]
+.Charcoal. (25) "Firewood" [effort:3] [phys:arms,hands,stance] *TIMBERCRAFT* %-80% /2h/ \5d\ |-1| [patch:10]
 {Staff} (3) '+for a chimney'
-{Firewood} (50) [remove] [ground] [patchwise] 
+{Firewood} (50) [remove] [noquality] [ground] [patchwise] 
 {[TILE:Hole in the Ground]} 'Dig a hole for the burn'
 {Shovel} <Shovel> '+to bury the wood'
 {Fire}
@@ -27,6 +27,8 @@
 // Gather ore from lake?
 
 // Mine stone from big rock
+.Mine for stone. "Stone"	*CARPENTRY* -V- [effort:4] [phys:stance,arms,hands]	/1h/ [noquality]
+{[NEARBY_TILE:Big rock]} 'Big rock'
 
 // Crush stone to rocks
 
@@ -37,7 +39,7 @@
 [SUBMENU_START:Smithing]
 
 .Smelt iron. "Hunting Horn" [effort:2] [phys:arms,hands,stance] *CARPENTRY* |-1| /30/ \1d\ [patch:10]
-{Bog iron} #2# [remove] [patchwise]
+{Bog iron} #2# [remove] [patchwise] [noquality]
 {Charcoal} #8# [remove] [ground] [patchwise]
 {Bloomery} [ground]
 {Fire}
@@ -200,8 +202,8 @@
 .Bloomery. "Hunting Horn" *BUILDING* -B- [effort:3] [phys:arms,stance] /5h/
 {Shovel} <Shovel>
 {Stone} (20) [remove] [ground] [noquality]
-{Rock} (10) [noquality]
-{Staff} (3)
+{Rock} (10) [remove] [noquality]
+{Staff} (3) [remove]
 [TYPE:tool]
 [TILEGFX:bc-bloomery]
 [NAME:Bloomery]
@@ -210,9 +212,9 @@
 
 .Forge. "Hunting horn" *BUILDING* -F- [effort:3] [phys:arms,stance] /5h/
 {Stone} (10) [remove] [ground] [noquality]
-{Rock} (10) [noquality]
-{Staff} (3)
-{Charcoal} #6#
+{Rock} (10) [remove] [noquality]
+{Staff} (3) [remove]
+{Charcoal} #6# [remove]
 [TYPE:tool]
 [TILEGFX:bc-bloomery]
 [NAME:Forge]
