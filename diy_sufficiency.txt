@@ -1,18 +1,21 @@
 [SUBMENU_START:utility article]
 
-.Soak branches. "Branch"  *COMMON* [effort:1] [phys:hands,one-armed] /5/ \1d\ %-80% [patch:5]
-{Branch} (10) [remove] [patchwise]
-{Water} #1# [remove] [patchwise]
-[NAME:Soaked branches]
+.Soak branch. "Branch"  *COMMON* [effort:1] [phys:hands,one-armed] /5/ \1d\ [patch:20] [noquality]
+{Branch} [remove] [patchwise]
+{Water} #10#
+[NAME:Soaked branch]
 [TYPE:timber]
 [MATERIAL:wood]
-[WEIGHT:6.0]
+[WEIGHT:0.5]
 [SPOILAGE_DAYS:1] // Doesn't seem to work, sadly
 
-.Primitive cord.   "Cord"  *TIMBERCRAFT* [effort:1] [phys:hands] /30/ %-80%  [patch:5] |-2|
+.Primitive cord. "Cord" *TIMBERCRAFT* [effort:1] [phys:hands] /30/ %-100%  [patch:5] |-2|
 {Knife} <Small knife>
-{Soaked branches} [remove] [patchwise]
+{Soaked branch} [remove] [patchwise]
 [NAME:Cord]
+[TYPE:timber]
+[MATERIAL:wood]
+[WEIGHT:0.5]
 
 .Sauna scoop. *CARPENTRY* [effort:1] [phys:arms,hands] /60/ %10% |-1|
 {Block of wood} [remove]
@@ -27,7 +30,47 @@
 {Staff} (2) [ground] '+to help the weaving'
 {Knife} <Small knife>
 
+.Small barrel. "Bag" [effort:3] [phys:arms,hands] *CARPENTRY* /4h/ 
+{Tying equipment} (12) [remove] '+for hoops'
+{Pine tar} (4) [remove] '+for waterproofing'
+{Board} (8) [remove]
+{Fire} [ground]
+{Axe} <Carving axe>
+{Knife} <Small knife>
+[TILEGFX:fw-sbarrel]
+[CONT_CAPACITY:30]
+[TYPE:container]
+[MATERIAL:wood]
+[WEIGHT:10]
+[PRICE:50]
+
+.Large barrel. "Bag" [effort:3] [phys:arms,hands] *CARPENTRY* /6h/ 
+{Tying equipment} (24) [remove] '+for hoops'
+{Pine tar} (10) [remove] '+for waterproofing' 
+{Board} (12) [remove]
+{Fire} [ground]
+{Axe} <Carving axe>
+{Knife} <Small knife>
+[TILEGFX:fw-lbarrel]
+[CONT_CAPACITY:100]
+[TYPE:container]
+[MATERIAL:wood]
+[WEIGHT:30]
+[PRICE:70]
+
 [SUBMENU_END:utility article]
+
+[SUBMENU_START:lumber]
+
+.Pine tar. [effort:1] [phys:hands,one-armed]  (10) "Rock" [noquality] *COMMON*  /30/
+{[NEARBY_TILE:*Pine]}  'A Pine tree'
+{Cutting weapon}<Small knife>
+[TILEGFX:fw-resin]
+[MATERIAL:wood]
+[TYPE:timber]
+[WEIGHT:.1] 
+
+[SUBMENU_END:lumber]
 
 
 [SUBMENU_START:transport]
