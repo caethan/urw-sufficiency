@@ -1,12 +1,14 @@
 [SUBMENU_START:baking]
 
-.Hard Biscuit.  	*COOKERY*	/45/    \3h\  %-50%
+.Bake Hard Biscuit.  	*COOKERY*	/45/    \3h\  %-50%
 {Flour}      	#3#    	[remove] [bake] [name:%s Biscuit]
 {Water}      	#0.5#  	[remove]
 {Seasoning}  	#0.25#  [remove] [bake] [optional]
 {Tallow}	#0.5#	[remove] [bake]
 [SPOILAGE_DAYS:0]
+[TILEGFX:it-flbread]
 [Water:0]
+//TODO: use a new graphic
 
 .Render Fat.  *COOKERY*	/1h/  \1h\  |-1|
 {* fat} #3# [remove] [boil] 'Some fat to render'

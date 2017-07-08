@@ -7,7 +7,7 @@
 {Shovel} <Shovel> '+to bury the wood'
 {Fire}
 [WEIGHT:1]
-[TILEGFX:bc-coal]
+[TILEGFX:it-coallump]
 
 [SUBMENU_END:lumber]
 
@@ -23,6 +23,7 @@
 [MATERIAL:iron]
 [PRICE:0]
 [WEIGHT:0.5]
+[TILEGFX:it-ironlump]
 
 // Gather ore from lake?
 
@@ -51,6 +52,7 @@
 [MATERIAL:iron]
 [PRICE:12]
 [WEIGHT:1]
+[TILEGFX:it-ironlump]
 
 .Hammer bloom. "Hunting Horn" [effort:4] [phys:arms,hands,stance] *CARPENTRY* /2h/ [patch:5]
 {Iron bloom} #1# [remove] [patchwise]
@@ -65,6 +67,7 @@
 [MATERIAL:iron]
 [PRICE:16]
 [WEIGHT:1]
+[TILEGFX:it-ironlump]
 
 .Hammer rough blade. "Hunting Horn" [effort:4] [phys:arms,hands,stance] *CARPENTRY* /90/
 {Rough *} [remove] 'A rough blade' [name:Soft %s] [naming:last word]
@@ -111,6 +114,7 @@
 [MATERIAL:iron]
 [PRICE:24]
 [WEIGHT:1]
+[TILEGFX:it-swordblade]
 
 .Small axe head. "Hunting Horn" [effort:4] [phys:arms,hands,stance] *CARPENTRY* /1h/ |+1|
 {Wrought iron} #1# [remove]
@@ -125,6 +129,7 @@
 [MATERIAL:iron]
 [PRICE:24]
 [WEIGHT:1]
+[TILEGFX:it-axehead]
 
 .Large axe head. "Hunting Horn" [effort:4] [phys:arms,hands,stance] *CARPENTRY* /1h/ |+1|
 {Wrought iron} #3# [remove]
@@ -139,6 +144,7 @@
 [MATERIAL:iron]
 [PRICE:75]
 [WEIGHT:3]
+[TILEGFX:it-axehead]
 
 .Small knife blade. "Hunting Horn" [effort:4] [phys:arms,hands,stance] *CARPENTRY* /1h/ |+1|
 {Wrought iron} #0.5# [remove]
@@ -153,6 +159,7 @@
 [MATERIAL:iron]
 [PRICE:12]
 [WEIGHT:0.5]
+[TILEGFX:it-swordblade]
 
 .Large knife blade. "Hunting Horn" [effort:4] [phys:arms,hands,stance] *CARPENTRY* /1h/ |+1|
 {Wrought iron} #1# [remove]
@@ -167,6 +174,7 @@
 [MATERIAL:iron]
 [PRICE:24]
 [WEIGHT:1]
+[TILEGFX:it-swordblade]
 
 .Sickle blade. "Hunting Horn" [effort:4] [phys:arms,hands,stance] *CARPENTRY* /1h/ |+1|
 {Wrought iron} #3# [remove]
@@ -181,6 +189,7 @@
 [MATERIAL:iron]
 [PRICE:75]
 [WEIGHT:3]
+[TILEGFX:it-swordblade]
 
 .Shovel head. "Hunting Horn" [effort:4] [phys:arms,hands,stance] *CARPENTRY* /1h/ |+1|
 {Wrought iron} #2# [remove]
@@ -195,6 +204,7 @@
 [MATERIAL:iron]
 [PRICE:48]
 [WEIGHT:2]
+[TILEGFX:it-axehead]
 
 [SUBMENU_END:Smithing]
 
@@ -231,7 +241,7 @@
 [MATERIAL:stone]
 [WEIGHT:120]
 [PRICE:0]
-[TILEGFX:bc-anvil]
+[TILEGFX:ter-anvil]
 
 .Grind a whetstone. "Hunting Horn"	*CARPENTRY* -W- [effort:2] [phys:hands]	/2h/
 {Stone} [remove] [noquality]
@@ -256,7 +266,7 @@
 [AD_CLASS:0/0]
 [MATERIAL:iron]
 [WEIGHT:3]
-[TILEGFX:bc-hammer]
+[TILEGFX:wp-hammersmith]
 
 .Tongs. "Hunting Horn" *CARPENTRY* -T- [effort:4] [phys:arms,hands,stance] /4h/
 {Wrought iron} #2# [remove]
@@ -357,5 +367,6 @@
 [TYPE:tool]
 [MATERIAL:iron]
 [WEIGHT:0.1]
+[TILEGFX:it-hook]
 
 [SUBMENU_END:Smith finished goods]

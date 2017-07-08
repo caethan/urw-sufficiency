@@ -92,9 +92,12 @@ Many thanks to:
 		* http://z3.invisionfree.com/UrW_forum/index.php?showtopic=5331
 	* Brygun
 		* http://z3.invisionfree.com/UrW_forum/index.php?showtopic=3818&st=0#entry22022885
+    * thefinn
+        * http://z3.invisionfree.com/UrW_forum/index.php?showtopic=8082
 * The artists who drew the sprites
-	* Kaaven
+	* Kaaven (many various sprites)
 		* http://z3.invisionfree.com/UrW_forum/index.php?showtopic=7331&st=0
+    * thefinn (barrel sprites)
 * The photographers who provided the pictures for the encyclopedia
     * Birch-bark cap - Fanny Schertzer, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=10890204
 		
