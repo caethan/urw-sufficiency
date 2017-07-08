@@ -30,6 +30,14 @@
 {Staff} (2) [ground] '+to help the weaving'
 {Knife} <Small knife>
 
+.Wooden tub. [effort:2] [phys:arms,hands] *CARPENTRY* /3h/
+{Tying equipment} (6) [remove] '+for hoops'
+{Pine tar} (2) [remove] [noquality] '+for waterproofing'
+{Board} (4) [remove]
+{Fire} [ground]
+{Axe} <Carving axe>
+{Knife} <Small knife>
+
 .Small barrel. "Bag" [effort:3] [phys:arms,hands] *CARPENTRY* /4h/
 {Tying equipment} (12) [remove] '+for hoops'
 {Pine tar} (4) [remove] [noquality] '+for waterproofing'
