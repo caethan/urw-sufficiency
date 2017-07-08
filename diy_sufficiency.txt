@@ -22,9 +22,9 @@
 
 .Net. *HIDEWORKING* [effort:1] [phys:arms,hands] /4h/
 {Tying equipment} (40) [ground] [remove]
-{Staff} (2) [ground] '+to help the weaving'
 {Birch-bark} (5) [remove] '+for floats'
 {Rock} (10) [remove] [noquality] '+for weights'
+{Staff} (2) [ground] '+to help the weaving'
 {Knife} <Small knife>
 
 [SUBMENU_END:utility article]
@@ -79,7 +79,7 @@
 {Knife} <Small knife>
 {Birch-bark} #0.5# [remove]
 
-.Birch-bark basket. "Birch-bark basket" *TIMBERCRAFT* [effort:1] [phys:hands,one-armed] /3h/ |-2|
+.Birch-bark basket. "Birch-bark basket" *TIMBERCRAFT* [effort:1] [phys:hands,one-armed] /3h/ |-1|
 {Knife} <Small knife>
 {Birch-bark} #6# [remove]
 
