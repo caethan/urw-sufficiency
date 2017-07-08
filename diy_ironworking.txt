@@ -297,13 +297,14 @@
 {Tying equipment}  [remove]
 {Knife} <Small knife>
 
-.Woodsman's axe. [effort:2] [phys:arms,hands] *CARPENTRY* /50/
+.Woodsmans axe. "Woodsman's axe" [effort:2] [phys:arms,hands] *CARPENTRY* /50/
 {Sharp large-axehead}  [remove]
 {Staff}   [remove]
 {Tying equipment} (2) [remove]
 {Knife} <Small knife>
+[NAME:Woodsman's axe]
 
-.Carving axe. [effort:1] [phys:arms,hands] *CARPENTRY* %-10% /55/
+.Carving axe. [effort:1] [phys:arms,hands] *CARPENTRY* /55/
 {Sharp small-axehead}  [remove]
 {Wooden stake}   [remove] '+for a handle'
 {Tying equipment}  [remove]
