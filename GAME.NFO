@@ -847,7 +847,7 @@ treatment it's also possible to use healing herbs in the process. For bleeding w
 is possible only after the bloodloss is halted.
 
 The treatment result depends on your physician skill and quality and properties of the equipment and supplies 
-used. A successfull treatment will improve the healing of an injury and lower the risk of complications, but 
+used. A successful treatment will improve the healing of an injury and lower the risk of complications, but 
 mistakes are also possible and can worsen the healing process. For serious wounds, however, some first-aid is always
 recommended over no treatment at all. After that, it's up for your consideration whether you think you can do 
 better for a specific wound today, or should it be wiser not touch it at all. 
@@ -1135,7 +1135,7 @@ since the wood that trees provide will be used extensively in the construction p
 // updated & proofred 11-Aug-2011
 //
 .PHYSICIAN.
-A skill to treat wounds, injuries and medical ailments. A successfull wound treatment will improve the healing.
+A skill to treat wounds, injuries and medical ailments. A successful wound treatment will improve the healing.
 ***
 
 // updated 21-jan-2016
@@ -1382,6 +1382,92 @@ effective mobility in kilometers per hour (km/h). That's the speed your
 character will move with all your current penalties and your current 
 manner of movement taken in the consideration. 
 ***
+
+// valuables
+//
+// added nov-19-2017
+.BROOCH.BROOCHES.
+A round, decorated brooch made of bronze. Small brooches are commonly used to hold the front of a tunic or a shirt closed.
+Larger ones are used to fasten cloaks and overcoats, or worn as mere ornaments.<br>
+   Different variants of the bronze brooch are manufactured by craftsmen in Driik, Koivula and Reemi. Ones crafted in Driik
+and Koivula are typically decorated either with lines and dots, or flower ornaments. Craftsmen of Reemi decorate their brooches
+with engraved figures of elk, bear or horse.
+***
+
+// added nov-19-2017
+//
+.BRONZE HORSE-ORNAMENTED COMB.
+Palm-sized comb with the back of the handle crafted into a shape of two horse heads facing to opposite directions.
+Different variants of the comb are manufactured in Reemi. Similar type of comb is also imported by foreign traders. 
+The comb is not for common day-to-day use, but carried as a decorative item on special occasions.
+***
+
+// added nov-19-2017
+//
+.BRONZE FLOWER-ORNAMENTED COMB.
+Palm-sized comb with the handle decorated with engraved flower ornaments. Different variants of the comb are manufactured both in Driik and
+imported by foreign traders. The comb is not for common day-to-day use, but carried as a decorative item on special occasions
+***
+
+// added nov-19-2017
+//
+.SILVER CHAIN BRACELET.
+Three finely crafted thin silver chains braided to form a single bracelet. This kind of valuables are crafted overseas, and sold by
+foreign traders. Both the amount of silver and the decorative quality make this bracelet a highly valued item.
+Wearing one is a sign of wealth and status.
+***
+
+// added nov-19-2017
+//
+.BRONZE BRACELET.
+A simple bracelet decorated with engraved curly lines and dots. Craftsmen of Driik and Koivula make this type of bracelets. The bracelet is worn by women of western cultures.
+***
+
+// added nov-19-2017
+//
+.SILVER RING.
+A ring made of silver with a decoration composed of dots and curly lines running all around the outer side of the ring.
+This type of rings are sold and imported by foreign traders, but also produced by skilled craftsmen of Driik.
+***
+
+
+// added nov-19-2017
+//
+.BEZEL RING.
+A ring with a wide bezel decorated with a relief figure. Common figures are an eagle, a bear head, and an aquatic bird.
+Imported by foreign traders, this type of ring is favored by the wealthy men among eastern and northern tribes.
+***
+
+// added nov-19-2017
+//
+.SILVER BIRD BRACELET.
+A small figure of an aquatic bird is attached to the other end of this thin bracelet. These bracelets are imported by the foreign traders. 
+This type is worn by women of eastern and northern cultures.
+***
+
+// added nov-19-2017
+//
+.BRONZE BEAR PENDANT.
+A relief figure of a bear head and forepaws, cast in bronze. This type of pendant is imported by the foreign traders. 
+The pendant often comes without a chain, so it is often attached to a simple leather cord. It is worn on rituals, celebrations and other special
+occasions by men of eastern cultures.
+***
+
+// added nov-19-2017
+//
+.SILVER SUN-SYMBOL PENDANT.
+A round pendant nearly two inches wide, picturing a sun symbol inside a decorated rim.
+This fine piece of jewelry is imported by the foreign traders.
+Northern and Eastern peoples like this pendant, as they believe the sun symbol is associated with fertility, health and good luck.
+***
+
+// added nov-19-2017
+//
+.BRONZE BALL PENDANT.
+A hollow bronze ball, usually a little less than an inch in diameter. The ball is decorated with embossed pebbles, forming lines round the ball.
+The ball hangs from a thin bronze chain. This type of pendant is sold by the foreign traders and worn by women of western cultures.
+***
+
 
 .UTILITY ARTICLES.
 Some of these items are descriped here:
@@ -1647,13 +1733,13 @@ Nettle is a useful wild plant used as a source of fiber.
 The process of separating fibers from a nettle and spinning
 them into a thread is somewhat similar compared to the 
 process of producing linen out of flax. Some even say that
-garments made out of nettle-fiber are more beatiful than the
+garments made out of nettle-fiber are more beautiful than the
 ones made of linen. Nettle is commonly used, but not as largely
 as linen, for all sorts of clothes.
 ***
 
 .LINEN.
-Linen is procuced from fibers of a flax which is a commonly
+Linen is produced from fibers of a flax which is a commonly
 known cultivated plant. Linen, like wool, is largely used
 material for clothes but the process to make serviceable
 linen is more laborious than in the case of wool. For the wealthy
@@ -1780,7 +1866,7 @@ A piece of armour that covers the skull. A typical helm is made from one piece o
 A type of helm covering the skull and face. It has a spectacle-like covering for the face, extending 
 down to wearer's chin. Some spectacle helms also have cheek-pieces for additional protection.
 From the outside, spectacle helm presents a frightening visage to the opponent. These helms
-are often forged not only to protect their wearer's, but also to make them look more fierce.
+are often forged not only to protect their wearer's head, but also to make them look more fierce.
 ***
 
 .GREAVES.SHIN GUARD.SHIN GUARDS.
@@ -1809,7 +1895,7 @@ Armour for the knee, usually iron, generally secured by leather thongs.
 
 .LEGGINGS.
 Separate pieces of clothing to protect legs; actually the hips, groin,
-thighs, knees, calves and feet. Leggings are tied on with leather
+thighs, knees and calves. Leggings are tied on with leather
 thongs or cords. When worn with pair of trousers leggings give extra
 protection and warmth. Some leggings can be worn also instead of
 trousers.
@@ -2657,7 +2743,7 @@ from bleeding.
 .BLOOD-STANCHING PRAYER.
 This ritual is performed before you try to heal your wounds
 with physician skill. It should improve the healing and make the
-healing attempt more successfull.
+healing attempt more successful.
 ***
 
 .THE ORIGIN OF FIRE.
@@ -2805,7 +2891,6 @@ away from their homes to find enough suitable areas for burning. Eventually a
 family might even pack their stuff and move deeper into the wilderness, build
 a new house and have a fresh start every thirty years or so.
 ***
-
 
 // Added in the self-sufficiency mod
 
