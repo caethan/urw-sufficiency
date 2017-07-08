@@ -1,0 +1,35 @@
+[SUBMENU_START:baking]
+
+.Hard Biscuit.  	*COOKERY*	/45/    \3h\  %-50%
+{Flour}      	#3#    	[remove] [bake] [name:%s Biscuit]
+{Water}      	#0.5#  	[remove]
+{Seasoning}  	#0.25#  [remove] [bake] [optional]
+{Tallow}	#0.5#	[remove] [bake]
+[SPOILAGE_DAYS:0]
+[Water:0]
+
+.Render Fat.  *COOKERY*	/1h/  \1h\  |-1|
+{* fat} #3# [remove] [boil] 'Some fat to render'
+{Water} #1# [remove]
+[NAME:Tallow]
+[SPOILAGE_DAYS:0]
+[Water:0]
+
+[SUBMENU_END:baking]
+
+
+[SUBMENU_START:drying]
+
+.Dry Berries.       *COOKERY*  /5/ \10d\   |-2|  [patch:20]
+{Berries}        [remove] [roast] [name:Dried %s] [naming:original] [patchwise]
+[SPOILAGE_DAYS:0]
+[WATER:0]
+[COOK_WEIGHT_DIV:5]
+
+.Dry Mushrooms.      *COOKERY*  /5/ \10d\   |-2|  [patch:20]
+{Mushrooms}        [remove] [roast] [name:Dried %s] [naming:original] [patchwise]
+[SPOILAGE_DAYS:0]
+[WATER:0]
+[COOK_WEIGHT_DIV:5]
+
+[SUBMENU_END:drying]
