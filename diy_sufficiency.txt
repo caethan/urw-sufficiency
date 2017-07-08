@@ -30,9 +30,9 @@
 {Staff} (2) [ground] '+to help the weaving'
 {Knife} <Small knife>
 
-.Small barrel. "Bag" [effort:3] [phys:arms,hands] *CARPENTRY* /4h/ 
+.Small barrel. "Bag" [effort:3] [phys:arms,hands] *CARPENTRY* /4h/
 {Tying equipment} (12) [remove] '+for hoops'
-{Pine tar} (4) [remove] '+for waterproofing'
+{Pine tar} (4) [remove] [noquality] '+for waterproofing'
 {Board} (8) [remove]
 {Fire} [ground]
 {Axe} <Carving axe>
@@ -44,9 +44,9 @@
 [WEIGHT:10]
 [PRICE:50]
 
-.Large barrel. "Bag" [effort:3] [phys:arms,hands] *CARPENTRY* /6h/ 
+.Large barrel. "Bag" [effort:3] [phys:arms,hands] *CARPENTRY* /6h/
 {Tying equipment} (24) [remove] '+for hoops'
-{Pine tar} (10) [remove] '+for waterproofing' 
+{Pine tar} (10) [remove] [noquality] '+for waterproofing'
 {Board} (12) [remove]
 {Fire} [ground]
 {Axe} <Carving axe>
@@ -62,16 +62,16 @@
 
 [SUBMENU_START:lumber]
 
-.Pine tar. [effort:1] [phys:hands,one-armed]  (10) "Rock" [noquality] *COMMON*  /30/
-{[NEARBY_TILE:*Pine]}  'A Pine tree'
-{Cutting weapon}<Small knife>
+.Gather pine tar. [effort:1] [phys:hands,one-armed] (5) "Hunting Horn" [noquality] *COMMON*  /30/
+{[NEARBY_TILE:*Pine]}  'A nearby pine tree'
+{Cutting weapon} <Small knife>
+[NAME:Pine tar]
 [TILEGFX:fw-resin]
 [MATERIAL:wood]
 [TYPE:timber]
-[WEIGHT:.1] 
+[WEIGHT:.1]
 
 [SUBMENU_END:lumber]
-
 
 [SUBMENU_START:transport]
 
