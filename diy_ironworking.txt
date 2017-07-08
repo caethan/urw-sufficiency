@@ -31,6 +31,9 @@
 {[NEARBY_TILE:Big rock]} 'Big rock'
 
 // Crush stone to rocks
+.Crush stone. "Rock" (5) *CARPENTRY* -C- [effort:4] [phys:stance,arms,hands] /30/ [noquality]
+{Stone} [ground]
+
 
 // Mining pick?
 
