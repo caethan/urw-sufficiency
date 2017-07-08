@@ -1,6 +1,6 @@
 [SUBMENU_START:building]
 
-.Water. "Well"   *BUILDING* -L- [effort:3] [phys:arms,stance,one-armed] /5h/
+.Water. "Well" *BUILDING* -L- [effort:3] [phys:arms,stance,one-armed] /5h/
 {Shovel} <Shovel> 
 {Stone} (50) [remove] [ground] '+for walls'
 {Rock} (30) [remove] [ground] '+for gravel packing'

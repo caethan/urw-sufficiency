@@ -30,6 +30,13 @@
 {Staff} (2) [ground] '+to help the weaving'
 {Knife} <Small knife>
 
+.Fishing pole. *FISHING* [effort:1] [phys:arms,hands] /30/
+{Tying equipment} (2) [remove]
+{Staff} [ground] [remove]
+{Birch-bark} (2) [remove] '+for a float'
+{Fish hook} [remove]
+{Knife} <Small knife>
+
 .Wooden tub. [effort:2] [phys:arms,hands] *CARPENTRY* /3h/
 {Tying equipment} (6) [remove] '+for hoops'
 {Pine tar} (2) [remove] [noquality] '+for waterproofing'

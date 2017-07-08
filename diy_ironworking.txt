@@ -346,4 +346,13 @@
 {Anvil} [ground]
 {Fire}
 
+.Fish hook. "Hunting Horn" [phys:arms, hands] *CARPENTRY* /30/
+{Wrought Iron} #0.5# [remove]
+{Charcoal} #2# [remove] [ground]
+{Hammer}
+{Tongs}
+{Forge} [ground]
+{Anvil} [ground]
+{Fire}
+
 [SUBMENU_END:Smith finished goods]
