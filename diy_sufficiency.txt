@@ -12,7 +12,7 @@
 .Primitive cord. "Cord" *TIMBERCRAFT* [effort:1] [phys:hands] /30/ %-100%  [patch:5] |-2|
 {Knife} <Small knife>
 {Soaked branch} [remove] [patchwise]
-[NAME:Cord]
+[NAME:Primitive cord]
 [TYPE:timber]
 [MATERIAL:wood]
 [WEIGHT:0.5]
