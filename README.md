@@ -2,10 +2,14 @@
 
 This is a set of modifications for the freeware roguelike game [UnReal World](http://www.unrealworld.fi/) developed by Sami Maaranen and Erkka Lehmus.
 
-Last updated with UnReal World 3.40 b1.
+Last updated with UnReal World 3.40.
 
-This updates some current items, adds new buildings and crafts, including birch bark crafting, ironworking, and weaving, and also updates the in-game encyclopedia with information and pictures about the new items.
+This mod allows you to live more self-sufficiently, crafting most needed tools and items with some effort on your own without trading.
+Not everything is available --- complex armor and weapons will still have to be found elsewhere, but simple birchbark crafting, smithing, and weaving, along with some other small crafts and cooking, can now be done on your own.
 
+Also includes updates to the in-game encyclopedia with information about all the new items, as well as tile graphics for them.
+
+Enjoy!
 
 # Changes from vanilla
 
@@ -43,19 +47,36 @@ This updates some current items, adds new buildings and crafts, including birch 
     - Birch-bark canoe!
 * Make low quality cords from soaked branches
 * Make your own sauna scoop
+* Craft nets, fishing poles, and wooden tubs and barrels
+
+## Cooking
+
+* Render fat to tallow
+* Make hard biscuits
+* Dry berries and mushrooms
+
+## Ironworking
+
+* Gather raw ore from bogs
+* Bury firewood and burn it to make charcoal for smithing
+* Quarry a stone anvil and whetstone
+* Build a bloomery furnace and smelt the raw ore into blooms
+* Build a forge and hammer the blooms into wrought iron
+* Hammer the wrought iron into useful tools:
+    - Axes
+    - Spears
+    - Knives
+    - Shovel
+    - Sickle
+    - Pot
+    - Fish hooks
 
 ## Spinning & Weaving
 
 **TBD**
 
-## Ironworking
-
-**TBD**
-
 
 # Sources, Credit, and Inspiration
-
-**TODO: Confirm ability to include this work in the mod from each prior author/artist before including their work!**
 
 Many thanks to:
 * The original developers Sami Maaranen and Erkka Lehmus for creating URW and its modding system in the first place.
@@ -76,6 +97,5 @@ Many thanks to:
 		* http://z3.invisionfree.com/UrW_forum/index.php?showtopic=7331&st=0
 * The photographers who provided the pictures for the encyclopedia
     * Birch-bark cap - Fanny Schertzer, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=10890204
-	*
 		
 ## Changelist

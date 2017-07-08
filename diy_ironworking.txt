@@ -354,5 +354,8 @@
 {Forge} [ground]
 {Anvil} [ground]
 {Fire}
+[TYPE:tool]
+[MATERIAL:iron]
+[WEIGHT:0.1]
 
 [SUBMENU_END:Smith finished goods]
