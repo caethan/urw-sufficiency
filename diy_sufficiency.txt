@@ -13,7 +13,6 @@
 {Knife} <Small knife>
 {Soaked branch} [remove] [patchwise]
 [NAME:Primitive cord]
-[TYPE:timber]
 [MATERIAL:wood]
 [WEIGHT:0.5]
 

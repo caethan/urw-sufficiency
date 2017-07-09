@@ -20,7 +20,7 @@
 [SUBMENU_END:baking]
 
 
-[SUBMENU_START:drying]
+[SUBMENU_START:Drying]
 
 .Dry Berries.       *COOKERY*  /5/ \10d\   |-2|  [patch:20]
 {Berries}        [remove] [roast] [name:Dried %s] [naming:original] [patchwise]
@@ -34,4 +34,4 @@
 [WATER:0]
 [COOK_WEIGHT_DIV:5]
 
-[SUBMENU_END:drying]
+[SUBMENU_END:Drying]
