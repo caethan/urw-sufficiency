@@ -200,7 +200,7 @@
 {Anvil} [ground]
 {Forge} [ground]
 {Fire}
-[NAME:Rough shovelhead]
+[NAME:Rough shovelblade]
 [TYPE:tool]
 [MATERIAL:iron]
 [PRICE:48]
