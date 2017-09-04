@@ -30,12 +30,12 @@
 // Mine stone from big rock
 .Mine for stone. "Stone"	*CARPENTRY* -V- [effort:4] [phys:stance,arms,hands]	/1h/ [noquality]
 {[NEARBY_TILE:Big rock]} 'Big rock'
-[Name:Stone]
+[NAME:Stone]
 
 // Crush stone to rocks
 .Crush stone. "Rock" (5) *CARPENTRY* -C- [effort:4] [phys:stance,arms,hands] /30/ [noquality]
 {Stone} [ground]
-[Name:Rock]
+[NAME:Rock]
 
 // Mining pick?
 
