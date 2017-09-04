@@ -1,5 +1,3 @@
-[SUBMENU_START:building]
-
 .Water. "Well" *BUILDING* -L- [effort:3] [phys:arms,stance,one-armed] /5h/
 {Shovel} <Shovel> 
 {Stone} (50) [remove] [ground] '+for walls'
@@ -13,7 +11,5 @@
 {Stone} (5) [remove] [ground] '+for road surface'
 {Rock} (5) [remove] [ground] '+for gravel foundation'
 [TILEGFX:ter-road]
-
-[SUBMENU_END:building]
 
 -end
