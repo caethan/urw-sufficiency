@@ -115,7 +115,7 @@
 [MATERIAL:iron]
 [PRICE:24]
 [WEIGHT:1]
-[TILEGFX:it-swordblade]
+[TILEGFX:it-swdblade]
 
 .Small axe head. "Hunting Horn" [effort:4] [phys:arms,hands,stance] *CARPENTRY* /1h/ |+1|
 {Wrought iron} #1# [remove]
@@ -160,7 +160,7 @@
 [MATERIAL:iron]
 [PRICE:12]
 [WEIGHT:0.5]
-[TILEGFX:it-swordblade]
+[TILEGFX:it-swdblade]
 
 .Large knife blade. "Hunting Horn" [effort:4] [phys:arms,hands,stance] *CARPENTRY* /1h/ |+1|
 {Wrought iron} #1# [remove]
@@ -175,7 +175,7 @@
 [MATERIAL:iron]
 [PRICE:24]
 [WEIGHT:1]
-[TILEGFX:it-swordblade]
+[TILEGFX:it-swdblade]
 
 .Sickle blade. "Hunting Horn" [effort:4] [phys:arms,hands,stance] *CARPENTRY* /1h/ |+1|
 {Wrought iron} #3# [remove]
@@ -190,7 +190,7 @@
 [MATERIAL:iron]
 [PRICE:75]
 [WEIGHT:3]
-[TILEGFX:it-swordblade]
+[TILEGFX:it-swdblade]
 
 .Shovel head. "Hunting Horn" [effort:4] [phys:arms,hands,stance] *CARPENTRY* /1h/ |+1|
 {Wrought iron} #2# [remove]
@@ -267,7 +267,7 @@
 [AD_CLASS:0/0]
 [MATERIAL:iron]
 [WEIGHT:3]
-[TILEGFX:wp-hammersmith]
+[TILEGFX:wp-hamrsmth]
 
 .Tongs. "Hunting Horn" *CARPENTRY* -T- [effort:4] [phys:arms,hands,stance] /4h/
 {Wrought iron} #2# [remove]
