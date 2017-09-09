@@ -95,7 +95,7 @@
 {Birch-bark} #20# [remove] [ground]
 {Tying equipment} (16) [remove] [ground]
 {Board} [remove] [ground]
-{NEARBY_TILE:water} 'Must be near water'
+{NEARBY_TILE:Water} 'Must be near water'
 {Fire} [ground]
 {Axe} <Carving axe>
 {Knife} <Small knife}
@@ -116,7 +116,6 @@
 [MATERIAL:birch-bark]
 
 // Build pre-existing birch-bark clothing (necklace, shoes, and cap).
-// Because they're pre-existing, we can't directly update the properties.
 // If necessary to prevent overpowered trade goods, we can change the item name and adjust properties later.
 .Birch-bark necklace. *TIMBERCRAFT* [effort:1] [phys:hands,one-armed] /15/ |-2|
 {Knife} <Small knife>
