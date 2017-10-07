@@ -215,7 +215,7 @@
 
 // Warning: don't use Stone as a base item because they're liable to get eaten by various recipes.
 
-.Bloomery. "Hunting Horn" *BUILDING* -B- [effort:3] [phys:arms,stance] /5h/
+.Bloomery. "Hunting Horn" *BUILDING* -B- [effort:3] [phys:arms,stance] /3h/
 {Shovel} <Shovel>
 {Stone} (20) [remove] [ground] [noquality]
 {Rock} (10) [remove] [noquality]
@@ -226,7 +226,7 @@
 [WEIGHT:1000]
 [MATERIAL:stone]
 
-.Forge. "Hunting horn" *BUILDING* -F- [effort:3] [phys:arms,stance] /5h/
+.Forge. "Hunting horn" *BUILDING* -F- [effort:3] [phys:arms,stance] /4h/
 {Stone} (10) [remove] [ground] [noquality]
 {Rock} (10) [remove] [noquality]
 {Staff} (3) [remove]
