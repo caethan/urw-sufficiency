@@ -139,4 +139,11 @@
 {Knife} <Small knife>
 {Birch-bark} #6# [remove]
 
+.Birch-bark bandage. "Bandage"  *TIMBERCRAFT* [effort:1] [phys:hands,one-armed] /30/ [-2] %-80%
+{Knife} <Small knife>
+{Birch-bark} #0.5# [remove]
+[WEIGHT:0.5]
+[NAME:Birch-bark bandage]
+[Material:birch-bark]
+
 [SUBMENU_END:Birch-bark crafting]
