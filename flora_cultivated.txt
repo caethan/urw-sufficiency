@@ -17,7 +17,7 @@
 [REGION:eastern western]
 [POPULATION:3]
 [FREQUENCY:15]
-[COMMONNESS:20]
+[COMMONNESS:10]
 
 
 .Pea.     	(5)  :133: 	[pod] 	%100%
@@ -38,7 +38,7 @@
 [REGION:eastern western]
 [POPULATION:3]
 [FREQUENCY:15]
-[COMMONNESS:20]
+[COMMONNESS:10]
 
 .Broad bean.     	(5)  :132: 	[pod] %100%
 [NAME:Broad bean]
@@ -58,7 +58,7 @@
 [REGION:eastern western]
 [POPULATION:3]
 [FREQUENCY:15]
-[COMMONNESS:20]
+[COMMONNESS:10]
 
 .Barley.     	(25)  :140: 		[grain] %100%
 [NAME:Barley]
@@ -79,7 +79,7 @@
 [REGION:eastern western]
 [POPULATION:3]
 [FREQUENCY:15]
-[COMMONNESS:20]
+[COMMONNESS:10]
 
 
 
@@ -102,7 +102,7 @@
 [REGION:eastern western]
 [POPULATION:3]
 [FREQUENCY:15]
-[COMMONNESS:20]
+[COMMONNESS:10]
 
 .Hemp.                   (15)  :142:             [grass] %100% [thresh]
 [NAME:Hemp]
@@ -126,7 +126,7 @@
 [REGION:eastern western]
 [POPULATION:3]
 [FREQUENCY:15]
-[COMMONNESS:20]
+[COMMONNESS:10]
 
 
 -end
