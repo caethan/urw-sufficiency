@@ -23,7 +23,7 @@
 
 .Roast vegetable. *COOKERY* /5/ \30\ |-2| [patch:10]
 {Vegetables} #1.0# [remove] [roast] [name:Roasted %s] [naming:original] [patchwise]
-{Seasoning} #0.1# [remove] [roast] [optional]
+{Seasoning} #0.1# [remove] [roast] [optional] [patchwise]
 [COOK_WEIGHT_DIV:1.5]
 
 [SUBMENU_END:vegetable]
