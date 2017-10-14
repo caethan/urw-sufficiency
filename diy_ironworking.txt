@@ -28,13 +28,13 @@
 // Gather ore from lake?
 
 // Mine stone from big rock
-.Mine for stone. "Stone"	*CARPENTRY* -V- [effort:4] [phys:stance,arms,hands]	/1h/ [noquality]
+.Mine for stone. "Stone"	*COMMON* -V- [effort:4] [phys:stance,arms,hands]	/1h/ [noquality]
 {[NEARBY_TILE:Big rock]} 'Big rock'
 {*Hammer}
 [NAME:Stone]
 
 // Crush stone to rocks
-.Crush stone. "Rock" (5) *CARPENTRY* -C- [effort:4] [phys:stance,arms,hands] /30/ [noquality]
+.Crush stone. "Rock" (5) *COMMON* -C- [effort:4] [phys:stance,arms,hands] /30/ [noquality]
 {Stone} [ground] [remove]
 {*Hammer}
 [NAME:Rock]
@@ -72,7 +72,7 @@
 [WEIGHT:1]
 [TILEGFX:it-ironlump]
 
-.Hammer rough blade. "Hunting Horn" [effort:4] [phys:arms,hands,stance] *CARPENTRY* /90/
+.Hammer rough blade. "Hunting Horn" [effort:4] [phys:arms,hands,stance] *CARPENTRY* /90/ |+1|
 {Rough *} [remove] 'A rough blade' [name:Soft %s] [naming:last word]
 {Charcoal} #3# [remove]
 {*Hammer}
@@ -85,7 +85,7 @@
 [PRICE:0]
 [WEIGHT:4]
 
-.Temper soft blade. "Hunting Horn" [effort:3] [phys:arms,hands,stance] *CARPENTRY* /30/ \1h\
+.Temper soft blade. "Hunting Horn" [effort:3] [phys:arms,hands,stance] *CARPENTRY* /30/ \1h\ |+1|
 {Soft *} [remove] 'A soft blade' [name:Dull %s] [naming:last word]
 {Charcoal} #3#  [remove]
 {*Tongs}
@@ -96,7 +96,7 @@
 [PRICE:0]
 [WEIGHT:4]
 
-.Sharpen dull blade. "Hunting Horn" [effort:2] [phys:hands,one-armed] *CARPENTRY* /45/
+.Sharpen dull blade. "Hunting Horn" [effort:2] [phys:hands,one-armed] *CARPENTRY* /45/ |+1|
 {Dull *} [remove] 'A dull blade' [name:Sharp %s] [naming:last word]
 {Whetstone}
 [TYPE:tool]
@@ -104,7 +104,7 @@
 [PRICE:0]
 [WEIGHT:4]
 
-.Spear head. "Hunting Horn" [effort:4] [phys:arms,hands,stance] *CARPENTRY* /1h/ |+1|
+.Spear head. "Hunting Horn" [effort:4] [phys:arms,hands,stance] *CARPENTRY* /1h/ |+2|
 {Wrought iron} #1# [remove]
 {Charcoal} #4# [remove]
 {*Hammer}
@@ -119,7 +119,7 @@
 [WEIGHT:1]
 [TILEGFX:it-swdblade]
 
-.Small axe head. "Hunting Horn" [effort:4] [phys:arms,hands,stance] *CARPENTRY* /1h/ |+1|
+.Small axe head. "Hunting Horn" [effort:4] [phys:arms,hands,stance] *CARPENTRY* /1h/ |+2|
 {Wrought iron} #1# [remove]
 {Charcoal} #4# [remove]
 {*Hammer}
@@ -134,7 +134,7 @@
 [WEIGHT:1]
 [TILEGFX:it-axehead]
 
-.Large axe head. "Hunting Horn" [effort:4] [phys:arms,hands,stance] *CARPENTRY* /1h/ |+1|
+.Large axe head. "Hunting Horn" [effort:4] [phys:arms,hands,stance] *CARPENTRY* /1h/ |+2|
 {Wrought iron} #3# [remove]
 {Charcoal} #12# [remove]
 {*Hammer}
@@ -149,7 +149,7 @@
 [WEIGHT:3]
 [TILEGFX:it-axehead]
 
-.Small knife blade. "Hunting Horn" [effort:4] [phys:arms,hands,stance] *CARPENTRY* /1h/ |+1|
+.Small knife blade. "Hunting Horn" [effort:4] [phys:arms,hands,stance] *CARPENTRY* /1h/ |+2|
 {Wrought iron} #0.5# [remove]
 {Charcoal} #2# [remove]
 {*Hammer}
@@ -164,7 +164,7 @@
 [WEIGHT:0.5]
 [TILEGFX:it-swdblade]
 
-.Large knife blade. "Hunting Horn" [effort:4] [phys:arms,hands,stance] *CARPENTRY* /1h/ |+1|
+.Large knife blade. "Hunting Horn" [effort:4] [phys:arms,hands,stance] *CARPENTRY* /1h/ |+2|
 {Wrought iron} #1# [remove]
 {Charcoal} #4# [remove]
 {*Hammer}
@@ -179,7 +179,7 @@
 [WEIGHT:1]
 [TILEGFX:it-swdblade]
 
-.Sickle blade. "Hunting Horn" [effort:4] [phys:arms,hands,stance] *CARPENTRY* /1h/ |+1|
+.Sickle blade. "Hunting Horn" [effort:4] [phys:arms,hands,stance] *CARPENTRY* /1h/ |+2|
 {Wrought iron} #3# [remove]
 {Charcoal} #12# [remove]
 {*Hammer}
@@ -194,7 +194,7 @@
 [WEIGHT:3]
 [TILEGFX:it-swdblade]
 
-.Shovel head. "Hunting Horn" [effort:4] [phys:arms,hands,stance] *CARPENTRY* /1h/ |+1|
+.Shovel head. "Hunting Horn" [effort:4] [phys:arms,hands,stance] *CARPENTRY* /1h/ |+2|
 {Wrought iron} #2# [remove]
 {Charcoal} #8# [remove]
 {*Hammer}
@@ -215,7 +215,7 @@
 
 // Warning: don't use Stone as a base item because they're liable to get eaten by various recipes.
 
-.Bloomery. "Hunting Horn" *BUILDING* -B- [effort:3] [phys:arms,stance] /2h/
+.Bloomery. "Hunting Horn" *BUILDING* -B- [effort:3] [phys:arms,stance] /2h/ |+1|
 {Shovel} <Shovel>
 {Stone} (20) [remove] [ground] [noquality]
 {Rock} (10) [remove] [noquality]
@@ -226,7 +226,7 @@
 [WEIGHT:1000]
 [MATERIAL:stone]
 
-.Forge. "Hunting horn" *BUILDING* -F- [effort:3] [phys:arms,stance] /4h/
+.Forge. "Hunting horn" *BUILDING* -F- [effort:3] [phys:arms,stance] /4h/ |+1|
 {Stone} (10) [remove] [ground] [noquality]
 {Rock} (10) [remove] [noquality]
 {Staff} (3) [remove]
@@ -268,7 +268,7 @@
 [WEIGHT:2]
 [TILEGFX:wp-hamrsmth]
 
-.Iron Hammer. "Club" *CARPENTRY* -H- [effort:4] [phys:arms,hands,stance] /2h/
+.Iron Hammer. "Club" *CARPENTRY* -H- [effort:4] [phys:arms,hands,stance] /2h/ %50%
 {Wrought Iron} #2# [remove]
 {Wooden Stake} [remove] '+for a handle'
 {Charcoal} #6# [remove]
@@ -294,7 +294,7 @@
 [WEIGHT:2]
 [PRICE:0]
 
-.Iron Tongs. "Hunting Horn" *CARPENTRY* -T- [effort:4] [phys:arms,hands,stance] /4h/
+.Iron Tongs. "Hunting Horn" *CARPENTRY* -T- [effort:4] [phys:arms,hands,stance] /4h/ %50%
 {Wrought iron} #2# [remove]
 {Charcoal} #6# [remove]
 {Wooden Stake} (2) [remove] 'Wooden stakes for handles'
@@ -311,74 +311,74 @@
 
 [SUBMENU_START:Smith finished goods]
 
-.Small knife. [effort:1] [phys:arms,hands] *CARPENTRY*  /15/
+.Small knife. [effort:1] [phys:arms,hands] *CARPENTRY*  /15/ |+1|
 {Sharp small-knifeblade}  [remove]
 {Tying equipment}  [remove]
 {Leather} #0.25# [remove] [optional] '+for the hilt'
 {Knife} <Small knife>
 
-.Knife. [effort:1] [phys:arms,hands] *CARPENTRY*  /15/
+.Knife. [effort:1] [phys:arms,hands] *CARPENTRY*  /15/ |+1|
 {Sharp large-knifeblade}  [remove]
 {Tying equipment}  [remove]
 {Leather} #0.5# [remove] [optional] '+for the hilt'
 {Knife} <Small knife>
 
-.Broad knife. [effort:1] [phys:arms,hands] *CARPENTRY*  /15/
+.Broad knife. [effort:1] [phys:arms,hands] *CARPENTRY*  /15/ |+1|
 {Sharp large-knifeblade}  [remove]
 {Tying equipment}  [remove]
 {Leather} #0.5# [remove] [optional] '+for the hilt'
 {Knife} <Small knife>
 
-.Spear. [effort:2] [phys:arms,hands] *CARPENTRY* /25/
+.Spear. [effort:2] [phys:arms,hands] *CARPENTRY* /25/ |+1|
 {Sharp spearhead}  [remove]
 {Staff}    [remove]
 {Tying equipment}  [remove]
 {Knife} <Small knife>
 
-.Handaxe. [effort:1] [phys:arms,hands] *CARPENTRY* /35/
+.Handaxe. [effort:1] [phys:arms,hands] *CARPENTRY* /35/ |+1|
 {Sharp small-axehead}  [remove]
 {Wooden stake}   [remove] '+for a handle'
 {Tying equipment}  [remove]
 {Knife} <Small knife>
 
-.Woodsmans axe. "Woodsman's axe" [effort:2] [phys:arms,hands] *CARPENTRY* /50/
+.Woodsmans axe. "Woodsman's axe" [effort:2] [phys:arms,hands] *CARPENTRY* /50/ |+1|
 {Sharp large-axehead}  [remove]
 {Staff}   [remove]
 {Tying equipment} (2) [remove]
 {Knife} <Small knife>
 [NAME:Woodsman's axe]
 
-.Carving axe. [effort:1] [phys:arms,hands] *CARPENTRY* /55/
+.Carving axe. [effort:1] [phys:arms,hands] *CARPENTRY* /55/ |+1|
 {Sharp small-axehead}  [remove]
 {Wooden stake}   [remove] '+for a handle'
 {Tying equipment}  [remove]
 {Knife} <Small knife>
 
-.Splitting axe.  [effort:2] [phys:arms,hands] *CARPENTRY*  /50/
+.Splitting axe.  [effort:2] [phys:arms,hands] *CARPENTRY*  /50/ |+1|
 {Sharp large-axehead}  [remove]
 {Staff}   [remove]
 {Tying equipment} (2) [remove]
 {Knife} <Small knife>
 
-.Broad axe. [effort:2] [phys:arms,hands] *CARPENTRY* /50/
+.Broad axe. [effort:2] [phys:arms,hands] *CARPENTRY* /50/ |+1|
 {Sharp large-axehead}  [remove]
 {Staff}   [remove]
 {Tying equipment} (2) [remove]
 {Knife} <Small knife>
 
-.Sickle. [effort:1] [phys:arms,hands] *CARPENTRY* /30/
+.Sickle. [effort:1] [phys:arms,hands] *CARPENTRY* /30/ |+1|
 {Sharp sickleblade}  [remove]
 {Wooden stake}   [remove] '+for a handle'
 {Tying equipment}  [remove]
 {Knife} <Small knife>
 
-.Shovel. [effort:1] [phys:arms,hands] *CARPENTRY* /45/
+.Shovel. [effort:1] [phys:arms,hands] *CARPENTRY* /45/ |+1|
 {Sharp shovelblade}  [remove]
 {Staff}   [remove]
 {Tying equipment}  [remove]
 {Knife} <Small knife>
 
-.Pot. [effort:1] [phys:arms,hands] *CARPENTRY* /90/
+.Pot. [effort:1] [phys:arms,hands] *CARPENTRY* /90/ |+1|
 {Wrought Iron} #3#  [remove]
 {Charcoal}  #12# [remove] [ground]
 {*Hammer}
@@ -387,7 +387,7 @@
 {Anvil} [ground]
 {Fire}
 
-.Fish hook. "Hunting Horn" [phys:arms, hands] *CARPENTRY* /30/
+.Fish hook. "Hunting Horn" [phys:arms, hands] *CARPENTRY* /30/ |+1|
 {Wrought Iron} #0.5# [remove]
 {Charcoal} #2# [remove] [ground]
 {*Hammer}
