@@ -29,7 +29,7 @@
 {Staff} (2) [ground] '+to help the weaving'
 {Knife} <Small knife>
 
-.Fishing pole. *FISHING* [effort:1] [phys:arms,hands] /30/
+.Fishing rod. *FISHING* [effort:1] [phys:arms,hands] /30/
 {Tying equipment} (2) [remove]
 {Staff} [ground] [remove]
 {Birch-bark} (2) [remove] '+for a float'

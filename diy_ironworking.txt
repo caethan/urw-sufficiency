@@ -237,7 +237,7 @@
 [WEIGHT:1000]
 [MATERIAL:stone]
 
-.Quarry an anvil. "Hunting Horn"	*CARPENTRY* -V- [effort:4] [phys:stance,arms,hands]	/8h/
+.Quarry an anvil. "Hunting Horn"	*CARPENTRY* -V- [effort:4] [phys:stance,arms,hands]	/4h/
 {[NEARBY_TILE:Big rock]} 'Big rock'
 [NAME:Anvil]
 [TYPE:tool]
@@ -258,7 +258,7 @@
 .Stone Hammer. "Club" *CARPENTRY* -H- [effort:4] [phys:arms,hands,stance] /30/ %-100%
 {Stone} [remove] 'Stone for the head'
 {Wooden Stake} [remove] '+for a handle'
-{Tying Equipment} [remove]
+{Tying equipment} [remove]
 [TYPE:tool]
 [BLUNT_ATTACK:3]
 [EDGE_ATTACK:-1]
