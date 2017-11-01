@@ -55,6 +55,12 @@ Enjoy!
 * Make hard biscuits
 * Dry berries and mushrooms
 
+## Flora
+
+* New cultivated flax plant with nutritious seeds
+* Cultivated plants can be rarely found in the wild
+* Fixed bug making lake reed too abundant
+
 ## Ironworking
 
 * Gather raw ore from bogs
