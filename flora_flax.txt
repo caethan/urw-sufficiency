@@ -1,5 +1,6 @@
 .Flax.  (40) [grass] 
 [NAME:Flax]
+[SIZE:L]
 [TILEGFX:flo-flax]
 [SPROUT:5]
 [MATURE:110]
