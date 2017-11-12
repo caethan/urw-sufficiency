@@ -27,6 +27,5 @@
 .Smith finished goods. -G- *MAKE*
 .Weaving. -E- *MAKE*
 .Tailoring. -A- *MAKE*
-.Smith tools. -H- *MAKE*
-.Tailor tools. -V- *MAKE*
+.Crafting tools. -H- *MAKE*
 .Drying. -Y- *COOKERY*

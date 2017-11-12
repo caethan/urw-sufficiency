@@ -75,7 +75,7 @@
 
 [SUBMENU_END:Weaving]
 
-[SUBMENU_START:Tailor tools]
+[SUBMENU_START:Crafting tools]
 
 // Use weaving to produce low weight cords and rope
 .Twist cord from yarn. "Cord" *HIDEWORKING* [patch:5] %50% /5/ [effort:0] [phys:hands]
@@ -146,7 +146,7 @@
 [PRICE:30]
 [WEIGHT:100]
 
-[SUBMENU_END:Tailor tools]
+[SUBMENU_END:Crafting tools]
 
 [SUBMENU_START:Tailoring]
 

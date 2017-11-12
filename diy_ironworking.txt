@@ -211,7 +211,7 @@
 
 [SUBMENU_END:Smithing]
 
-[SUBMENU_START:Smith tools]
+[SUBMENU_START:Crafting tools]
 
 // Warning: don't use Stone as a base item because they're liable to get eaten by various recipes.
 
@@ -307,7 +307,7 @@
 [WEIGHT:4]
 [PRICE:8]
 
-[SUBMENU_END:Smith tools]
+[SUBMENU_END:Crafting tools]
 
 [SUBMENU_START:Smith finished goods]
 
