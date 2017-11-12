@@ -7,7 +7,7 @@
 [TYPE:timber]
 [MATERIAL:wood]
 [WEIGHT:0.5]
-[SPOILAGE_DAYS:1] // Doesn't seem to work, sadly
+[SPOILAGE_DAYS:1]
 
 .Primitive cord. "Cord" *TIMBERCRAFT* [effort:1] [phys:hands] /30/ %-100%  [patch:5] |-2|
 {Knife} <Small knife>
