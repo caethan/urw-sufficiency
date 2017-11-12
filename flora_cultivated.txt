@@ -81,8 +81,6 @@
 [FREQUENCY:15]
 [COMMONNESS:10]
 
-
-
 .Rye.     		(25)  :141: 		[grain] %100%
 [NAME:Rye]
 [TILEGFX:flo-rye]

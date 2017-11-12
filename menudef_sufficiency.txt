@@ -20,10 +20,14 @@
 // [SUBMENU_START:submenuname]
 //
 // [SUBMENU_END:submenuname]
-//
+// Already used for MAKE: BCLTRUW
 .Birch-bark crafting.  -K-  *MAKE*
 .Mining. -M- *MAKE*
 .Smithing. -S- *MAKE*
-.Smith tools. -H- *MAKE*
 .Smith finished goods. -G- *MAKE*
+.Weaving. -E- *MAKE*
+.Tailoring. -A- *MAKE*
+.Smith tools. -H- *MAKE*
+.Tailor tools. -V- *MAKE*
+.Crafting tools. -H- *MAKE
 .Drying. -Y- *COOKERY*

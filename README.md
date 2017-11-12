@@ -53,17 +53,18 @@ Enjoy!
 
 * Render fat to tallow
 * Make hard biscuits
+* Roast vegetables in the fire
 * Dry berries and mushrooms
 
 ## Flora
 
 * New cultivated flax plant with nutritious seeds
-* Cultivated plants can be rarely found in the wild
+* Cultivated plants can be occasionally found in the wild
 * Fixed bug making lake reed too abundant
 
 ## Ironworking
 
-* Gather raw ore from bogs
+* Gather raw ore from mires
 * Bury firewood and burn it to make charcoal for smithing
 * Quarry a stone anvil and whetstone
 * Build a bloomery furnace and smelt the raw ore into blooms

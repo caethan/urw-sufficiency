@@ -14,7 +14,7 @@
 
 [SUBMENU_START:Mining]
 
-.Gather bog iron. "Stone" (5) [effort:3] [phys:arms,hands,stance] *COMMON* /90/ [noquality]
+.Gather bog iron. "Hunting Horn" (5) [effort:3] [phys:arms,hands,stance] *COMMON* /90/ [noquality]
 {Shovel} <Shovel>
 {Knife} <Broad knife> '+for cutting the peat'
 {[TERRAIN:spruce_mire pine_mire open_mire]} 'Dig in a bog'

@@ -5,14 +5,15 @@
 {Water}      	#0.5#  	[remove]
 {Seasoning}  	#0.25#  [remove] [bake] [optional]
 {Tallow}	#0.5#	[remove] [bake]
+[NAME:Hard Biscuit]
 [SPOILAGE_DAYS:0]
 [TILEGFX:it-flbread]
 [Water:0]
 //TODO: use a new graphic
 
 .Render Fat.  *COOKERY*	/1h/  \1h\  |-1|
-{* fat} #3# [remove] [boil] 'Some fat to render'
-{Water} #1# [remove]
+{* fat} #0.25# [remove] [boil] 'Some fat to render'
+{Water} #0.5# [remove]
 [NAME:Tallow]
 [SPOILAGE_DAYS:0]
 [Water:0]
