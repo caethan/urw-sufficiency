@@ -2,7 +2,7 @@
 
 .Soak Nettles. "Hunting Horn" [noquality] *AGRICULTURE* /1/ \14d\ [patch:20] |-2| [effort:0] [phys:arms,stance,one-armed]	
 {Nettle} #0.5# [remove] [patchwise]
-{[NEARBY_TILE:Water]} 'Must be near water'
+{[TILE:Water]} 'Soak thoroughly in water'
 [NAME:Retted Nettles]
 [TILEGFX:it-retted]
 [TYPE:plant]
@@ -13,7 +13,7 @@
 // Note that flax produces twice as much raw weight in stalks, making it a better source for raw materials
 .Soak Flax. "Hunting Horn" [noquality] *AGRICULTURE* /1/ \14d\ [patch:20] |-2| [effort:0] [phys:arms,stance,one-armed]	
 {Flax} #0.5# [remove] [patchwise]
-{[NEARBY_TILE:Water]} 'Must be near water'
+{[TILE:Water]} 'Soak thoroughly in water'
 [NAME:Retted Flax]
 [TILEGFX:it-retted]
 [TYPE:plant]
@@ -23,7 +23,7 @@
 
 .Soak Hemp. "Hunting Horn" [noquality] *AGRICULTURE* /1/ \14d\ [patch:20] |-2| [effort:0] [phys:arms,stance,one-armed]	
 {Hemp} #0.5# [remove] [patchwise]
-{[NEARBY_TILE:Water]} 'Must be near water'
+{[TILE:Water]} 'Soak thoroughly in water'
 [NAME:Retted Hemp]
 [TILEGFX:it-retted]
 [TYPE:plant]
