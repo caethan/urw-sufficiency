@@ -294,4 +294,53 @@
 [ARMOUR_MATERIAL:cloth]
 [ARMOUR_COVERAGE:shoulder upper_arm elbow forearm thorax abdomen hip groin thigh]
 
+// Use feathers to make very warm quilted items
+.Homespun quilted cloak. "Nettle cloak" /3h/ *HIDEWORKING* |+2| [effort:0] [phys:arms,hands,one-armed]
+{Homespun Cloth} #9# [remove]
+{Feather} #1# [remove] 'Feathers for warmth'
+{Homespun Yarn} #0.5# [remove] '+for quilting'
+{Knife} <Small knife>
+[WEIGHT:10]
+[PRICE:64]
+[TYPE:armour]
+[MATERIAL:cloth]
+[ARMOUR_MATERIAL:fur]
+[ARMOUR_COVERAGE:shoulder thorax abdomen hip groin thigh knee]
+
+.Homespun quilted hood. "Linen veil" /3h/ *HIDEWORKING* |+1| [effort:0] [phys:arms,hands,one-armed]
+{Homespun Cloth} #0.5# [remove]
+{Feather} #0.25# [remove] 'Feathers for warmth'
+{Homespun Yarn} #0.25# [remove] '+for quilting'
+{Knife} <Small knife>
+[WEIGHT:1]
+[PRICE:20]
+[TYPE:armour]
+[MATERIAL:cloth]
+[ARMOUR_MATERIAL:fur]
+[ARMOUR_COVERAGE:skull face neck]
+
+.Homespun quilted trousers. "Linen trousers" /6h/ *HIDEWORKING* |+2| [effort:0] [phys:arms,hands,one-armed]
+{Homespun Cloth} #4.5# [remove]
+{Feather} #0.5# [remove] 'Feathers for warmth'
+{Homespun Yarn} #0.75# [remove] '+for quilting'
+{Knife} <Small knife>
+[WEIGHT:5.75]
+[PRICE:130]
+[TYPE:armour]
+[MATERIAL:cloth]
+[ARMOUR_MATERIAL:fur]
+[ARMOUR_COVERAGE:hip groin thigh knee calf foot]
+
+.Homespun quilted tunic. "Linen tunic" /6h/ *HIDEWORKING* |+2| [effort:0] [phys:arms,hands,one-armed]
+{Homespun Cloth} #4.5# [remove]
+{Feather} #0.5# [remove] 'Feathers for warmth'
+{Homespun Yarn} #0.75# [remove] '+for quilting'
+{Knife} <Small knife>
+[WEIGHT:5.75]
+[PRICE:98]
+[TYPE:armour]
+[MATERIAL:cloth]
+[ARMOUR_MATERIAL:fur]
+[ARMOUR_COVERAGE:shoulder upper_arm thorax abdomen hip groin thigh]
+
 [SUBMENU_END:Tailoring]
