@@ -5,7 +5,7 @@
 {[TILE:Water]} 'Soak thoroughly in water'
 [NAME:Retted Nettles]
 [TILEGFX:it-retted]
-[TYPE:plant]
+[TYPE:tool]
 [MATERIAL:cloth]
 [PRICE:0]
 [WEIGHT:2]
@@ -16,7 +16,7 @@
 {[TILE:Water]} 'Soak thoroughly in water'
 [NAME:Retted Flax]
 [TILEGFX:it-retted]
-[TYPE:plant]
+[TYPE:tool]
 [MATERIAL:cloth]
 [PRICE:0]
 [WEIGHT:2]
@@ -26,7 +26,7 @@
 {[TILE:Water]} 'Soak thoroughly in water'
 [NAME:Retted Hemp]
 [TILEGFX:it-retted]
-[TYPE:plant]
+[TYPE:tool]
 [MATERIAL:cloth]
 [PRICE:0]
 [WEIGHT:2]
@@ -35,7 +35,7 @@
 {Retted *} [remove] [patchwise] 'Retted Plants'
 [NAME:Dried Retted Plants]
 [TILEGFX:it-retted] 
-[TYPE:plant]
+[TYPE:tool]
 [MATERIAL:cloth]
 [PRICE:0]
 [WEIGHT:0.25]
@@ -47,7 +47,7 @@
 {Knife} <Small knife>
 [NAME:Raw Plant Fibre]
 [TILEGFX:it-fibre]
-[TYPE:plant]
+[TYPE:tool]
 [MATERIAL:cloth]
 [PRICE:0]
 [WEIGHT:0.1]
@@ -58,7 +58,7 @@
 {Spindle and Distaff}
 [NAME:Homespun Yarn]
 [TILEGFX:it-yarn]
-[TYPE:plant]
+[TYPE:tool]
 [MATERIAL:cloth]
 [PRICE:5]
 [WEIGHT:0.5]
