@@ -80,7 +80,17 @@ Enjoy!
 
 ## Spinning & Weaving
 
-**TBD**
+* Gather (unthreshed) nettles, hemp, or flax (more productive)
+* Soak the unthreshed stalks in water for a few weeks to rot away everything but the fibres.
+* Dry the retted plants.
+* Comb out the fibre from the dried and retted stalks.
+* Spin the extracted fibre into yarn.
+* Weave the yarn into cloth.
+* Use the yarn and cloth to make homepsun items!
+    - Clothes
+    - Cords and rope
+    - Bags
+    - Quilt clothing with gathered feathers for extra warmth!
 
 
 # Sources, Credit, and Inspiration
@@ -109,3 +119,7 @@ Many thanks to:
     * Birch-bark cap - Fanny Schertzer, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=10890204
 		
 ## Changelist
+
+#### 1.0
+
+Initial completed release, including spinning and weaving.
