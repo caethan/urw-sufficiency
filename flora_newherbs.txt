@@ -165,7 +165,7 @@
 [REGION:northern western eastern southern]
 [TERRAIN:spruce_mire open_mire]
 [SYMBIOSIS:watery_soil]
-[EFFECT_RAW:anfi-inflammatory appetizing tonic stomachic]
+[EFFECT_RAW:anti-inflammatory appetizing tonic stomachic]
 [SPROUT:5]
 [MATURE:45]
 [WITHER:9]
