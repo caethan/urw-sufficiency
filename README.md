@@ -2,7 +2,7 @@
 
 This is a set of modifications for the freeware roguelike game [UnReal World](http://www.unrealworld.fi/) developed by Sami Maaranen and Erkka Lehmus.
 
-Last updated with UnReal World 3.40.
+Last updated with UnReal World 3.50.
 
 This mod allows you to live more self-sufficiently, crafting most needed tools and items with some effort on your own without trading.
 Not everything is available --- complex armor and weapons will still have to be found elsewhere, but simple birchbark crafting, smithing, and weaving, along with some other small crafts and cooking, can now be done on your own.
@@ -119,6 +119,10 @@ Many thanks to:
     * Birch-bark cap - Fanny Schertzer, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=10890204
 		
 ## Changelist
+
+#### 1.1
+
+Minor changes to maintain compatibility with URW 3.5.
 
 #### 1.0
 
