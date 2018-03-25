@@ -165,9 +165,9 @@
 [ARMOUR_COVERAGE:hip groin thigh knee]
 
 .Homespun cloak. "Nettle cloak" /1h/ *HIDEWORKING* |+1| [effort:0] [phys:arms,hands,one-armed]
-{Homespun Cloth} #6# [remove]
+{Homespun Cloth} #2.6# [remove]
 {Knife} <Small knife>
-[WEIGHT:6]
+[WEIGHT:2.6]
 [PRICE:24]
 [TYPE:armour]
 [MATERIAL:cloth]
@@ -296,11 +296,11 @@
 
 // Use feathers to make very warm quilted items
 .Homespun quilted cloak. "Nettle cloak" /3h/ *HIDEWORKING* |+2| [effort:0] [phys:arms,hands,one-armed]
-{Homespun Cloth} #9# [remove]
+{Homespun Cloth} #4# [remove]
 {Feather} #1# [remove] 'Feathers for warmth'
 {Homespun Yarn} #0.5# [remove] '+for quilting'
 {Knife} <Small knife>
-[WEIGHT:10]
+[WEIGHT:5.5]
 [PRICE:64]
 [TYPE:armour]
 [MATERIAL:cloth]
