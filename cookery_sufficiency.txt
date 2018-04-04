@@ -8,15 +8,18 @@
 [NAME:Hard Biscuit]
 [SPOILAGE_DAYS:0]
 [TILEGFX:it-flbread]
-[Water:0]
+[WATER:0]
 //TODO: use a new graphic
 
-.Render Fat.  *COOKERY*	/1h/  \1h\  |-1|
-{* fat} #0.25# [remove] [boil] 'Some fat to render'
-{Water} #0.5# [remove]
+.Render Fat.  *COOKERY*	/5/  \1h\  |-1|
+{* fat} #0.25# [remove] [boil] 'Fat to render'
+{* fat} #0.25# [remove] [boil] [optional] 'More fat'
+{* fat} #0.25# [remove] [boil] [optional] 'More fat'
+{* fat} #0.25# [remove] [boil] [optional] 'More fat'
+{Water} #1# [remove]
 [NAME:Tallow]
 [SPOILAGE_DAYS:0]
-[Water:0]
+[WATER:0]
 
 [SUBMENU_END:baking]
 
