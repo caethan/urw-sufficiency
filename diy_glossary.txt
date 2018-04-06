@@ -10,16 +10,40 @@
 {Rock} '+for blade' [remove]
 {Rock} '+for knapping'
 
-.Club. [effort:2] [phys:arms,one-armed]		*COMMON*		/30/
+.Club. [effort:2] [phys:arms,one-armed]		*CARPENTRY*		/30/
 {Slender trunk} [remove] [noquality]
-{Cutting weapon} <Axe> 			
+{Cutting weapon} <Axe>
 
-.Javelin. [effort:1] [phys:hands,one-armed]	*COMMON*		/30/				[patch]
+.Javelin. [effort:1] [phys:hands,one-armed]	*CARPENTRY*		/30/				[patch]
 {Staff} [remove] [patchwise]
 {Cutting weapon} <Axe> 
 {Fire} '+(for hardening the head)'
 
-.Primitive bow. "Juniper bow" [effort:2] [phys:stance,arms]	%25%	*COMMON*		/80/ |0|
+.Bone Club. "Club" [effort:2] [phys:arms, one-armed] *CARPENTRY* /10/
+{Bone} [remove] [noquality]
+{Cutting weapon} <Axe>
+[WEIGHT:2]
+[PRICE:0]
+[POINT_ATTACK:0]
+[EDGE_ATTACK:0]
+[BLUNT_ATTACK:4]
+[1H_PENALTY:0]
+[AD_CLASS:2/1]
+
+.Bone Spear "Javelin" [effort:1] [phys:hands,one-armed] *CARPENTRY* /30/
+{Staff} [remove]
+{Bone} [remove]
+{Tying equipment} [remove]
+{Cutting weapon} <Axe>
+[WEIGHT:2]
+[PRICE:0]
+[POINT_ATTACK:7]
+[EDGE_ATTACK:0]
+[BLUNT_ATTACK:2]
+[1H_PENALTY:0]
+[AD_CLASS:3/1]
+
+.Primitive bow. "Juniper bow" [effort:2] [phys:stance,arms]	%25%	*CARPENTRY*		/80/ |0|
 {Slender tree trunk} [remove] 
 {Knife}
 {Tying equipment} [remove]
