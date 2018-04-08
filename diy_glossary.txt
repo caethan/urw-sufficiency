@@ -30,9 +30,9 @@
 [1H_PENALTY:0]
 [AD_CLASS:2/1]
 
-.Bone Spear "Javelin" [effort:1] [phys:hands,one-armed] *CARPENTRY* /30/
+.Bone Spear. "Javelin" [effort:1] [phys:hands,one-armed] *CARPENTRY* /30/
 {Staff} [remove]
-{Bone} [remove]
+{Bone} [remove] [noquality]
 {Tying equipment} [remove]
 {Cutting weapon} <Axe>
 [WEIGHT:2]
