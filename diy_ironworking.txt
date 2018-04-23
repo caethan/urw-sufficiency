@@ -210,6 +210,66 @@
 [WEIGHT:2]
 [TILEGFX:it-axehead]
 
+.Remelt bad rough attempt. "Hunting Horn" [effort:4] [phys:arms,hands,stance] *CARPENTRY* /15/ \1h\ |-2| [patch:10]
+{Rough *} #0.5# [remove] [patchwise] 'Bad rough attempt'
+{Charcoal} #1.5# [remove] [patchwise]
+{*Hammer} 'Hammer'
+{*Tongs} 'Tongs'
+{Anvil} [ground]
+{Forge} [ground]
+{Fire}
+[NAME:Wrought iron]
+[TYPE:tool]
+[MATERIAL:iron]
+[PRICE:8]
+[WEIGHT:0.5]
+[TILEGFX:it-ironlump]
+
+.Remelt bad soft attempt. "Hunting Horn" [effort:4] [phys:arms,hands,stance] *CARPENTRY* /60/ \1h\ |-2|
+{Soft *} [remove] 'Bad rough attempt'
+{Charcoal} #3# [remove]
+{*Hammer} 'Hammer'
+{*Tongs} 'Tongs'
+{Anvil} [ground]
+{Forge} [ground]
+{Fire}
+[NAME:Wrought iron]
+[TYPE:tool]
+[MATERIAL:iron]
+[PRICE:16]
+[WEIGHT:1]
+[TILEGFX:it-ironlump]
+
+.Remelt bad dull attempt. "Hunting Horn" [effort:4] [phys:arms,hands,stance] *CARPENTRY* /60/ \1h\ |-2|
+{Dull *} [remove] 'Bad dull attempt'
+{Charcoal} #3# [remove]
+{*Hammer} 'Hammer'
+{*Tongs} 'Tongs'
+{Anvil} [ground]
+{Forge} [ground]
+{Fire}
+[NAME:Wrought iron]
+[TYPE:tool]
+[MATERIAL:iron]
+[PRICE:16]
+[WEIGHT:1]
+[TILEGFX:it-ironlump]
+
+.Remelt bad sharp attempt. "Hunting Horn" [effort:4] [phys:arms,hands,stance] *CARPENTRY* /60/ \1h\ |-2|
+{Sharp *} [remove] 'Bad sharp attempt'
+{Charcoal} #3# [remove]
+{*Hammer} 'Hammer'
+{*Tongs} 'Tongs'
+{Anvil} [ground]
+{Forge} [ground]
+{Fire}
+[NAME:Wrought iron]
+[TYPE:tool]
+[MATERIAL:iron]
+[PRICE:16]
+[WEIGHT:1]
+[TILEGFX:it-ironlump]
+
 [SUBMENU_END:Smithing]
 
 [SUBMENU_START:Crafting tools]
