@@ -25,6 +25,7 @@
 .Mining. -M- *MAKE*
 .Smithing. -S- *MAKE*
 .Smith finished goods. -G- *MAKE*
+.Armor Repair. -A- *MAKE*
 .Weaving. -E- *MAKE*
 .Tailoring. -A- *MAKE*
 .Crafting tools. -H- *MAKE*
