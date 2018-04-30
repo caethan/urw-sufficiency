@@ -131,7 +131,7 @@
 {Birch-bark} #1.8# [remove]
 
 // And pre-existing birch-bark containers.
-.Birch-bark box. *TIMBERCRAFT* [effort:1] [phys:hands,one-armed] /30/ [-2]
+.Birch-bark box. *TIMBERCRAFT* [effort:1] [phys:hands,one-armed] /30/ |-2|
 {Knife} <Small knife>
 {Birch-bark} #0.5# [remove]
 
@@ -139,7 +139,7 @@
 {Knife} <Small knife>
 {Birch-bark} #6# [remove]
 
-.Birch-bark bandage. "Bandage"  *TIMBERCRAFT* [effort:1] [phys:hands,one-armed] /30/ [-2] %-80%
+.Birch-bark bandage. "Bandage"  *TIMBERCRAFT* [effort:1] [phys:hands,one-armed] /30/ |-2| %-80%
 {Knife} <Small knife>
 {Birch-bark} #0.5# [remove]
 [WEIGHT:0.5]
