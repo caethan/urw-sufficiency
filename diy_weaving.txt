@@ -73,6 +73,17 @@
 [PRICE:20]
 [WEIGHT:5]
 
+.Shred Cloth for Yarn. "Hunting Horn" *HIDEWORKING* /1h/ [patchwise:5] [effort:1] [phys:hands,one-armed]
+{Cloth} #0.75# [remove] [patchwise]
+{Spool} [remove] [patchwise]
+{Knife} <Small knife>
+[NAME:Homespun Yarn]
+[TILEGFX:it-yarn]
+[TYPE:tool]
+[MATERIAL:cloth]
+[PRICE:5]
+[WEIGHT:0.5]
+
 [SUBMENU_END:Weaving]
 
 [SUBMENU_START:utility article]
