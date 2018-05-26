@@ -1,13 +1,13 @@
 [SUBMENU_START:weapon]
 
 .Stone-axe. [effort:2] [phys:arms,hands] *COMMON* 	/3h/
-{Stone}	[remove]
-{Slender trunk} [remove]
+{Stone}	[remove] [noquality]
+{Slender trunk} [remove] [noquality]
 {Rope} [remove]
 {Knife}
 
 .Stone knife. [effort:2]    [phys:hands]  /90/   %-35%   *COMMON* 
-{Rock} '+for blade' [remove]
+{Rock} '+for blade' [remove] [noquality]
 {Rock} '+for knapping'
 
 .Club. [effort:2] [phys:arms,one-armed]		*CARPENTRY*		/30/
@@ -44,7 +44,7 @@
 [AD_CLASS:3/1]
 
 .Primitive bow. "Juniper bow" [effort:2] [phys:stance,arms]	%25%	*CARPENTRY*		/80/ |0|
-{Slender tree trunk} [remove] 
+{Slender tree trunk} [remove]  [noquality]
 {Knife}
 {Tying equipment} [remove]
 
@@ -154,7 +154,7 @@
 {Leather}  #1# [remove]
 
 .Raft.  [effort:3] [phys:stance,arms]	*COMMON*	/80/
-{Tree trunk}	(3) 	[remove]	
+{Tree trunk}	(3) 	[remove] [noquality]
 {Rope}		(3)	[remove]
 {Cutting weapon} <Axe> 			
 
