@@ -54,7 +54,7 @@
 
 .Spin Yarn. "Hunting Horn" *HIDEWORKING* /1h/ [patch:5] [effort:1] [phys:hands,one-armed]
 {Raw Plant Fibre} #0.5# [remove] [patchwise]
-{Spool} [remove] [patchwise]
+{Spool} [remove] [noquality]] [patchwise]
 {Spindle and Distaff}
 [NAME:Homespun Yarn]
 [TILEGFX:it-yarn]
@@ -75,7 +75,7 @@
 
 .Shred Cloth for Yarn. "Hunting Horn" *HIDEWORKING* /1h/ [patchwise:5] [effort:1] [phys:hands,one-armed]
 {Cloth} #0.75# [remove] [patchwise]
-{Spool} [remove] [patchwise]
+{Spool} [remove] [noquality] [patchwise]
 {Knife} <Small knife>
 [NAME:Homespun Yarn]
 [TILEGFX:it-yarn]
@@ -114,7 +114,7 @@
 
 [SUBMENU_START:Crafting tools]
 // TODO: new graphic
-.Spool. "Hunting Horn" *CARPENTRY* /15/ [effort:1] [phys:hands]
+.Spool. "Hunting Horn" *CARPENTRY* /15/ [effort:1] [phys:hands] [noquality]
 {Wooden Stake} [remove]
 {Axe} <Carving axe>
 {Knife} <Small knife>
