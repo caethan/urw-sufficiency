@@ -41,9 +41,9 @@
 [WEIGHT:0.25]
 
 .Extract Fibre from Plants. "Hunting Horn" [noquality] *AGRICULTURE* /15/ [patch:10] [effort:2] [phys:arms,stance]
-{Dried Retted Plants} [remove] [patchwise] [ground] 'Retted and dried plants'
-{Club} '+for scutching'
-{Heckling Comb}
+{Dried Retted Plants} (4) [remove] [patchwise] [ground] 'Retted and dried plants'
+{*Club} 'Club to beat the stalks'
+{Heckling Comb} '+to remove the pith'
 {Knife} <Small knife>
 [NAME:Raw Plant Fibre]
 [TILEGFX:it-fibre]
@@ -126,12 +126,12 @@
 
 // TODO: new graphic
 .Heckling Comb. "Hunting Horn" *CARPENTRY* |+1| /90/ [effort:1] [phys:hands]
-{Wooden Stake} [remove]
+{Antler} [remove]
 {Axe} <Carving axe>
 {Knife} <Small knife>
-[TILEGFX:it-firewood]
+[TILEGFX:vl-bcomb]
 [TYPE:tool]
-[MATERIAL:wood]
+[MATERIAL:antler]
 [PRICE:2]
 [WEIGHT:0.5]
 
