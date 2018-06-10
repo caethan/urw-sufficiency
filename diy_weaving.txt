@@ -114,8 +114,8 @@
 
 [SUBMENU_START:Crafting tools]
 // TODO: new graphic
-.Spool. "Hunting Horn" *CARPENTRY* /15/ [effort:1] [phys:hands] [noquality]
-{Wooden Stake} [remove]
+.Spool. "Hunting Horn" *CARPENTRY* /1/ |-2| [effort:1] [phys:hands] [noquality] [patchwise:15]
+{Wooden Stake} [remove] [patchwise]]
 {Axe} <Carving axe>
 {Knife} <Small knife>
 [TILEGFX:it-yarn]
