@@ -207,7 +207,7 @@
 [ARMOUR_MATERIAL:cloth]
 [ARMOUR_COVERAGE:shoulder thorax abdomen hip groin thigh knee calf]
 
-.Homespun handwraps. "Woolen mittens" /30/ *HIDEWORKING* [effort:0] [phys:arms,hands,one-armed]
+.Homespun handwraps. "Woollen mittens" /30/ *HIDEWORKING* [effort:0] [phys:arms,hands,one-armed]
 {Homespun Cloth} #0.2# [remove]
 {Knife} <Small knife>
 [WEIGHT:0.2]
@@ -228,7 +228,7 @@
 [ARMOUR_MATERIAL:cloth]
 [ARMOUR_COVERAGE:skull face neck]
 
-.Homespun coat. "Woolen overcoat" /6h/ *HIDEWORKING* |+2| [effort:0] [phys:arms,hands,one-armed]
+.Homespun coat. "Woollen overcoat" /6h/ *HIDEWORKING* |+2| [effort:0] [phys:arms,hands,one-armed]
 {Homespun Cloth} #4# [remove]
 {Homespun Yarn} #1.5# [remove]
 {Knife} <Small knife>
@@ -250,7 +250,7 @@
 [ARMOUR_MATERIAL:cloth]
 [ARMOUR_COVERAGE:shoulder upper_arm thorax abdomen hip groin]
 
-.Homespun socks. "Woolen socks" /1h/ *HIDEWORKING* |+1| [effort:0] [phys:arms,hands,one-armed]
+.Homespun socks. "Woollen socks" /1h/ *HIDEWORKING* |+1| [effort:0] [phys:arms,hands,one-armed]
 {Homespun Cloth} #0.15# [remove]
 {Homespun Yarn} #0.05# [remove]
 {Knife} <Small knife>
