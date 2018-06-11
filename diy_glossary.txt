@@ -98,7 +98,7 @@
 {Cloth} #0.5# [remove] [patchwise]
 {Knife}
 
-.Bandage. [effort:1] [phys:hands,one-armed] *COMMON*   [noquality]   [patch:10]
+.Bandage. [effort:1] [phys:hands,one-armed] *COMMON* [patch:10]
 {Cloth} #1# [remove]          [patchwise]
 {Cutting weapon or by hand}
 
