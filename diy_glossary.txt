@@ -22,6 +22,7 @@
 .Bone Club. "Club" [effort:2] [phys:arms, one-armed] *CARPENTRY* /10/
 {Bone} [remove] [noquality]
 {Cutting weapon} <Axe>
+[TILEGFX:wp-boneclub]
 [WEIGHT:2]
 [PRICE:0]
 [POINT_ATTACK:0]
@@ -35,6 +36,7 @@
 {Bone} [remove] [noquality]
 {Tying equipment} [remove]
 {Cutting weapon} <Axe>
+[TILEGFX:wp-bonejav]
 [WEIGHT:2]
 [PRICE:0]
 [POINT_ATTACK:7]
