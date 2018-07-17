@@ -71,22 +71,40 @@
 
 [SUBMENU_START:meat]
 
-.Meat soup. 		*COOKERY* /30/  \45\	%20%
-{Raw meat}	#2# 	[remove] [boil] [name: %s soup]
-{Water}		#2.5#	[remove] [boil]
-{Vegetables}	#0.5#	[remove] [boil]
-{Knife}	'+for chopping and peeling' 
-{Seasoning}	#0.25#	[remove] [optional] [boil]
-
 .Meat stew. 		*COOKERY* /30/  \240\	%20%
-{Raw meat}	#3#	[remove] [bake] [name]
-{Water}		#0.25#	[remove] 
-{Knife}	'+for chopping'
+{Raw meat}	#3#	[remove] [bake] [name:%s stew]
+{Water}		#1#	[remove] [bake]
 {Vegetables}	#0.5#	[remove] [bake] [optional]
 {Mushrooms}	#0.5#	[remove] [bake] [optional]
 {Seasoning}	#0.25#	[remove] [bake] [optional]
+{Flour} #0.25# [remove] [bake] [optional]
+{Knife}	'+for chopping'
 
+.Dried meat stew.   *COOKERY*   /45/    \240\   %30%
+{dried*cut} (4) [remove] [bake] [name:%s stew] 'Dried meat'
+{Water}     #4# [remove] [bake]
+{Vegetables}	#0.5#	[remove] [bake] [optional]
+{Mushrooms}	#0.5#	[remove] [bake] [optional]
+{Seasoning}	#0.25#	[remove] [bake] [optional]
+{Flour} #0.25# [remove] [bake] [optional]
+{Knife}	'+for chopping'
 
+.Smoked meat pie.   *COOKERY*   /1h/    \2h\   %50% |+1|
+{smoked*cut} (3) [remove] [roast] [name:%s meat pie] 'Smoked meat'
+{Flour} #2#      [remove] [roast]
+{Water}     #0.5# [remove] [roast]
+{Tallow}    #0.25# [remove] [roast]
+{Vegetables}	#0.5#	[remove] [bake] [optional]
+{Mushrooms}	#0.5#	[remove] [bake] [optional]
+{Seasoning}	#0.25#	[remove] [bake] [optional]
+{Knife}	'+for chopping'
+
+.Meat soup. 		*COOKERY* /30/  \45\	%20%
+{Raw meat}	#2# 	[remove] [boil] [name:%s soup]
+{Water}		#2.5#	[remove] [boil]
+{Vegetables}	#0.5#	[remove] [boil]
+{Seasoning}	#0.25#	[remove] [optional] [boil]
+{Knife}	'+for chopping and peeling'
 
 [SUBMENU_END:meat]
 
@@ -96,8 +114,8 @@
 {Raw fish}      #2#     [remove] [boil] [name:%s soup]
 {Water}		#2.5#	[remove] [boil]
 {Vegetables}	#0.5#	[remove] [boil]
-{Knife}	'+for chopping and peeling' 
 {Seasoning}	#0.25#	[remove] [optional] [boil]
+{Knife}	'+for chopping and peeling'
 
 [SUBMENU_END:fish]
 
@@ -108,12 +126,13 @@
 {Water}		  	#2.5#	[remove] [boil]
 {Raw meat}	  	#1#	[remove] [boil] [optional]
 {Seasoning}	  	#0.25#	[remove] [optional] [boil]
+{Flour}         #0.5# [remove] [boil] [optional]
 
 .Green soup. 		*COOKERY* /5/  \10\	%20%
-{Herbs} 		#1#	[remove] [boil] [name:%s soup]
-{Water}		  	#0.5#	[remove] [boil]			
-{Flour}			#0.1#	[remove] [boil] [optional]	
-{Seasoning}	  	#0.1#	[remove] [optional] [boil]	
+{Herbs} 		#3#	[remove] [boil] [name:%s soup]
+{Water}		  	#1.5#	[remove] [boil]
+{Flour}			#0.25#	[remove] [boil] [optional]
+{Seasoning}	  	#0.25#	[remove] [optional] [boil]
 
 .Vegetable soup. 		*COOKERY* /30/  \45\	%20%
 {Vegetables} 		#2#	[remove] [boil] [name:%s soup]
@@ -134,7 +153,7 @@
 {Knife} '+for chopping and peeling'
 {Seasoning}		#0.25#	[remove] [bake] [optional]
 
-.Roast vegetable. *COOKERY* /5/ \30\ |-2| [patch:10]
+.Roasted vegetables. *COOKERY* /5/ \30\ |-2| [patch:10]
 {Vegetables} #1.0# [remove] [roast] [name:Roasted %s] [naming:original] [patchwise]
 {Seasoning} #0.1# [remove] [roast] [optional] [patchwise]
 [COOK_WEIGHT_DIV:1.5]
@@ -144,13 +163,13 @@
 [SUBMENU_START:Drying]
 
 .Dry Berries.       *COOKERY*  /5/ \10d\   |-2|  [patch:20]
-{Berries}        [remove] [roast] [name:Dried %s] [naming:original] [patchwise]
+{Berries}        [remove] [roast] [name:dried %s] [naming:original] [patchwise]
 [SPOILAGE_DAYS:0]
 [WATER:0]
 [COOK_WEIGHT_DIV:5]
 
 .Dry Mushrooms.      *COOKERY*  /5/ \10d\   |-2|  [patch:20]
-{Mushrooms}        [remove] [roast] [name:Dried %s] [naming:original] [patchwise]
+{Mushrooms}        [remove] [roast] [name:dried %s] [naming:original] [patchwise]
 [SPOILAGE_DAYS:0]
 [WATER:0]
 [COOK_WEIGHT_DIV:5]
