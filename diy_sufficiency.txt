@@ -92,7 +92,7 @@
 // We could make this more complicated by making you peel off a big piece instead of in small
 // 1/2 lb increments, but I like the extra work this takes.
 .Birch-bark canoe. "Punt" *CARPENTRY* [effort:3] [phys:arms,stance] /8h/ %-10% |2|
-{Birch-bark} #20# [remove] [ground]
+{Birch-bark} (40) [remove] [ground]
 {Tying equipment} (16) [remove] [ground]
 {Board} [remove] [ground]
 {[NEARBY_TILE:Water]} 'Must be near water'
@@ -119,29 +119,29 @@
 // If necessary to prevent overpowered trade goods, we can change the item name and adjust properties later.
 .Birch-bark necklace. *TIMBERCRAFT* [effort:1] [phys:hands,one-armed] /15/ |-2|
 {Knife} <Small knife>
-{Birch-bark} #0.8# [remove]
+{Birch-bark} (1) [remove]
 {Tying equipment} (1) [remove] 'Cord'
 
 .Birch-bark shoes. *TIMBERCRAFT* [effort:1] [phys:hands,one-armed] /90/ |-2|
 {Knife} <Small knife>
-{Birch-bark} #1.6# [remove]
+{Birch-bark} (3) [remove]
 
 .Birch-bark cap. *TIMBERCRAFT* [effort:1] [phys:hands,one-armed] /90/ |-2|
 {Knife} <Small knife>
-{Birch-bark} #1.8# [remove]
+{Birch-bark} (4) [remove]
 
 // And pre-existing birch-bark containers.
 .Birch-bark box. *TIMBERCRAFT* [effort:1] [phys:hands,one-armed] /30/ |-2|
 {Knife} <Small knife>
-{Birch-bark} #0.5# [remove]
+{Birch-bark} (1) [remove]
 
 .Birch-bark basket. "Birch-bark basket" *TIMBERCRAFT* [effort:1] [phys:hands,one-armed] /3h/ |-1|
 {Knife} <Small knife>
-{Birch-bark} #6# [remove]
+{Birch-bark} (12) [remove]
 
 .Birch-bark bandage. "Bandage"  *TIMBERCRAFT* [effort:1] [phys:hands,one-armed] /30/ |-2| %-80%
 {Knife} <Small knife>
-{Birch-bark} #0.5# [remove]
+{Birch-bark} (1) [remove]
 [WEIGHT:0.5]
 [NAME:Birch-bark bandage]
 [Material:birch-bark]
