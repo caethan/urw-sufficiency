@@ -44,7 +44,7 @@
 .Oven porridge. 		*COOKERY* /5/   \320\ 	%50%	|-1|
 {Flour} 	#2# 	[remove] [bake] [name]
 {Grains}    #1#     [remove] [bake] [optional]
-{*berries}  #1#     [remove] [bake] [optional] 'Berries'
+{*berries}  (10)    [remove] [bake] [optional] 'Berries'
 {Milk}      #1#     [remove] [bake] [optional]
 {Water} 	#2# 	[remove]
 
@@ -55,8 +55,8 @@
 {Water} 	#2#     [remove]
 
 .Berry porridge.	*COOKERY*	/15/  	\90\ 	%50%	|-1|
-{*berries} 	#1#     [remove] [boil] [name:%s porridge] 'Berries'
-{*berries}  #1#     [remove] [boil] [optional] 'Berries'
+{*berries} 	(10)    [remove] [boil] [name:%s porridge] 'Berries'
+{*berries}  (10)    [remove] [boil] [optional] 'Berries'
 {Flour} 	#0.5#  	[remove] [boil] [optional]
 {Milk}      #0.5#   [remove] [boil] [optional]
 {Water}	   	#0.5#  	[remove] 
@@ -67,14 +67,14 @@
 
 [SUBMENU_START:meat]
 
-.Meat soup. 		*COOKERY* /30/  \45\	%20%	:148:  
-{Raw meat}	#2# 	[remove] [boil] [name]
+.Meat soup. 		*COOKERY* /30/  \45\	%20%
+{Raw meat}	#2# 	[remove] [boil] [name: %s soup]
 {Water}		#2.5#	[remove] [boil]
 {Vegetables}	#0.5#	[remove] [boil]
 {Knife}	'+for chopping and peeling' 
 {Seasoning}	#0.25#	[remove] [optional] [boil]
 
-.Meat stew. 		*COOKERY* /30/  \240\	%20%	:148:  
+.Meat stew. 		*COOKERY* /30/  \240\	%20%
 {Raw meat}	#3#	[remove] [bake] [name]
 {Water}		#0.25#	[remove] 
 {Knife}	'+for chopping'
@@ -88,7 +88,7 @@
 
 [SUBMENU_START:fish]
 
-.Fish soup. 		*COOKERY* /30/  \45\	%20%	:148:  
+.Fish soup. 		*COOKERY* /30/  \45\	%20%
 {Raw fish}      #2#     [remove] [boil] [name:%s soup]
 {Water}		#2.5#	[remove] [boil]
 {Vegetables}	#0.5#	[remove] [boil]
@@ -99,31 +99,31 @@
 
 [SUBMENU_START:vegetable]
 
-.Pea soup. 		*COOKERY* /10/  \120\	%20%	:148:  
+.Pea soup. 		*COOKERY* /10/  \120\	%20%
 {Peas} 			#2# 	[remove] [boil]
 {Water}		  	#2.5#	[remove] [boil]
 {Raw meat}	  	#1#	[remove] [boil] [optional]
 {Seasoning}	  	#0.25#	[remove] [optional] [boil]
 
-.Green soup. 		*COOKERY* /5/  \10\	%20%	:148: 
+.Green soup. 		*COOKERY* /5/  \10\	%20%
 {Herbs} 		#1#	[remove] [boil] [name:%s soup]
 {Water}		  	#0.5#	[remove] [boil]			
 {Flour}			#0.1#	[remove] [boil] [optional]	
 {Seasoning}	  	#0.1#	[remove] [optional] [boil]	
 
-.Vegetable soup. 		*COOKERY* /30/  \45\	%20%	:148:  
+.Vegetable soup. 		*COOKERY* /30/  \45\	%20%
 {Vegetables} 		#2#	[remove] [boil] [name:%s soup]
 {Knife} '+for chopping and peeling'
 {Water}		  	#2#	[remove] [boil]
 {Seasoning}	  	#0.25#	[remove] [optional] [boil]
 
-.Mushroom soup. 		*COOKERY* /10/  \20\	%20%	:148:  
+.Mushroom soup. 		*COOKERY* /10/  \20\	%20%
 {Mushrooms}		#2#     [remove] [boil] [name:%s soup]
 {Water}			#0.75#	[remove] [boil]
 {Flour}			#0.25#	[remove] [boil] [optional]
 {Seasoning}		#0.25#	[remove] [boil] [optional]
 
-.Vegetable stew.		*COOKERY* /5/  \90\	%20%	:148:  
+.Vegetable stew.		*COOKERY* /5/  \90\	%20%
 {Vegetables} 		#3#	[remove] [bake] [name:%s stew]
 {Water}			#0.25#	[remove] [bake]
 {Mushrooms}		#0.5#	[remove] [bake] [optional]
