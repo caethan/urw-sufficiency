@@ -8,7 +8,7 @@
 {Seasoning} #0.15#  [remove] [roast] [optional]
 [TILEGFX:it-flbread]
 
-.Bake Hard Biscuit.  	*COOKERY*	/45/    \3h\  %-50%
+.Bake Hard Biscuit.  (6)	*COOKERY*	/45/    \3h\  %-50% |1|
 {Flour}      	#3#    	[remove] [roast] [name:%s Biscuit]
 {Water}      	#0.5#  	[remove]
 {Seasoning}  	#0.25#  [remove] [roast] [optional]
@@ -24,7 +24,7 @@
 {* fat} #0.25# [remove] [boil] [optional] 'More fat'
 {* fat} #0.25# [remove] [boil] [optional] 'More fat'
 {* fat} #0.25# [remove] [boil] [optional] 'More fat'
-{Water} #1# [remove]
+{Water} #2# [remove]
 [NAME:Tallow]
 [SPOILAGE_DAYS:0]
 [WATER:0]
