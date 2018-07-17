@@ -62,7 +62,7 @@
 {Water}	   	#0.5#  	[remove]
 
 .Dried berry porridge.  *COOKERY*   /30/    \120\   %50%    |-1|
-{dried*berries} #1#   [remove] [boil] [name:%s porridge]
+{dried*berries} #1#   [remove] [boil] [name:%s porridge] 'dried berries'
 {Flour}         #0.5# [remove] [boil] [optional]
 {Milk}          #0.5# [remove] [boil] [optional]
 {Water}         #2#   [remove] [boil]
@@ -77,7 +77,6 @@
 {Vegetables}	#0.5#	[remove] [bake] [optional]
 {Mushrooms}	#0.5#	[remove] [bake] [optional]
 {Seasoning}	#0.25#	[remove] [bake] [optional]
-{Flour} #0.25# [remove] [bake] [optional]
 {Knife}	'+for chopping'
 
 .Dried meat stew.   *COOKERY*   /45/    \240\   %30%
@@ -86,7 +85,6 @@
 {Vegetables}	#0.5#	[remove] [bake] [optional]
 {Mushrooms}	#0.5#	[remove] [bake] [optional]
 {Seasoning}	#0.25#	[remove] [bake] [optional]
-{Flour} #0.25# [remove] [bake] [optional]
 {Knife}	'+for chopping'
 
 .Smoked meat pie.   *COOKERY*   /1h/    \2h\   %50% |+1|
@@ -94,9 +92,8 @@
 {Flour} #2#      [remove] [roast]
 {Water}     #0.5# [remove] [roast]
 {Tallow}    #0.25# [remove] [roast]
-{Vegetables}	#0.5#	[remove] [bake] [optional]
-{Mushrooms}	#0.5#	[remove] [bake] [optional]
-{Seasoning}	#0.25#	[remove] [bake] [optional]
+{Vegetables}	#0.5#	[remove] [roast] [optional]
+{Seasoning}	#0.25#	[remove] [roast] [optional]
 {Knife}	'+for chopping'
 
 .Meat soup. 		*COOKERY* /30/  \45\	%20%
