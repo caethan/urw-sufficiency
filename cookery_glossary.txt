@@ -1,0 +1,150 @@
+
+
+[SUBMENU_START:baking]
+
+.Flatbread. (5)	    *COOKERY*	/45/ 		%30%	|-1|	:148:  
+{Flour}     #0.5#   [remove] [roast] [name]
+{Water}     #0.25#  [remove] 
+{Seasoning} #0.15#  [remove] [roast] [optional]
+[TILEGFX:it-flbread]
+
+.Bake Hard Biscuit.  	*COOKERY*	/45/    \3h\  %-50%
+{Flour}      	#3#    	[remove] [roast] [name:%s Biscuit]
+{Water}      	#0.5#  	[remove]
+{Seasoning}  	#0.25#  [remove] [roast] [optional]
+{Tallow}	#0.5#	[remove] [roast]
+[NAME:Hard Biscuit]
+[SPOILAGE_DAYS:0]
+[TILEGFX:it-flbread]
+[WATER:0]
+//TODO: use a new graphic
+
+.Render Fat.  *COOKERY*	/5/  \1h\  |-1|
+{* fat} #0.25# [remove] [boil] 'Fat to render'
+{* fat} #0.25# [remove] [boil] [optional] 'More fat'
+{* fat} #0.25# [remove] [boil] [optional] 'More fat'
+{* fat} #0.25# [remove] [boil] [optional] 'More fat'
+{Water} #1# [remove]
+[NAME:Tallow]
+[SPOILAGE_DAYS:0]
+[WATER:0]
+
+[SUBMENU_END:baking]
+
+
+[SUBMENU_START:porridge]
+
+.Porridge. 		*COOKERY*	 /30/  	%50%	|-1|	:148:  
+{Flour} 	#0.4# 	[remove] [boil] [name]
+{Water} 	#1# 	[remove] 
+
+.Oven porridge. 		*COOKERY* /5/   \320\ 	%50%	|-1|	:148:  
+{Flour} 	#0.4# 	[remove] [bake] [name]
+{Water} 	#1# 	[remove] 
+
+.Seed porridge.		*COOKERY*	/30/    %50%	|-1|	:148:  
+{Seeds} 	#0.4# 	[remove] [boil] [name]
+{Water} 	#1#     [remove] 
+
+.Berry porridge.	*COOKERY*	/15/  	\90\ 	%50%	|-1|	:148:  
+{Berries} 	#1#     [remove] [boil] [name:%s porridge]
+{Water}	   	#0.5#  	[remove] 
+{Flour} 	#0.1#  	[remove] [boil] [optional] 
+
+
+[SUBMENU_END:porridge]
+
+[SUBMENU_START:meat]
+
+.Meat soup. 		*COOKERY* /30/  \45\	%20%	:148:  
+{Raw meat}	#2# 	[remove] [boil] [name]
+{Water}		#2.5#	[remove] [boil]
+{Vegetables}	#0.5#	[remove] [boil]
+{Knife}	'+for chopping and peeling' 
+{Seasoning}	#0.25#	[remove] [optional] [boil]
+
+.Meat stew. 		*COOKERY* /30/  \240\	%20%	:148:  
+{Raw meat}	#3#	[remove] [bake] [name]
+{Water}		#0.25#	[remove] 
+{Knife}	'+for chopping'
+{Vegetables}	#0.5#	[remove] [bake] [optional]
+{Mushrooms}	#0.5#	[remove] [bake] [optional]
+{Seasoning}	#0.25#	[remove] [bake] [optional]
+
+
+
+[SUBMENU_END:meat]
+
+[SUBMENU_START:fish]
+
+.Fish soup. 		*COOKERY* /30/  \45\	%20%	:148:  
+{Raw fish}      #2#     [remove] [boil] [name:%s soup]
+{Water}		#2.5#	[remove] [boil]
+{Vegetables}	#0.5#	[remove] [boil]
+{Knife}	'+for chopping and peeling' 
+{Seasoning}	#0.25#	[remove] [optional] [boil]
+
+[SUBMENU_END:fish]
+
+[SUBMENU_START:vegetable]
+
+.Pea soup. 		*COOKERY* /10/  \120\	%20%	:148:  
+{Peas} 			#2# 	[remove] [boil]
+{Water}		  	#2.5#	[remove] [boil]
+{Raw meat}	  	#1#	[remove] [boil] [optional]
+{Seasoning}	  	#0.25#	[remove] [optional] [boil]
+
+.Green soup. 		*COOKERY* /5/  \10\	%20%	:148: 
+{Herbs} 		#1#	[remove] [boil] [name:%s soup]
+{Water}		  	#0.5#	[remove] [boil]			
+{Flour}			#0.1#	[remove] [boil] [optional]	
+{Seasoning}	  	#0.1#	[remove] [optional] [boil]	
+
+.Vegetable soup. 		*COOKERY* /30/  \45\	%20%	:148:  
+{Vegetables} 		#2#	[remove] [boil] [name:%s soup]
+{Knife} '+for chopping and peeling'
+{Water}		  	#2#	[remove] [boil]
+{Seasoning}	  	#0.25#	[remove] [optional] [boil]
+
+.Mushroom soup. 		*COOKERY* /10/  \20\	%20%	:148:  
+{Mushrooms}		#2#     [remove] [boil] [name:%s soup]
+{Water}			#0.75#	[remove] [boil]
+{Flour}			#0.25#	[remove] [boil] [optional]
+{Seasoning}		#0.25#	[remove] [boil] [optional]
+
+.Vegetable stew.		*COOKERY* /5/  \90\	%20%	:148:  
+{Vegetables} 		#3#	[remove] [bake] [name:%s stew]
+{Water}			#0.25#	[remove] [bake]
+{Mushrooms}		#0.5#	[remove] [bake] [optional]
+{Knife} '+for chopping and peeling'
+{Seasoning}		#0.25#	[remove] [bake] [optional]
+
+.Roast vegetable. *COOKERY* /5/ \30\ |-2| [patch:10]
+{Vegetables} #1.0# [remove] [roast] [name:Roasted %s] [naming:original] [patchwise]
+{Seasoning} #0.1# [remove] [roast] [optional] [patchwise]
+[COOK_WEIGHT_DIV:1.5]
+
+[SUBMENU_END:vegetable]
+
+[SUBMENU_START:Drying]
+
+.Dry Berries.       *COOKERY*  /5/ \10d\   |-2|  [patch:20]
+{Berries}        [remove] [roast] [name:Dried %s] [naming:original] [patchwise]
+[SPOILAGE_DAYS:0]
+[WATER:0]
+[COOK_WEIGHT_DIV:5]
+
+.Dry Mushrooms.      *COOKERY*  /5/ \10d\   |-2|  [patch:20]
+{Mushrooms}        [remove] [roast] [name:Dried %s] [naming:original] [patchwise]
+[SPOILAGE_DAYS:0]
+[WATER:0]
+[COOK_WEIGHT_DIV:5]
+
+[SUBMENU_END:Drying]
+
+
+
+
+
+
+
