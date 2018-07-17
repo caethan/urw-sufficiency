@@ -44,7 +44,7 @@
 .Oven porridge. 		*COOKERY* /5/   \320\ 	%50%	|-1|
 {Flour} 	#2# 	[remove] [bake] [name]
 {Grains}    #1#     [remove] [bake] [optional]
-{*berries}  (10)    [remove] [bake] [optional] 'Berries'
+{Berries}   #1#     [remove] [bake] [optional]
 {Milk}      #1#     [remove] [bake] [optional]
 {Water} 	#2# 	[remove]
 
@@ -55,13 +55,17 @@
 {Water} 	#2#     [remove]
 
 .Berry porridge.	*COOKERY*	/15/  	\90\ 	%50%	|-1|
-{*berries} 	(10)    [remove] [boil] [name:%s porridge] 'Berries'
-{*berries}  (10)    [remove] [boil] [optional] 'Berries'
+{Berries}   #1#     [remove] [boil] [name:%s porridge]
+{Berries}   #1#     [remove] [boil] [optional]
 {Flour} 	#0.5#  	[remove] [boil] [optional]
 {Milk}      #0.5#   [remove] [boil] [optional]
-{Water}	   	#0.5#  	[remove] 
+{Water}	   	#0.5#  	[remove]
 
-
+.Dried berry porridge.  *COOKERY*   /30/    \120\   %50%    |-1|
+{dried*berries} #1#   [remove] [boil] [name:%s porridge]
+{Flour}         #0.5# [remove] [boil] [optional]
+{Milk}          #0.5# [remove] [boil] [optional]
+{Water}         #2#   [remove] [boil]
 
 [SUBMENU_END:porridge]
 
