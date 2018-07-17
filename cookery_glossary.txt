@@ -2,7 +2,7 @@
 
 [SUBMENU_START:baking]
 
-.Flatbread. (5)	    *COOKERY*	/45/ 		%30%	|-1|	:148:  
+.Flatbread. (5)	    *COOKERY*	/45/ 		%30%	|-1|
 {Flour}     #0.5#   [remove] [roast] [name]
 {Water}     #0.25#  [remove] 
 {Seasoning} #0.15#  [remove] [roast] [optional]
@@ -34,22 +34,33 @@
 
 [SUBMENU_START:porridge]
 
-.Porridge. 		*COOKERY*	 /30/  	%50%	|-1|	:148:  
-{Flour} 	#0.4# 	[remove] [boil] [name]
-{Water} 	#1# 	[remove] 
+.Porridge. 		*COOKERY*	 /30/  	%50%	|-1|
+{Flour} 	#1# 	[remove] [boil] [name]
+{Flour}     #1#     [remove] [boil] [optional]
+{Milk}      #1#     [remove] [boil] [optional]
+{Seasoning} #0.25#  [remove] [boil] [optional]
+{Water} 	#2# 	[remove]
 
-.Oven porridge. 		*COOKERY* /5/   \320\ 	%50%	|-1|	:148:  
-{Flour} 	#0.4# 	[remove] [bake] [name]
-{Water} 	#1# 	[remove] 
+.Oven porridge. 		*COOKERY* /5/   \320\ 	%50%	|-1|
+{Flour} 	#2# 	[remove] [bake] [name]
+{Grains}    #1#     [remove] [bake] [optional]
+{*berries}  #1#     [remove] [bake] [optional] 'Berries'
+{Milk}      #1#     [remove] [bake] [optional]
+{Water} 	#2# 	[remove]
 
-.Seed porridge.		*COOKERY*	/30/    %50%	|-1|	:148:  
-{Seeds} 	#0.4# 	[remove] [boil] [name]
-{Water} 	#1#     [remove] 
+.Seed porridge.		*COOKERY*	/30/    %50%	|-1|
+{Seeds} 	#0.5# 	[remove] [boil] [name:%s porridge]
+{Seeds}     #2#     [remove] [boil] [optional]
+{Milk}      #1#     [remove] [boil] [optional]
+{Water} 	#2#     [remove]
 
-.Berry porridge.	*COOKERY*	/15/  	\90\ 	%50%	|-1|	:148:  
-{Berries} 	#1#     [remove] [boil] [name:%s porridge]
+.Berry porridge.	*COOKERY*	/15/  	\90\ 	%50%	|-1|
+{*berries} 	#1#     [remove] [boil] [name:%s porridge] 'Berries'
+{*berries}  #1#     [remove] [boil] [optional] 'Berries'
+{Flour} 	#0.5#  	[remove] [boil] [optional]
+{Milk}      #0.5#   [remove] [boil] [optional]
 {Water}	   	#0.5#  	[remove] 
-{Flour} 	#0.1#  	[remove] [boil] [optional] 
+
 
 
 [SUBMENU_END:porridge]
