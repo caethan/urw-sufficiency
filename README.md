@@ -72,6 +72,9 @@ You shouldn't be copying over any existing files here.
 * Make low quality cords from soaked branches
 * Make your own sauna scoop
 * Craft nets, fishing poles, and wooden tubs and barrels
+* Added bone weapons
+    - Club
+    - Javelin
 
 ## Cooking
 
@@ -79,6 +82,7 @@ You shouldn't be copying over any existing files here.
 * Make hard biscuits
 * Roast vegetables in the fire
 * Dry berries and mushrooms
+* Modified existing cookery recipes to make more useful
 
 ## Flora
 
@@ -116,6 +120,9 @@ You shouldn't be copying over any existing files here.
     - Bags
     - Quilt clothing with gathered feathers for extra warmth!
 
+## Miscellaneous
+
+* Switched over a number of vanilla items to use CARPENTRY instead of COMMON
 
 # Sources, Credit, and Inspiration
 
@@ -142,7 +149,21 @@ Many thanks to:
 * The photographers who provided the pictures for the encyclopedia
     * Birch-bark cap - Fanny Schertzer, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=10890204
 		
-## Changelist
+## Changelist 
+
+#### 1.2
+
+Readme updates (in particular installation instructions)
+
+Added bone weapons
+
+Switched birch-bark crafts away from using weight
+
+Added recipe to make homespun yarn from cloth, clothing, fur, or leather
+
+Heckling combs are now made of antler instead of wood
+
+Miscellaneous fixes (to mod and vanilla content)
 
 #### 1.1
 
