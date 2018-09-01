@@ -2,14 +2,38 @@
 
 This is a set of modifications for the freeware roguelike game [UnReal World](http://www.unrealworld.fi/) developed by Sami Maaranen and Erkka Lehmus.
 
-Last updated with UnReal World 3.50.
+Last updated with UnReal World 3.51.
 
 This mod allows you to live more self-sufficiently, crafting most needed tools and items with some effort on your own without trading.
 Not everything is available --- complex armor and weapons will still have to be found elsewhere, but simple birchbark crafting, smithing, and weaving, along with some other small crafts and cooking, can now be done on your own.
 
-Also includes updates to the in-game encyclopedia with information about all the new items, as well as tile graphics for them.
+Also includes some updates to the in-game encyclopedia with information about some of the new items, as well as tile graphics for them.
 
 Enjoy!
+
+# Installation Instructions
+
+The first step to installing the mod is to find where Unreal World is installed on your computer.
+If you've installed it manually from the developer's website, just remember where you put it.
+If you're running it from Steam:
+* Open up the game properties by right-clicking on the game from the Steam interface and selecting "Properties".
+* Switch to the "Local Files" tab.
+* Click on "Browse Local Files".  This will open up a window in Finder (for Macs) or Explorer (for Windows) at the root of the installation.
+* For Macs:
+    - There will be an icon with the label "UrW.app".  Right-click on it and select "Show Package Contents". This will open up another folder.
+    - Open the "Contents" folder, then the "Resources" folder.
+    - This final Resources folder is where mod files should go.
+* For Windows:
+    - TBD
+* Copy over all the *.txt files in the mod download to the Unreal World folder.  Some of them will copy over the original files provided with the game.
+You may want to make a backup of the original files to remove the mod in the future.
+* Copy over the GAME.NFO file.  This updates the encyclopedia with the new modded items.
+* There are two subfolders in both the Unreal World folder and the mod folder:
+    - "truegfx":  pictures used in the encyclopedia and for various other purposes
+    - "truetile": sprites for items and creatures in the game
+* Copy over the contents of each of these folders in the mod into the Unreal World folders.
+You shouldn't be copying over any existing files here.
+* Start up the game and enjoy the new options!
 
 # Changes from vanilla
 
@@ -20,11 +44,11 @@ Enjoy!
 	- Ski stick
 	- Sesta
 * [noquality] added for some ingredients of fixed quality to avoid negatively impacting finished quality:
-	- Wooden cup & bowl: block of wood
+	- Wooden cup and bowl: block of wood
 		- skill adjustment changed from +20% to -20% to compensate
 	- Wooden shovel: block of wood
 		- skill adjustment changed from +10% to -30% to compensate
-	- Wooden stake & staff: Slender trunk
+	- Wooden stake and staff: Slender trunk
 		- skill adjustment reduced by 40% each to compensate
 
 ## New Buildings
@@ -78,7 +102,7 @@ Enjoy!
     - Pot
     - Fish hooks
 
-## Spinning & Weaving
+## Spinning and Weaving
 
 * Gather (unthreshed) nettles, hemp, or flax (more productive)
 * Soak the unthreshed stalks in water for a few weeks to rot away everything but the fibres.
