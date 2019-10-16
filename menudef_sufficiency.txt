@@ -21,7 +21,6 @@
 //
 // [SUBMENU_END:submenuname]
 // Already used for MAKE: BCLTRUW
-.Birch-bark crafting.  -K-  *MAKE*
 .Mining. -M- *MAKE*
 .Smithing. -S- *MAKE*
 .Smith finished goods. -G- *MAKE*
