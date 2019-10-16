@@ -1,21 +1,5 @@
 [SUBMENU_START:utility article]
 
-.Soak branch. "Branch"  *COMMON* [effort:1] [phys:hands,one-armed] /5/ \1d\ [patch:20] [noquality]
-{Branch} [remove] [patchwise]
-{Water} #10#
-[NAME:Soaked branch]
-[TYPE:timber]
-[MATERIAL:wood]
-[WEIGHT:0.5]
-[SPOILAGE_DAYS:1]
-
-.Primitive cord. "Cord" *TIMBERCRAFT* [effort:1] [phys:hands] /30/ %-100%  [patch:5] |-2|
-{Knife} <Small knife>
-{Soaked branch} [remove] [patchwise]
-[NAME:Primitive cord]
-[MATERIAL:wood]
-[WEIGHT:0.5]
-
 .Sauna scoop. *CARPENTRY* [effort:1] [phys:arms,hands] /60/ %10% |-1|
 {Block of wood} [remove][noquality]
 {Board} [remove]
@@ -23,8 +7,8 @@
 {Knife} <Small knife>
 
 .Net. *HIDEWORKING* [effort:1] [phys:arms,hands] /4h/
-{Tying equipment} (40) [ground] [remove]
-{Birch-bark} (5) [remove] '+for floats'
+{Cord} =250= [ground] [remove]
+{Birch-bark strip} =10= [remove] '+for floats'
 {Rock} (10) [remove] [noquality] '+for weights'
 {Staff} (2) [ground] '+to help the weaving'
 {Knife} <Small knife>
@@ -32,12 +16,12 @@
 .Fishing rod. *FISHING* [effort:1] [phys:arms,hands] /30/
 {Tying equipment} (2) [remove]
 {Staff} [ground] [remove]
-{Birch-bark} (2) [remove] '+for a float'
+{Birch-bark strip} =2= [remove] '+for a float'
 {Fish hook} [remove]
 {Knife} <Small knife>
 
 .Wooden tub. [effort:2] [phys:arms,hands] *CARPENTRY* /3h/
-{Tying equipment} (6) [remove] '+for hoops'
+{Rope} =6= [remove] '+for hoops'
 {Pine tar} (2) [remove] [noquality] '+for waterproofing'
 {Board} (4) [remove]
 {Fire} [ground]
@@ -45,7 +29,7 @@
 {Knife} <Small knife>
 
 .Small barrel. "Bag" [effort:3] [phys:arms,hands] *CARPENTRY* /4h/
-{Tying equipment} (12) [remove] '+for hoops'
+{Rope} =12= [remove] '+for hoops'
 {Pine tar} (4) [remove] [noquality] '+for waterproofing'
 {Board} (8) [remove]
 {Fire} [ground]
@@ -59,7 +43,7 @@
 [PRICE:50]
 
 .Large barrel. "Bag" [effort:3] [phys:arms,hands] *CARPENTRY* /6h/
-{Tying equipment} (24) [remove] '+for hoops'
+{Rope} =18= [remove] '+for hoops'
 {Pine tar} (10) [remove] [noquality] '+for waterproofing'
 {Board} (12) [remove]
 {Fire} [ground]
@@ -92,8 +76,8 @@
 // We could make this more complicated by making you peel off a big piece instead of in small
 // 1/2 lb increments, but I like the extra work this takes.
 .Birch-bark canoe. "Punt" *CARPENTRY* [effort:3] [phys:arms,stance] /8h/ %-10% |2|
-{Birch-bark} (40) [remove] [ground]
-{Tying equipment} (16) [remove] [ground]
+{Birch-bark strip} =120= [remove] [ground]
+{Rope} =16= [remove] [ground]
 {Board} [remove] [ground]
 {[NEARBY_TILE:Water]} 'Must be near water'
 {Fire} [ground]
