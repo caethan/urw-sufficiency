@@ -138,7 +138,7 @@
 .Spindle and Distaff. "Hunting Horn" *CARPENTRY* |+1| /90/ [effort:2] [phys:hands]
 {Staff} (1) [remove] '+to hold the fibre'
 {Wooden Stake} (1) [remove] '+for a spindle'
-{Tying equipment} (1) [remove]
+{Cord} =3= [remove]
 {Axe} <Carving axe>
 {Knife} <Small knife>
 [TILEGFX:it-distaff]
@@ -150,7 +150,7 @@
 .Loom. "Hunting Horn" *CARPENTRY* |+1| /3h/	[effort:2] [phys:arms,hands,stance]
 {Board} (3) [remove]
 {Wooden stake} (1) [remove] '+for a heddle'
-{Tying equipment} (6) [remove]
+{Cord} =10= [remove]
 {Rock} (20) [remove] 'Rocks to weight the warp'
 {Axe} <Carving axe>
 {Knife} <Small axe>
