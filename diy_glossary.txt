@@ -34,7 +34,7 @@
 .Bone Spear. "Javelin" [effort:1] [phys:hands,one-armed] *CARPENTRY* /30/
 {Staff} [remove]
 {Bone} [remove] [noquality]
-{Tying equipment} [remove]
+{Cord} =3= [remove]
 {Cutting weapon} <Axe>
 [TILEGFX:wp-bonejav]
 [WEIGHT:2]

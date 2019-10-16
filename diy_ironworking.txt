@@ -257,7 +257,7 @@
 .Stone Hammer. "Club" *CARPENTRY* -H- [effort:4] [phys:arms,hands,stance] /30/ %-100%
 {Stone} [remove] 'Stone for the head'
 {Wooden Stake} [remove] '+for a handle'
-{Tying equipment} [remove]
+{Cord} =3= [remove]
 [TYPE:tool]
 [BLUNT_ATTACK:3]
 [EDGE_ATTACK:-1]
@@ -313,69 +313,69 @@
 
 .Small knife. [effort:1] [phys:arms,hands] *CARPENTRY*  /15/ |+1|
 {Sharp small-knifeblade}  [remove]
-{Tying equipment}  [remove]
+{Cord} =0.5= [remove]
 {Leather} #0.25# [remove] [optional] '+for the hilt'
 {Knife} <Small knife>
 
 .Knife. [effort:1] [phys:arms,hands] *CARPENTRY*  /15/ |+1|
 {Sharp large-knifeblade}  [remove]
-{Tying equipment}  [remove]
+{Cord} =1=  [remove]
 {Leather} #0.5# [remove] [optional] '+for the hilt'
 {Knife} <Small knife>
 
 .Broad knife. [effort:1] [phys:arms,hands] *CARPENTRY*  /15/ |+1|
 {Sharp large-knifeblade}  [remove]
-{Tying equipment}  [remove]
+{Cord} =1= [remove]
 {Leather} #0.5# [remove] [optional] '+for the hilt'
 {Knife} <Small knife>
 
 .Spear. [effort:2] [phys:arms,hands] *CARPENTRY* /25/ |+1|
 {Sharp spearhead}  [remove]
 {Staff}    [remove]
-{Tying equipment}  [remove]
+{Cord}  =3= [remove]
 {Knife} <Small knife>
 
 .Handaxe. [effort:1] [phys:arms,hands] *CARPENTRY* /35/ |+1|
 {Sharp small-axehead}  [remove]
 {Wooden stake}   [remove] '+for a handle'
-{Tying equipment}  [remove]
+{Cord}  =3= [remove]
 {Knife} <Small knife>
 
 .Woodsmans axe. "Woodsman's axe" [effort:2] [phys:arms,hands] *CARPENTRY* /50/ |+1|
 {Sharp large-axehead}  [remove]
 {Staff}   [remove]
-{Tying equipment} (2) [remove]
+{Cord} =6= [remove]
 {Knife} <Small knife>
 [NAME:Woodsman's axe]
 
 .Carving axe. [effort:1] [phys:arms,hands] *CARPENTRY* /55/ |+1|
 {Sharp small-axehead}  [remove]
 {Wooden stake}   [remove] '+for a handle'
-{Tying equipment}  [remove]
+{Cord} =3= [remove]
 {Knife} <Small knife>
 
 .Splitting axe.  [effort:2] [phys:arms,hands] *CARPENTRY*  /50/ |+1|
 {Sharp large-axehead}  [remove]
 {Staff}   [remove]
-{Tying equipment} (2) [remove]
+{Cord} =6= [remove]
 {Knife} <Small knife>
 
 .Broad axe. [effort:2] [phys:arms,hands] *CARPENTRY* /50/ |+1|
 {Sharp large-axehead}  [remove]
 {Staff}   [remove]
-{Tying equipment} (2) [remove]
+{Cord} =6= [remove]
 {Knife} <Small knife>
 
 .Sickle. [effort:1] [phys:arms,hands] *CARPENTRY* /30/ |+1|
 {Sharp sickleblade}  [remove]
 {Wooden stake}   [remove] '+for a handle'
-{Tying equipment}  [remove]
+{Cord}  =3= [remove]
 {Knife} <Small knife>
 
 .Shovel. [effort:1] [phys:arms,hands] *CARPENTRY* /45/ |+1|
 {Sharp shovelblade}  [remove]
 {Staff}   [remove]
-{Tying equipment}  [remove]
+{Cord}  =3= [remove]
 {Knife} <Small knife>
 
 .Pot. [effort:1] [phys:arms,hands] *CARPENTRY* /90/ |+1|
