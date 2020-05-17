@@ -12,7 +12,7 @@
 
 .Club. [effort:2] [phys:arms,one-armed]		*CARPENTRY*		/30/
 {Slender trunk} [remove] [noquality]
-{Cutting weapon} <Axe> 
+{Cutting weapon} <Axe>
 
 .Javelin. [effort:1] [phys:hands,one-armed]	*CARPENTRY*		/30/				[patch]
 {Staff} [remove] [patchwise]
@@ -70,14 +70,14 @@
 {Axe} 		<Carving axe>	
 {Knife}	
 
-.Bandage. [effort:1] [phys:hands,one-armed] *COMMON* [patch:10]
+.Bandage. [effort:1] [phys:hands,one-armed] *COMMON*   [noquality]   [patch:10]
 {Cloth} #1# [remove]          [patchwise]
 {Cutting weapon or by hand}
 
 .Torch.	[effort:0] [phys:hands,one-armed] [noquality]	*COMMON*	/30/  %50% |0|  [patch:5] 
 {Branch} (10) 		[remove] [patchwise]
 
-.Wooden shovel.	[effort:2] [phys:arms,stance] *CARPENTRY*   		/240/ 			%-30%  
+.Wooden shovel.	[effort:2] [phys:arms,stance] *CARPENTRY*   		/240/ 			%10%
 {Block of wood} [remove] [noquality]
 {Axe} <Handaxe> 'An axe for rough cutting'
 {Axe} <Carving axe> 'An axe for finishing the shape'
