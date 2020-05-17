@@ -19,32 +19,6 @@
 {Cutting weapon} <Axe> 
 {Fire} '+(for hardening the head)'
 
-.Bone Club. "Club" [effort:2] [phys:arms, one-armed] *CARPENTRY* /10/
-{Bone} [remove] [noquality]
-{Cutting weapon} <Axe>
-[TILEGFX:wp-boneclub]
-[WEIGHT:2]
-[PRICE:0]
-[POINT_ATTACK:0]
-[EDGE_ATTACK:0]
-[BLUNT_ATTACK:4]
-[1H_PENALTY:0]
-[AD_CLASS:2/1]
-
-.Bone Spear. "Javelin" [effort:1] [phys:hands,one-armed] *CARPENTRY* /30/
-{Staff} [remove]
-{Bone} [remove] [noquality]
-{Cord} =3= [remove]
-{Cutting weapon} <Axe>
-[TILEGFX:wp-bonejav]
-[WEIGHT:2]
-[PRICE:0]
-[POINT_ATTACK:7]
-[EDGE_ATTACK:0]
-[BLUNT_ATTACK:2]
-[1H_PENALTY:0]
-[AD_CLASS:3/1]
-
 .Primitive bow. "Juniper bow" [effort:2] [phys:stance,arms]	%25%	*CARPENTRY*		/80/ |0|
 {Slender tree trunk} [remove]  [noquality]
 {Knife}
