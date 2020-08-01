@@ -12,7 +12,7 @@
 
 .Club. [effort:2] [phys:arms,one-armed]		*CARPENTRY*		/30/
 {Slender trunk} [remove] [noquality]
-{Cutting weapon} <Axe>
+{Cutting weapon} <Axe> 			
 
 .Javelin. [effort:1] [phys:hands,one-armed]	*CARPENTRY*		/30/				[patch]
 {Staff} [remove] [patchwise]
@@ -96,6 +96,12 @@
 {Birch-bark strip}   =60=   [remove]
 {Knife}                     
 
+.Vasta.    [effort:1] [phys:arms,one-armed]     *CARPENTRY*        /10/		%25% [noquality] 
+{Birch twig}   [remove] (40)
+{Birch withe}  [remove] (1)
+{Knife} <Small knife>                    
+
+
 [SUBMENU_END:utility article]
 
 
@@ -122,17 +128,17 @@
 
 .Birch withe.    [effort:1] [phys:arms,one-armed]     *CARPENTRY*        /5/	%25% |-2|
 {Birch sapling}  [remove] (10) [ask_num] [noquality]
-{Knife} <Small knife>
+{Knife} <Small knife>                    
 
 [SUBMENU_END:tying equipment]
 
 
 [SUBMENU_START:lumber]
 
-.Wooden stake. 	[effort:1] [phys:arms,one-armed]  *TIMBERCRAFT* 	(8) 	/30/			%00%	|-2|	[patch]
-.Staff.		[effort:1] [phys:arms,one-armed]  *TIMBERCRAFT*		/15/			%20%	|-2|	[patch]
-{Cutting weapon}<Axe>	
-{Slender trunk}	[remove]							[patchwise] [noquality]
+.Wooden stake. 	[effort:1] [phys:arms,one-armed]  *TIMBERCRAFT* 	(8) 	/30/			%40%	|-2|	[patch]
+.Staff.		[effort:1] [phys:arms,one-armed]  *TIMBERCRAFT*		/15/			%60%	|-2|	[patch]
+{Cutting weapon} <Axe>	
+{Slender trunk}	 [remove]							[patchwise]
 
 [SUBMENU_END:lumber]
 
