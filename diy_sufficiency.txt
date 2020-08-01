@@ -14,7 +14,7 @@
 {Knife} <Small knife>
 
 .Fishing rod. *FISHING* [effort:1] [phys:arms,hands] /30/
-{Tying equipment} (2) [remove]
+{Cord} =15= [remove]
 {Staff} [ground] [remove]
 {Birch-bark strip} =2= [remove] '+for a float'
 {Fish hook} [remove]
@@ -73,10 +73,9 @@
 
 [SUBMENU_START:transport]
 
-// We could make this more complicated by making you peel off a big piece instead of in small
-// 1/2 lb increments, but I like the extra work this takes.
 .Birch-bark canoe. "Punt" *CARPENTRY* [effort:3] [phys:arms,stance] /8h/ %-10% |2|
 {Birch-bark strip} =120= [remove] [ground]
+{Pine tar} (20) [remove] [noquality] '+for waterproofing'
 {Rope} =16= [remove] [ground]
 {Board} [remove] [ground]
 {[NEARBY_TILE:Water]} 'Must be near water'

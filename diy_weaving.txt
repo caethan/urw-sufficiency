@@ -59,12 +59,13 @@
 [NAME:Homespun Yarn]
 [TILEGFX:it-yarn]
 [TYPE:tool]
+[LENGTH:500]
 [MATERIAL:cloth]
 [PRICE:5]
 [WEIGHT:0.5]
 
 .Weave Cloth. "Bandage" /6h/ *HIDEWORKING* [effort:2] [phys:arms,hands,stance]
-{Homespun Yarn} (10) [remove]
+{Homespun Yarn} =5000= [remove]
 {Loom} [ground]
 [NAME:Homespun Cloth]
 [TILEGFX:it-cloth]
@@ -80,30 +81,37 @@
 [NAME:Homespun Yarn]
 [TILEGFX:it-yarn]
 [TYPE:tool]
+[LENGTH:500]
 [MATERIAL:cloth]
 [PRICE:5]
 [WEIGHT:0.5]
 
 [SUBMENU_END:Weaving]
 
-[SUBMENU_START:utility article]
+[SUBMENU_START:tying equipment]
 
 // Use weaving to produce low weight cords and rope
 .Twist cord from yarn. "Cord" *HIDEWORKING* [patch:5] %50% /5/ [effort:0] [phys:hands]
-{Homespun Yarn} #0.25# [remove] [patchwise]
+{Homespun Yarn} =100= [remove] [patchwise]
 {Knife} <Small knife>
 [NAME:Homespun Cord]
 [MATERIAL:cloth]
+[LENGTH:15]
 [PRICE:5]
-[WEIGHT:0.25]
+[WEIGHT:0.1]
 
-.Braid rope. "Rope" *HIDEWORKING* /30/ [effort:1] [phys:hands]
-{Homespun Yarn} #0.5# [remove] [patchwise]
+.Braid rope from cord. "Rope" *HIDEWORKING* /30/ [effort:1] [phys:hands]
+{Homespun Cord} #0.5# [remove] [patchwise]
 {Knife} <Small knife>
 [Name:Homespun Rope]
 [MATERIAL:cloth]
+[LENGTH:15]
 [PRICE:10]
 [WEIGHT:0.5]
+
+[SUBMENU_END:tying equipment]
+
+[SUBMENU_START:utility article]
 
 .Bag. *HIDEWORKING* [noquality] /30/ [effort:1] [phys:hands]
 {Cloth} #1.0# [remove]
