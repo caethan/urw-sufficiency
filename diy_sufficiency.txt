@@ -1,11 +1,5 @@
 [SUBMENU_START:utility article]
 
-.Sauna scoop. *CARPENTRY* [effort:1] [phys:arms,hands] /60/ %10% |-1|
-{Block of wood} [remove][noquality]
-{Board} [remove]
-{Axe} <Carving axe>
-{Knife} <Small knife>
-
 .Net. *HIDEWORKING* [effort:1] [phys:arms,hands] /4h/
 {Cord} =250= [ground] [remove]
 {Birch-bark strip} =10= [remove] '+for floats'
