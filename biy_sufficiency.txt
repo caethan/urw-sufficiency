@@ -3,7 +3,7 @@
 {Stone} (50) [remove] [ground] '+for walls'
 {Rock} (30) [remove] [ground] '+for gravel packing'
 {Wooden Tub} [remove] '+for bailing water'
-{Rope} [remove] 
+{Rope} =15= [remove] 
 // TODO: Well graphic
 
 .Road. *BUILDING* -R- [effort:3] [phys:arms,stance] /5h/
