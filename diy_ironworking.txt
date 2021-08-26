@@ -314,19 +314,19 @@
 .Small knife. [effort:1] [phys:arms,hands] *CARPENTRY*  /15/ |+1|
 {Sharp small-knifeblade}  [remove]
 {Cord} =0.5= [remove]
-{Leather} #0.25# [remove] [optional] '+for the hilt'
+{Antler} [remove] '+for the hilt'
 {Knife} <Small knife>
 
 .Knife. [effort:1] [phys:arms,hands] *CARPENTRY*  /15/ |+1|
 {Sharp large-knifeblade}  [remove]
 {Cord} =1=  [remove]
-{Leather} #0.5# [remove] [optional] '+for the hilt'
+{Antler} [remove] '+for the hilt'
 {Knife} <Small knife>
 
 .Broad knife. [effort:1] [phys:arms,hands] *CARPENTRY*  /15/ |+1|
 {Sharp large-knifeblade}  [remove]
 {Cord} =1= [remove]
-{Leather} #0.5# [remove] [optional] '+for the hilt'
+{Antler} [remove] '+for the hilt'
 {Knife} <Small knife>
 
 .Spear. [effort:2] [phys:arms,hands] *CARPENTRY* /25/ |+1|
@@ -387,17 +387,17 @@
 {Anvil} [ground]
 {Fire}
 
-.Fish hook. "Hunting Horn" [phys:arms, hands] *CARPENTRY* /30/ |+1|
-{Wrought Iron} #0.5# [remove]
+[SUBMENU_END:Smith finished goods]
+
+[SUBMENU_START:fishing]
+
+.Iron fishhook. [phys:arms, hands] *CARPENTRY* /90/ |+1| [noquality]
+{Wrought Iron} #0.1# [remove]
 {Charcoal} #2# [remove] [ground]
 {*Hammer} 'Hammer'
 {*Tongs} 'Tongs'
 {Forge} [ground]
 {Anvil} [ground]
 {Fire}
-[TYPE:tool]
-[MATERIAL:iron]
-[WEIGHT:0.1]
-[TILEGFX:it-hook]
 
-[SUBMENU_END:Smith finished goods]
+[SUBMENU_END:fishing]
