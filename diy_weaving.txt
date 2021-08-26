@@ -59,12 +59,12 @@
 [NAME:Homespun Yarn]
 [TILEGFX:it-yarn]
 [TYPE:tool]
+[LENGTH:100]
 [MATERIAL:cloth]
-[PRICE:5]
 [WEIGHT:0.5]
 
 .Weave Cloth. "Bandage" /6h/ *HIDEWORKING* [effort:2] [phys:arms,hands,stance]
-{Homespun Yarn} (10) [remove]
+{Homespun Yarn} =1000= [remove]
 {Loom} [ground]
 [NAME:Homespun Cloth]
 [TILEGFX:it-cloth]
@@ -80,34 +80,40 @@
 [NAME:Homespun Yarn]
 [TILEGFX:it-yarn]
 [TYPE:tool]
+[LENGTH:20]
 [MATERIAL:cloth]
-[PRICE:5]
-[WEIGHT:0.5]
+[WEIGHT:0.1]
 
 [SUBMENU_END:Weaving]
 
-[SUBMENU_START:utility article]
+[SUBMENU_START:tying equipment]
 
 // Use weaving to produce low weight cords and rope
 .Twist cord from yarn. "Cord" *HIDEWORKING* [patch:5] %50% /5/ [effort:0] [phys:hands]
-{Homespun Yarn} #0.25# [remove] [patchwise]
+{Homespun Yarn} =50= [remove] [patchwise]
 {Knife} <Small knife>
 [NAME:Homespun Cord]
 [MATERIAL:cloth]
+[LENGTH:15]
 [PRICE:5]
 [WEIGHT:0.25]
 
-.Braid rope. "Rope" *HIDEWORKING* /30/ [effort:1] [phys:hands]
-{Homespun Yarn} #0.5# [remove] [patchwise]
+.Braid rope from cord. "Rope" *HIDEWORKING* /30/ [effort:1] [phys:hands]
+{Homespun Cord} =50= [remove] [patchwise]
 {Knife} <Small knife>
 [Name:Homespun Rope]
 [MATERIAL:cloth]
+[LENGTH:15]
 [PRICE:10]
 [WEIGHT:0.5]
 
+[SUBMENU_END:tying equipment]
+
+[SUBMENU_START:utility article]
+
 .Bag. *HIDEWORKING* [noquality] /30/ [effort:1] [phys:hands]
 {Cloth} #1.0# [remove]
-{Homespun Yarn} #0.5# [remove]
+{Homespun Yarn} =10= [remove]
 {Knife} <Small Knife>
 
 [SUBMENU_END:utility article]
@@ -138,7 +144,7 @@
 .Spindle and Distaff. "Hunting Horn" *CARPENTRY* |+1| /90/ [effort:2] [phys:hands]
 {Staff} (1) [remove] '+to hold the fibre'
 {Wooden Stake} (1) [remove] '+for a spindle'
-{Tying equipment} (1) [remove]
+{Cord} =3= [remove]
 {Axe} <Carving axe>
 {Knife} <Small knife>
 [TILEGFX:it-distaff]
@@ -150,7 +156,7 @@
 .Loom. "Hunting Horn" *CARPENTRY* |+1| /3h/	[effort:2] [phys:arms,hands,stance]
 {Board} (3) [remove]
 {Wooden stake} (1) [remove] '+for a heddle'
-{Tying equipment} (6) [remove]
+{Cord} =10= [remove]
 {Rock} (20) [remove] 'Rocks to weight the warp'
 {Axe} <Carving axe>
 {Knife} <Small axe>
@@ -166,7 +172,7 @@
 
 .Homespun apron. "Linen apron" /2h/ *HIDEWORKING* |+1| [effort:0] [phys:arms,hands,one-armed]
 {Homespun Cloth} #1.75# [remove]
-{Homespun Yarn} #0.25# [remove]
+{Homespun Yarn} =15= [remove]
 {Knife} <Small knife>
 [WEIGHT:2]
 [PRICE:36]
@@ -187,7 +193,7 @@
 
 .Homespun cowl. "Linen cowl" /1h/ *HIDEWORKING* |+1| [effort:0] [phys:arms,hands,one-armed]
 {Homespun Cloth} #0.75# [remove]
-{Homespun Yarn} #0.25# [remove]
+{Homespun Yarn} =15= [remove]
 {Knife} <Small knife>
 [WEIGHT:1]
 [PRICE:8]
@@ -198,7 +204,7 @@
 
 .Homespun dress. "Linen dress" /4h/ *HIDEWORKING* |+2| [effort:0] [phys:arms,hands,one-armed]
 {Homespun Cloth} #3# [remove]
-{Homespun Yarn} #0.5# [remove]
+{Homespun Yarn} =35= [remove]
 {Knife} <Small knife>
 [WEIGHT:3.5]
 [PRICE:64]
@@ -219,7 +225,7 @@
 
 .Homespun hood. "Linen veil" /1h/ *HIDEWORKING* |+1| [effort:0] [phys:arms,hands,one-armed]
 {Homespun Cloth} #0.2# [remove]
-{Homespun Yarn} #0.1# [remove]
+{Homespun Yarn} =5= [remove]
 {Knife} <Small knife>
 [WEIGHT:0.3]
 [PRICE:8]
@@ -230,7 +236,7 @@
 
 .Homespun coat. "Woollen overcoat" /6h/ *HIDEWORKING* |+2| [effort:0] [phys:arms,hands,one-armed]
 {Homespun Cloth} #4# [remove]
-{Homespun Yarn} #1.5# [remove]
+{Homespun Yarn} =75= [remove]
 {Knife} <Small knife>
 [WEIGHT:5.5]
 [PRICE:68]
@@ -241,9 +247,9 @@
 
 .Homespun shirt. "Linen shirt" /2h/ *HIDEWORKING* |+1| [effort:0] [phys:arms,hands,one-armed]
 {Homespun Cloth} #4# [remove]
-{Homespun Yarn} #1# [remove]
+{Homespun Yarn} =50= [remove]
 {Knife} <Small knife>
-[WEIGHT:2.5]
+[WEIGHT:4.5]
 [PRICE:40]
 [TYPE:armour]
 [MATERIAL:cloth]
@@ -252,7 +258,7 @@
 
 .Homespun socks. "Woollen socks" /1h/ *HIDEWORKING* |+1| [effort:0] [phys:arms,hands,one-armed]
 {Homespun Cloth} #0.15# [remove]
-{Homespun Yarn} #0.05# [remove]
+{Homespun Yarn} =5= [remove]
 {Knife} <Small knife>
 [WEIGHT:0.2]
 [PRICE:8]
@@ -263,7 +269,7 @@
 
 .Homespun trousers. "Linen trousers" /2h/ *HIDEWORKING* |+2| [effort:0] [phys:arms,hands,one-armed]
 {Homespun Cloth} #2.5# [remove]
-{Homespun Yarn} #0.5# [remove]
+{Homespun Yarn} =15= [remove]
 {Knife} <Small knife>
 [WEIGHT:3]
 [PRICE:60]
@@ -273,10 +279,10 @@
 [ARMOUR_COVERAGE:hip groin thigh knee calf foot]
 
 .Homespun tunic. "Linen tunic" /2h/ *HIDEWORKING* |+2| [effort:0] [phys:arms,hands,one-armed]
-{Homespun Cloth} #2.5# [remove]
-{Homespun Yarn} #0.3# [remove]
+{Homespun Cloth} #5# [remove]
+{Homespun Yarn}  =50= [remove]
 {Knife} <Small knife>
-[WEIGHT:2.8]
+[WEIGHT:6]
 [PRICE:48]
 [TYPE:armour]
 [MATERIAL:cloth]
@@ -285,7 +291,7 @@
 
 .Homespun undergarment. "Linen undergarment" /2h/ *HIDEWORKING* |+2| [effort:0] [phys:arms,hands,one-armed]
 {Homespun Cloth} #3.5# [remove]
-{Homespun Yarn} #0.5# [remove]
+{Homespun Yarn} =10= [remove]
 {Knife} <Small knife>
 [WEIGHT:4]
 [PRICE:72]
@@ -296,7 +302,7 @@
 
 .Homespun undershirt. "Linen undershirt" /2h/ *HIDEWORKING* |+2| [effort:0] [phys:arms,hands,one-armed]
 {Homespun Cloth} #2.5# [remove]
-{Homespun Yarn} #0.5# [remove]
+{Homespun Yarn} =10= [remove]
 {Knife} <Small knife>
 [WEIGHT:3]
 [PRICE:56]
@@ -309,7 +315,7 @@
 .Homespun quilted cloak. "Nettle cloak" /3h/ *HIDEWORKING* |+2| [effort:0] [phys:arms,hands,one-armed]
 {Homespun Cloth} #4# [remove]
 {Feather} #1# [remove] 'Feathers for warmth'
-{Homespun Yarn} #0.5# [remove] '+for quilting'
+{Homespun Yarn} =150= [remove] '+for quilting'
 {Knife} <Small knife>
 [WEIGHT:5.5]
 [PRICE:64]
@@ -321,7 +327,7 @@
 .Homespun quilted hood. "Linen veil" /3h/ *HIDEWORKING* |+1| [effort:0] [phys:arms,hands,one-armed]
 {Homespun Cloth} #0.5# [remove]
 {Feather} #0.25# [remove] 'Feathers for warmth'
-{Homespun Yarn} #0.25# [remove] '+for quilting'
+{Homespun Yarn} =35= [remove] '+for quilting'
 {Knife} <Small knife>
 [WEIGHT:1]
 [PRICE:20]
@@ -333,7 +339,7 @@
 .Homespun quilted trousers. "Linen trousers" /6h/ *HIDEWORKING* |+2| [effort:0] [phys:arms,hands,one-armed]
 {Homespun Cloth} #4.5# [remove]
 {Feather} #0.5# [remove] 'Feathers for warmth'
-{Homespun Yarn} #0.75# [remove] '+for quilting'
+{Homespun Yarn} =100= [remove] '+for quilting'
 {Knife} <Small knife>
 [WEIGHT:5.75]
 [PRICE:130]
@@ -345,7 +351,7 @@
 .Homespun quilted tunic. "Linen tunic" /6h/ *HIDEWORKING* |+2| [effort:0] [phys:arms,hands,one-armed]
 {Homespun Cloth} #4.5# [remove]
 {Feather} #0.5# [remove] 'Feathers for warmth'
-{Homespun Yarn} #0.75# [remove] '+for quilting'
+{Homespun Yarn} =100= [remove] '+for quilting'
 {Knife} <Small knife>
 [WEIGHT:5.75]
 [PRICE:98]

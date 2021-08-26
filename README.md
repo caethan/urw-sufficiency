@@ -151,6 +151,12 @@ Many thanks to:
 		
 ## Changelist 
 
+#### 1.3
+
+Removed most birch-bark crafts in favor of new built-in crafts
+
+Updated homespun yarn to use new length properties
+
 #### 1.2
 
 Readme updates (in particular installation instructions)

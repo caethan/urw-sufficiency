@@ -3,7 +3,7 @@
 .Stone-axe. [effort:2] [phys:arms,hands] *COMMON* 	/3h/
 {Stone}	[remove] [noquality]
 {Slender trunk} [remove] [noquality]
-{Rope} [remove]
+{Rope} =3= [remove]
 {Knife}
 
 .Stone knife. [effort:2]    [phys:hands]  /90/   %-35%   *COMMON* 
@@ -12,61 +12,35 @@
 
 .Club. [effort:2] [phys:arms,one-armed]		*CARPENTRY*		/30/
 {Slender trunk} [remove] [noquality]
-{Cutting weapon} <Axe>
+{Cutting weapon} <Axe> 			
 
 .Javelin. [effort:1] [phys:hands,one-armed]	*CARPENTRY*		/30/				[patch]
 {Staff} [remove] [patchwise]
 {Cutting weapon} <Axe> 
 {Fire} '+(for hardening the head)'
 
-.Bone Club. "Club" [effort:2] [phys:arms, one-armed] *CARPENTRY* /10/
-{Bone} [remove] [noquality]
-{Cutting weapon} <Axe>
-[TILEGFX:wp-boneclub]
-[WEIGHT:2]
-[PRICE:0]
-[POINT_ATTACK:0]
-[EDGE_ATTACK:0]
-[BLUNT_ATTACK:4]
-[1H_PENALTY:0]
-[AD_CLASS:2/1]
-
-.Bone Spear. "Javelin" [effort:1] [phys:hands,one-armed] *CARPENTRY* /30/
-{Staff} [remove]
-{Bone} [remove] [noquality]
-{Tying equipment} [remove]
-{Cutting weapon} <Axe>
-[TILEGFX:wp-bonejav]
-[WEIGHT:2]
-[PRICE:0]
-[POINT_ATTACK:7]
-[EDGE_ATTACK:0]
-[BLUNT_ATTACK:2]
-[1H_PENALTY:0]
-[AD_CLASS:3/1]
-
 .Primitive bow. "Juniper bow" [effort:2] [phys:stance,arms]	%25%	*CARPENTRY*		/80/ |0|
 {Slender tree trunk} [remove]  [noquality]
 {Knife}
-{Tying equipment} [remove]
+{Cord} =5= [remove]
 
 .Shortbow. [effort:2] [phys:stance,arms] *CARPENTRY*		/320/ |2|
 {Board} [remove] 
 {Axe} <Carving axe>
 {Knife}
-{Tying equipment} [remove]
+{Cord} =5= [remove]
 
 .Arrow. [effort:1] [phys:hands,one-armed]  	*CARPENTRY*        /30/    [patch:5]
-{Branch}   [remove] [patchwise] [noquality]
+{Branch}      [remove] [patchwise] [noquality]
 {Knife}
 {Feather} (3) [remove] [patchwise] [noquality]
-{Tying equipment} [remove] [patchwise] 
-{Rock} [remove] [patchwise] [noquality]
+{Cord} =1=    [remove] [patchwise] 
+{Rock}        [remove] [patchwise] [noquality]
 
 .Blunt arrow. [effort:1] [phys:hands,one-armed]  *CARPENTRY*       /45/    [patch:5]
-{Branch}   [remove] [patchwise] [noquality]
+{Branch}      [remove] [patchwise] [noquality]
 {Feather} (3) [remove] [patchwise] [noquality]
-{Tying equipment} [remove] [patchwise] 
+{Cord} =1=    [remove] [patchwise] 
 {Knife}
 
 [SUBMENU_END:weapon]
@@ -79,7 +53,7 @@
 {Knife}	
 
 .Loop snare. [effort:0] [phys:hands,one-armed] *TRAPPING*	/10/	%15%	|-2|				
-{Tying equipment}	[remove]
+{Cord} =3= [remove]
 
 
 [SUBMENU_START:utility article]
@@ -94,25 +68,16 @@
 .Wooden bowl. [effort:2] [phys:arms,one-armed]  *CARPENTRY*   		/120/ 			%-20%  			
 {Block of wood} [remove] [noquality]
 {Axe} 		<Carving axe>	
-{Knife}		
+{Knife}	
 
-.Cord.	[effort:1] [phys:hands,one-armed] *COMMON*	[patch:5]  /30/ %50% |-2|
-{Cloth} #0.5# [remove] [patchwise]
-{Knife}
-
-.Bandage. [effort:1] [phys:hands,one-armed] *COMMON* [patch:10]
+.Bandage. [effort:1] [phys:hands,one-armed] *COMMON*   [noquality]   [patch:10]
 {Cloth} #1# [remove]          [patchwise]
 {Cutting weapon or by hand}
-
-.Leather rope. [effort:1] [phys:arms,one-armed]	*COMMON*		/60/	%50% |-1| [patch:5]
-{Leather} #1# [remove] [patchwise]
-{Knife}
-{Water} #1# [remove] [patchwise]		
 
 .Torch.	[effort:0] [phys:hands,one-armed] [noquality]	*COMMON*	/30/  %50% |0|  [patch:5] 
 {Branch} (10) 		[remove] [patchwise]
 
-.Wooden shovel.	[effort:2] [phys:arms,stance] *CARPENTRY*   		/240/ 			%-30%  
+.Wooden shovel.	[effort:2] [phys:arms,stance] *CARPENTRY*   		/240/ 			%10%
 {Block of wood} [remove] [noquality]
 {Axe} <Handaxe> 'An axe for rough cutting'
 {Axe} <Carving axe> 'An axe for finishing the shape'
@@ -121,17 +86,59 @@
 .Skin.	[effort:1] [phys:hands]  *COMMON* 	/120/	%40%	
 {Leather} #4# [remove]
 {Knife}
-{Tying equipment} [remove]
+{Cord} =3= [remove]
+
+.Birch-bark box. [effort:0] [phys:hands,one-armed]  [assist:1]     *CARPENTRY*  /2h/          |-1|  
+{Birch-bark strip}   =20=   [remove]
+{Knife}                   
+
+.Birch-bark basket. [effort:1]  [phys:hands,one-armed] [assist:1] *CARPENTRY*  /5h/          
+{Birch-bark strip}   =60=   [remove]
+{Knife}                     
+
+.Vasta.    [effort:1] [phys:arms,one-armed]     *CARPENTRY*        /10/		%25% [noquality] 
+{Birch twig}   [remove] (40)
+{Birch withe}  [remove] (1)
+{Knife} <Small knife>                    
+
 
 [SUBMENU_END:utility article]
 
 
+
+[SUBMENU_START:tying equipment]
+
+.Cord.	[effort:1] [phys:hands,one-armed] *COMMON*	[patch:5]  /30/ %50% |-2|
+{Cloth} #0.5# [remove] [patchwise]
+{Knife}
+
+.Leather rope. [effort:1] [phys:arms,one-armed]	*COMMON*  [assist:1]		/60/	%50% |-1| [patch:5]
+{Leather} #1# [remove] [patchwise]
+{Knife}
+{Water} #1# [remove] [patchwise]		
+
+.Birch-bark rope. [effort:1] [phys:arms,one-armed]  [assist:1]	*CARPENTRY*		/2h/	%30%  |-1| [patch:3] 
+{Birch-bark strip}   =80=    [remove] [patchwise]
+{Knife} <Small knife>                    
+{Water} #1# [remove] [patchwise]	
+
+.Spruce withe.  (2) [effort:1] [phys:arms,one-armed]  *TIMBERCRAFT*       /3/	%50% |-2|
+{Spruce sapling}  [remove] (10) [ask_num] [noquality]
+{Knife} <Small knife>
+
+.Birch withe.    [effort:1] [phys:arms,one-armed]     *CARPENTRY*        /5/	%25% |-2|
+{Birch sapling}  [remove] (10) [ask_num] [noquality]
+{Knife} <Small knife>                    
+
+[SUBMENU_END:tying equipment]
+
+
 [SUBMENU_START:lumber]
 
-.Wooden stake. 	[effort:1] [phys:arms,one-armed]  *TIMBERCRAFT* 	(8) 	/30/			%00%	|-2|	[patch]
-.Staff.		[effort:1] [phys:arms,one-armed]  *TIMBERCRAFT*		/15/			%20%	|-2|	[patch]
-{Cutting weapon}<Axe>	
-{Slender trunk}	[remove] [patchwise] [noquality]
+.Wooden stake. 	[effort:1] [phys:arms,one-armed]  *TIMBERCRAFT* 	(8) 	/30/			%40%	|-2|	[patch]
+.Staff.		[effort:1] [phys:arms,one-armed]  *TIMBERCRAFT*		/15/			%60%	|-2|	[patch]
+{Cutting weapon} <Axe>	
+{Slender trunk}	 [remove]							[patchwise]
 
 [SUBMENU_END:lumber]
 
@@ -148,16 +155,16 @@
 {Axe} <Carving axe>
 {Knife} 
 {Animal hide} #4# [remove]
-{Tying equipment} (2) [remove]
+{Tying equipment} =5= [remove]
 
 .Ski stick. [effort:1] [phys:hands,one-armed] *CARPENTRY*		/60/	
 {Staff} [remove]
 {Axe} 
 {Leather}  #1# [remove]
 
-.Raft.  [effort:3] [phys:stance,arms]	*COMMON*	/80/
+.Raft.  [effort:3] [phys:stance,arms]	*COMMON* [assist:2]	/80/
 {Tree trunk}	(3) 	[remove] [noquality]
-{Rope}		(3)	[remove]
+{Rope}		=10=    [remove]
 {Cutting weapon} <Axe> 			
 
 .Sesta.	[effort:2] [phys:hands,one-armed]	*COMMON*	/25/			%50%	|-2|	
@@ -165,5 +172,85 @@
 {Staff}	[remove]
 
 [SUBMENU_END:transport]
+
+
+
+[SUBMENU_START:clothes]
+
+.Leather belt.  [effort:1] [phys:arms,hands]   *COMMON*  %35%  /30/
+{Leather} #0.4# [remove]
+{Knife}
+
+.Leather cap.   [effort:1] [phys:arms,hands]   *COMMON*  %15%  /45/
+{Leather} #0.2# [remove]
+{Knife}
+
+.Leather shirt. [effort:1] [phys:arms,hands]   *COMMON*  /4h/
+{Leather} #6.2# [remove]
+{Knife}
+
+.Leather leggings. [effort:1] [phys:arms,hands]   *COMMON*   %25% /3h/
+{Leather} #6.5# [remove]
+{Knife}
+
+.Leather shoes. [effort:1] [phys:arms,hands]   *COMMON*  /90/
+{Leather} #2# [remove]
+{Knife}
+
+.Leather forearm guards. [effort:1] [phys:arms,hands]   *COMMON*  %20%  /60/
+{Leather} #1.7# [remove]
+{Knife}
+
+.Leather shin guards. [effort:1] [phys:arms,hands]   *COMMON*  %20%  /2h/
+{Leather} #2.2# [remove]
+{Knife}
+
+.Leather cuirass. [effort:1] [phys:arms,hands]   *COMMON*  %10%     /3h/
+{Leather} #5# [remove]
+{Knife}
+
+.Fur cap.   [effort:1] [phys:arms,hands]   *COMMON*  %15%  /60/
+{Animal hide} #1.2# [remove]
+{Knife}
+
+.Fur shirt. [effort:1] [phys:arms,hands]   *COMMON*  /270/
+{Animal hide} #7.2# [remove]
+{Knife}
+
+.Fur mittens. [effort:1] [phys:arms,hands]   *COMMON*  /60/
+{Animal hide} #1.2# [remove]
+{Knife}
+
+.Fur leggings. [effort:1] [phys:arms,hands]   *COMMON*  /3h/
+{Animal hide} #7.6# [remove]
+{Knife}
+
+.Fur hood. [effort:1] [phys:arms,hands]   *COMMON*  /60/
+{Animal hide} #1.2# [remove]
+{Knife}
+
+.Fur footwear. [effort:1] [phys:arms,hands]   *COMMON*  /150/
+{Animal hide} #3# [remove]
+{Knife}
+
+.Fur cloak. [effort:1] [phys:arms,hands]   *COMMON*  /90/
+{Animal hide} #11.7# [remove]
+{Knife}
+
+.Fur overcoat. [effort:1] [phys:arms,hands]   *COMMON*  /5h/
+{Animal hide} #14# [remove]
+{Knife}
+
+.Birch-bark shoes.   [phys:hands,one-armed]   *CARPENTRY*  %10% /2h/ |-1|
+{Birch-bark strip} 	=10= 	[remove]
+{Knife}	<Small knife>
+
+.Birch-bark cap.     [phys:hands,one-armed]   *CARPENTRY*  %20% /90/ |-1|
+{Birch-bark strip} 	=15= 	[remove]
+{Knife}	<Small knife>
+
+[SUBMENU_END:clothes]
+
+
 
 
