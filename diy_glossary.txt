@@ -138,7 +138,7 @@
 .Wooden stake. 	[effort:1] [phys:arms,one-armed]  *TIMBERCRAFT* 	(8) 	/30/			%40%	|-2|	[patch]
 .Staff.		[effort:1] [phys:arms,one-armed]  *TIMBERCRAFT*		/15/			%60%	|-2|	[patch]
 {Cutting weapon} <Axe>	
-{Slender trunk}	 [remove]							[patchwise]
+{Slender trunk}	 [remove]							[patchwise] [noquality]
 
 [SUBMENU_END:lumber]
 
