@@ -313,7 +313,7 @@
 
 .Small knife. [effort:1] [phys:arms,hands] *CARPENTRY*  /15/ |+1|
 {Sharp small-knifeblade}  [remove]
-{Cord} =0.5= [remove]
+{Cord} =1= [remove]
 {Antler} [remove] '+for the hilt'
 {Knife} <Small knife>
 
@@ -341,18 +341,18 @@
 {Cord}  =3= [remove]
 {Knife} <Small knife>
 
+.Carving axe. [effort:1] [phys:arms,hands] *CARPENTRY* /55/ |+1|
+{Sharp small-axehead}  [remove]
+{Wooden stake}   [remove] '+for a handle'
+{Cord} =3= [remove]
+{Knife} <Small knife>
+
 .Woodsmans axe. "Woodsman's axe" [effort:2] [phys:arms,hands] *CARPENTRY* /50/ |+1|
 {Sharp large-axehead}  [remove]
 {Staff}   [remove]
 {Cord} =6= [remove]
 {Knife} <Small knife>
 [NAME:Woodsman's axe]
-
-.Carving axe. [effort:1] [phys:arms,hands] *CARPENTRY* /55/ |+1|
-{Sharp small-axehead}  [remove]
-{Wooden stake}   [remove] '+for a handle'
-{Cord} =3= [remove]
-{Knife} <Small knife>
 
 .Splitting axe.  [effort:2] [phys:arms,hands] *CARPENTRY*  /50/ |+1|
 {Sharp large-axehead}  [remove]
