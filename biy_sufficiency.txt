@@ -6,7 +6,7 @@
 {Rope} =15= [remove] 
 // TODO: Well graphic
 
-.Road. *BUILDING* -R- [effort:3] [phys:arms,stance] /5h/
+.Road. *BUILDING* -R- [effort:3] [phys:arms,stance] /1h/
 {Shovel} <Shovel>
 {Stone} (5) [remove] [ground] '+for road surface'
 {Rock} (5) [remove] [ground] '+for gravel foundation'
