@@ -1,19 +1,5 @@
 [SUBMENU_START:utility article]
 
-.Net. *HIDEWORKING* [effort:1] [phys:arms,hands] /4h/
-{Cord} =250= [ground] [remove]
-{Birch-bark strip} =10= [remove] '+for floats'
-{Rock} (10) [remove] [noquality] '+for weights'
-{Staff} (2) [ground] '+to help the weaving'
-{Knife} <Small knife>
-
-.Fishing rod. *FISHING* [effort:1] [phys:arms,hands] /30/
-{Cord} =15= [remove]
-{Staff} [ground] [remove]
-{Birch-bark strip} =2= [remove] '+for a float'
-{Fish hook} [remove]
-{Knife} <Small knife>
-
 .Wooden tub. [effort:2] [phys:arms,hands] *CARPENTRY* /3h/
 {Rope} =6= [remove] '+for hoops'
 {Pine tar} (2) [remove] [noquality] '+for waterproofing'

@@ -252,5 +252,29 @@
 [SUBMENU_END:clothes]
 
 
+[SUBMENU_START:fishing]
 
+.Fishing rod. [effort:2] [phys:arms,one-armed] *CARPENTRY*        /45/  %50%  |-2|  [noquality]
+{Slender tree trunk} [remove]
+{Cutting weapon} <Axe>
+{Yarn} =20= [remove]
+{Fishhook} [remove]
+
+.Wooden fishhook. [effort:0] [phys:hands,one-armed]  *CARPENTRY*  /15/ 	%50   |-2| [noquality]
+{Branch} [remove]
+{Knife} <Small knife>
+
+.Bone fishhook. [effort:1] [phys:hands,one-armed] *COMMON* 	%20% 	/90/ 	[noquality]
+{Bone} #0.1# 	[remove]
+{Knife} <Small knife> '+(for initial shaping)'
+{Rock} '+(for sharpening the hook)'
+
+.Net. *HIDEWORKING* [effort:1] [phys:arms,hands] /4h/
+{Cord} =250= [ground] [remove]
+{Birch-bark strip} =10= [remove] '+for floats'
+{Rock} (10) [remove] [noquality] '+for weights'
+{Staff} (2) [ground] '+to help the weaving'
+{Knife} <Small knife>
+
+[SUBMENU_END:fishing]
 
