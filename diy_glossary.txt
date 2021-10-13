@@ -34,13 +34,13 @@
 {Branch}      [remove] [patchwise] [noquality]
 {Knife}
 {Feather} (3) [remove] [patchwise] [noquality]
-{Cord} =1=    [remove] [patchwise] 
+{Yarn}        =1=    [remove] [patchwise] 
 {Rock}        [remove] [patchwise] [noquality]
 
 .Blunt arrow. [effort:1] [phys:hands,one-armed]  *CARPENTRY*       /45/    [patch:5]
 {Branch}      [remove] [patchwise] [noquality]
 {Feather} (3) [remove] [patchwise] [noquality]
-{Cord} =1=    [remove] [patchwise] 
+{Yarn}        =1=    [remove] [patchwise] 
 {Knife}
 
 [SUBMENU_END:weapon]
@@ -53,7 +53,7 @@
 {Knife}	
 
 .Loop snare. [effort:0] [phys:hands,one-armed] *TRAPPING*	/10/	%15%	|-2|				
-{Cord} =3= [remove]
+{Yarn} =6=   [remove]
 
 
 [SUBMENU_START:utility article]
@@ -77,7 +77,7 @@
 .Torch.	[effort:0] [phys:hands,one-armed] [noquality]	*COMMON*	/30/  %50% |0|  [patch:5] 
 {Branch} (10) 		[remove] [patchwise]
 
-.Wooden shovel.	[effort:2] [phys:arms,stance] *CARPENTRY*   		/240/ 			%10%
+.Wooden shovel.	[effort:2] [phys:arms,stance] *CARPENTRY*   		/240/ 			%10%  
 {Block of wood} [remove] [noquality]
 {Axe} <Handaxe> 'An axe for rough cutting'
 {Axe} <Carving axe> 'An axe for finishing the shape'
@@ -106,10 +106,36 @@
 
 
 
+[SUBMENU_START:fishing]
+
+.Fishing rod. [effort:2] [phys:arms,one-armed] *CARPENTRY*        /45/  %50%  |-2|  [noquality]
+{Slender tree trunk} [remove]
+{Cutting weapon} <Axe>
+{Yarn} =20= [remove]
+{Fishhook} [remove]
+
+.Wooden fishhook. [effort:0] [phys:hands,one-armed]  *CARPENTRY*  /15/ 	%50   |-2| [noquality]
+{Branch} [remove]
+{Knife} <Small knife>
+
+.Bone fishhook. [effort:1] [phys:hands,one-armed] *COMMON* 	%20% 	/90/ 	[noquality]
+{Bone} #0.1# 	[remove]
+{Knife} <Small knife> '+(for initial shaping)'
+{Rock} '+(for sharpening the hook)'
+
+
+[SUBMENU_END:fishing]
+
+
+
 [SUBMENU_START:tying equipment]
 
 .Cord.	[effort:1] [phys:hands,one-armed] *COMMON*	[patch:5]  /30/ %50% |-2|
 {Cloth} #0.5# [remove] [patchwise]
+{Knife}
+
+.Leather cord. [effort:1] [phys:arms,one-armed]	*COMMON*  [assist:1]	/15/	%50% |-2| [patch:5]
+{Leather} #0.5# [remove] [patchwise]
 {Knife}
 
 .Leather rope. [effort:1] [phys:arms,one-armed]	*COMMON*  [assist:1]		/60/	%50% |-1| [patch:5]
@@ -163,16 +189,24 @@
 {Leather}  #1# [remove]
 
 .Raft.  [effort:3] [phys:stance,arms]	*COMMON* [assist:2]	/80/
-{Tree trunk}	(3) 	[remove] [noquality]
-{Rope}		=10=    [remove]
-{Cutting weapon} <Axe> 			
+{Tree trunk}	  (3) 	   [remove] [noquality]
+{Strong cordage}  =12=     [remove] [nominlen]
+{Cutting weapon}  <Axe> 			
 
 .Sesta.	[effort:2] [phys:hands,one-armed]	*COMMON*	/25/			%50%	|-2|	
-{Cutting weapon}<Axe>	
+{Cutting weapon} <Axe>	
 {Staff}	[remove]
 
 [SUBMENU_END:transport]
 
+
+[SUBMENU_START:textilecraft]
+
+.Spindle. [effort:1] [phys:hands,one-armed] *CARPENTRY*	/45/	%30%	|-1|  [noquality] -I-
+{Wooden stake} [remove] 
+{Knife}
+
+[SUBMENU_END:textilecraft]
 
 
 [SUBMENU_START:clothes]
@@ -187,26 +221,32 @@
 
 .Leather shirt. [effort:1] [phys:arms,hands]   *COMMON*  /4h/
 {Leather} #6.2# [remove]
+{Thin cordage} =15= [remove]
 {Knife}
 
 .Leather leggings. [effort:1] [phys:arms,hands]   *COMMON*   %25% /3h/
 {Leather} #6.5# [remove]
+{Thin cordage} =9= [remove]
 {Knife}
 
 .Leather shoes. [effort:1] [phys:arms,hands]   *COMMON*  /90/
 {Leather} #2# [remove]
+{Thin cordage} =3= [remove]
 {Knife}
 
 .Leather forearm guards. [effort:1] [phys:arms,hands]   *COMMON*  %20%  /60/
 {Leather} #1.7# [remove]
+{Thin cordage} =3= [remove]
 {Knife}
 
 .Leather shin guards. [effort:1] [phys:arms,hands]   *COMMON*  %20%  /2h/
 {Leather} #2.2# [remove]
+{Thin cordage} =3= [remove]
 {Knife}
 
 .Leather cuirass. [effort:1] [phys:arms,hands]   *COMMON*  %10%     /3h/
 {Leather} #5# [remove]
+{Thin cordage} =6= [remove]
 {Knife}
 
 .Fur cap.   [effort:1] [phys:arms,hands]   *COMMON*  %15%  /60/
@@ -215,14 +255,17 @@
 
 .Fur shirt. [effort:1] [phys:arms,hands]   *COMMON*  /270/
 {Animal hide} #7.2# [remove]
+{Thin cordage} =15= [remove]
 {Knife}
 
 .Fur mittens. [effort:1] [phys:arms,hands]   *COMMON*  /60/
 {Animal hide} #1.2# [remove]
+{Thin cordage} =3= [remove]
 {Knife}
 
 .Fur leggings. [effort:1] [phys:arms,hands]   *COMMON*  /3h/
 {Animal hide} #7.6# [remove]
+{Thin cordage} =9= [remove]
 {Knife}
 
 .Fur hood. [effort:1] [phys:arms,hands]   *COMMON*  /60/
@@ -231,6 +274,7 @@
 
 .Fur footwear. [effort:1] [phys:arms,hands]   *COMMON*  /150/
 {Animal hide} #3# [remove]
+{Thin cordage} =3= [remove]
 {Knife}
 
 .Fur cloak. [effort:1] [phys:arms,hands]   *COMMON*  /90/
@@ -239,6 +283,7 @@
 
 .Fur overcoat. [effort:1] [phys:arms,hands]   *COMMON*  /5h/
 {Animal hide} #14# [remove]
+{Thin cordage} =18=  [remove]  
 {Knife}
 
 .Birch-bark shoes.   [phys:hands,one-armed]   *CARPENTRY*  %10% /2h/ |-1|

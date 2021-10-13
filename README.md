@@ -2,7 +2,7 @@
 
 This is a set of modifications for the freeware roguelike game [UnReal World](http://www.unrealworld.fi/) developed by Sami Maaranen and Erkka Lehmus.
 
-Last updated with UnReal World 3.51.
+Last updated with UnReal World 3.70.
 
 This mod allows you to live more self-sufficiently, crafting most needed tools and items with some effort on your own without trading.
 Not everything is available --- complex armor and weapons will still have to be found elsewhere, but simple birchbark crafting, smithing, and weaving, along with some other small crafts and cooking, can now be done on your own.
@@ -37,13 +37,13 @@ You shouldn't be copying over any existing files here.
 
 # Changes from vanilla
 
-## Updates to Current Items
+## Updates to Existing Vanilla Items
 
 * Slender trunks replaced with staffs for several recipes.  This allows staff quality to affect the final item quality, enabling you to build high quality items with some effort.
 	- Grainflail
 	- Ski stick
 	- Sesta
-* [noquality] added for some ingredients of fixed quality to avoid negatively impacting finished quality:
+* [noquality] added for some ingredients of fixed quality to avoid negatively impacting finished quality.  This allows you to make high quality items of these kinds.
 	- Wooden cup and bowl: block of wood
 		- skill adjustment changed from +20% to -20% to compensate
 	- Wooden shovel: block of wood
@@ -62,16 +62,9 @@ You shouldn't be copying over any existing files here.
 ## New Crafts
 
 * Craft items from birch bark
-    - Peel birch bark from nearby birch trees
-    - Necklace
-    - Cap
-    - Shoes
-    - Box
-    - Basket
     - Birch-bark canoe!
-* Make low quality cords from soaked branches
 * Make your own sauna scoop
-* Craft nets, fishing poles, and wooden tubs and barrels
+* Craft nets, wooden tubs and barrels
 * Added bone weapons
     - Club
     - Javelin
@@ -82,11 +75,10 @@ You shouldn't be copying over any existing files here.
 * Make hard biscuits
 * Roast vegetables in the fire
 * Dry berries and mushrooms
-* Modified existing cookery recipes to make more useful
+* Modified some existing cookery recipes to make more useful
 
 ## Flora
 
-* New cultivated flax plant with nutritious seeds
 * Cultivated plants can be occasionally found in the wild
 * Fixed bug making lake reed too abundant
 
@@ -106,17 +98,11 @@ You shouldn't be copying over any existing files here.
     - Pot
     - Fish hooks
 
-## Spinning and Weaving
+## Textilecraft
 
-* Gather (unthreshed) nettles, hemp, or flax (more productive)
-* Soak the unthreshed stalks in water for a few weeks to rot away everything but the fibres.
-* Dry the retted plants.
-* Comb out the fibre from the dried and retted stalks.
-* Spin the extracted fibre into yarn.
-* Weave the yarn into cloth.
+* Weave spun yarn into cloth.
 * Use the yarn and cloth to make homepsun items!
     - Clothes
-    - Cords and rope
     - Bags
     - Quilt clothing with gathered feathers for extra warmth!
 
@@ -150,6 +136,16 @@ Many thanks to:
     * Birch-bark cap - Fanny Schertzer, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=10890204
 		
 ## Changelist 
+
+#### 1.4
+
+Updates for compatibility with URW 3.7 and up.
+
+Removes custom flax to use the existing vanilla version.
+
+Major update to textilecrafting to use the new URW 3.7 system (including vanilla fibre crafting and spinning)
+
+Iron fishhooks now compatible with vanilla fishing rod crafting
 
 #### 1.3
 
