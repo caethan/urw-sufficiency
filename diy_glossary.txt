@@ -19,16 +19,16 @@
 {Cutting weapon} <Axe> 
 {Fire} '+(for hardening the head)'
 
-.Primitive bow. "Juniper bow" [effort:2] [phys:stance,arms]	%25%	*CARPENTRY*		/80/ |0|
-{Slender tree trunk} [remove]  [noquality]
-{Knife}
-{Cord} =5= [remove]
+.Spruce quick-bow. [effort:2] [phys:stance,arms]  %10%  *COMMON* /10/ |0|
+{Spruce twig} (1) [remove]
+{Cutting weapon}
+{Bowstring} [remove] [noquality]
 
 .Shortbow. [effort:2] [phys:stance,arms] *CARPENTRY*		/320/ |2|
 {Board} [remove] 
 {Axe} <Carving axe>
 {Knife}
-{Cord} =5= [remove]
+{Bowstring} [remove] [noquality]
 
 .Arrow. [effort:1] [phys:hands,one-armed]  	*CARPENTRY*        /30/    [patch:5]
 {Branch}      [remove] [patchwise] [noquality]
@@ -130,23 +130,35 @@
 
 [SUBMENU_START:tying equipment]
 
-.Cord.	[effort:1] [phys:hands,one-armed] *COMMON*	[patch:5]  /30/ %50% |-2|
+.Cloth cord.  [effort:1] [phys:hands,one-armed] *TEXTILECRAFT*	[patch:5]  /30/ %50% |-2|
 {Cloth} #0.5# [remove] [patchwise]
 {Knife}
+{Branch} (1) '+(for twisting)'
 
-.Leather cord. [effort:1] [phys:arms,one-armed]	*COMMON*  [assist:1]	/15/	%50% |-2| [patch:5]
+.Cord.	[effort:1] [phys:hands,one-armed]  *TEXTILECRAFT*  [assist:1] [patch:5] /20/ %25% |-2| 
+{Yarn} =135= [remove] [nominlen] [name:%s cord] [naming:first word] [patchwise]
+{Branch} (1) '+(for twisting)'
+
+.Leather cord. [effort:1] [phys:arms,one-armed]	*COMMON*  [assist:1] [patch:5] /15/ %50% |-2| [patch:5]
 {Leather} #0.5# [remove] [patchwise]
 {Knife}
+{Branch} (1) '+(for twisting)'
+
+.Rope.	[effort:2] [phys:hands,one-armed] *TEXTILECRAFT* [assist:1] [patch:5] /45/ %10% |-1| 
+{Cord} =90= [remove] [nominlen] [name:%s rope] [naming:first word] [patchwise]
+{Branch} (1) '+(for twisting)'
 
 .Leather rope. [effort:1] [phys:arms,one-armed]	*COMMON*  [assist:1]		/60/	%50% |-1| [patch:5]
 {Leather} #1# [remove] [patchwise]
 {Knife}
 {Water} #1# [remove] [patchwise]		
+{Branch} (1) '+(for twisting)'
 
 .Birch-bark rope. [effort:1] [phys:arms,one-armed]  [assist:1]	*CARPENTRY*		/2h/	%30%  |-1| [patch:3] 
 {Birch-bark strip}   =80=    [remove] [patchwise]
 {Knife} <Small knife>                    
-{Water} #1# [remove] [patchwise]	
+{Water} #1# [remove] [patchwise]
+{Branch} (1) '+(for twisting)'
 
 .Spruce withe.  (2) [effort:1] [phys:arms,one-armed]  *TIMBERCRAFT*       /3/	%50% |-2|
 {Spruce sapling}  [remove] (10) [ask_num] [noquality]
@@ -184,12 +196,12 @@
 {Tying equipment} =5= [remove]
 
 .Ski stick. [effort:1] [phys:hands,one-armed] *CARPENTRY*		/60/	
-{Staff} [remove]
+{Slender trunk} [remove] [noquality]
 {Axe} 
 {Leather}  #1# [remove]
 
 .Raft.  [effort:3] [phys:stance,arms]	*COMMON* [assist:2]	/80/
-{Tree trunk}	  (3) 	   [remove] [noquality]
+{Tree trunk}	  (3) 	   [remove]	[noquality]
 {Strong cordage}  =12=     [remove] [nominlen]
 {Cutting weapon}  <Axe> 			
 
